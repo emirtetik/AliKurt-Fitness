@@ -1,0 +1,75 @@
+import React, {useEffect} from 'react'
+import Link from 'next/link';
+import Image from 'next/image';
+import { useRef } from "react";
+import { useRouter } from 'next/router';
+
+import { FaBars, FaTimes } from "react-icons/fa";
+export default function Header() {
+
+  const router = useRouter();
+  const navRef = useRef();
+
+    
+  const showNavbar = () => {
+		navRef.current.classList.toggle("responsive_nav");
+    
+	};
+  const closeMenu = () => showNavbar(false)
+
+  return (
+    <header>
+    <div className="logo" >
+      <Link  href="/">
+        <Image  src="/images/logom1.png" width={100} height={70} alt='logo'></Image>
+      </Link>
+      
+      </div>
+  
+      <nav ref={navRef}>
+  
+      <ul className="menu_list">
+  
+         <li className="nav">
+          <Link  className={router.pathname == "/" ? "active" : ""} onClick={closeMenu}   href="/">
+        Home
+        </Link>
+        </li>
+  
+         <li className="nav"><Link  className={router.pathname == "/write" ? "active" : ""} onClick={closeMenu}   href="/write">
+          Write
+         </Link>
+         </li>
+  
+         <li className="nav"><Link  className={router.pathname == "/coaching" ? "active" : ""} onClick={closeMenu}  href="/coaching">
+         Coaching
+         </Link>
+        
+         </li>
+  
+         <li className="nav"><Link  className={router.pathname == "/about" ? "active" : ""} onClick={closeMenu}   href="/about">
+           About
+         </Link>
+         </li>
+         <li className="nav"><Link  className={router.pathname == "/faqs" ? "active" : ""} onClick={closeMenu}   href="/faqs">
+            Faqs
+         </Link>
+         </li>
+       </ul>
+
+
+
+        {/* <button
+          className="nav-btn nav-close-btn"
+          onClick={showNavbar}>
+          <FaTimes />
+        </button> */}
+      </nav>
+      <button className="nav-btn" onClick={showNavbar}>
+        <FaBars className='hamburger'/>
+      </button>
+    </header>
+  
+ 
+  )
+}
