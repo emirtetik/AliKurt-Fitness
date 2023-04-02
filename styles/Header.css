@@ -144,8 +144,9 @@ left: 0;
 	}
    .hamburger{
     position: absolute;
-		top: 2.5rem;
-
+		top: 1.1rem;
+     width: 60px;
+     height: 60px;
 		right: 5rem;
    }
 
@@ -171,10 +172,15 @@ left: 0;
     right: 3rem;
     position: absolute;
   }
+  header nav{
+    top: 13%;
+  }
   .hamburger{
     top: 0;
-    right: 1rem;
+    right: 0rem;
     color: #ffffff;
+    width: 40px;
+    height: 40px;
   }
   .logo {
     left: 10%;
@@ -185,7 +191,7 @@ left: 0;
   .menu_list {
 
     display: grid;
-    gap: 1.5rem;
+    gap: 0rem;
   }
   
   .nav_list{

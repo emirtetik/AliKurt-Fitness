@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { useRef } from "react";
 import { useRouter } from 'next/router';
 
-import { FaBars, FaTimes } from "react-icons/fa";
+import { RiMenu4Line } from "react-icons/ri";
 export default function Header() {
 
   const router = useRouter();
@@ -66,7 +66,7 @@ export default function Header() {
         </button> */}
       </nav>
       <button className="nav-btn" onClick={showNavbar}>
-        <FaBars className='hamburger'/>
+        <RiMenu4Line className='hamburger' />
       </button>
     </header>
   

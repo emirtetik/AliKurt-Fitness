@@ -4,7 +4,28 @@
     box-sizing: border-box;
 }
 @import url(./Header.css);
+@import url(./Home.css);
+
 a{
     text-decoration: none;
     color: white;
+}
+li{
+    list-style-type: none;
+}
+
+::-webkit-scrollbar{
+width: 6px;
+height: 5px;
+}
+::-webkit-scrollbar-track{
+  background-color:rgba(15,24,41,255);
+}
+::-webkit-scrollbar-thumb{
+background-color: white;
+
+}
+::-webkit-scrollbar-thumb:hover{
+    background: rgb(13, 36, 78);
+
 }

@@ -41,16 +41,16 @@ function Footer() {
                 Useful links
               </h6>
               <p>
-                <a href="#!" class="text-reset">Home</a>
+                <Link href="/" class="text-reset">Home</Link>
               </p>
               <p>
-                <a href="#!" class="text-reset">Write</a>
+                <Link href="/write" class="text-reset">Write</Link>
               </p>
               <p>
-                <a href="#!" class="text-reset">Coaching</a>
+                <Link href="/coaching" class="text-reset">Coaching</Link>
               </p>
               <p>
-                <a href="#!" class="text-reset">FAQS</a>
+                <Link href="/faqs" class="text-reset">FAQS</Link>
               </p>
             </div>
     
@@ -58,9 +58,9 @@ function Footer() {
               <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
               <p>
                 <i class="fas fa-envelope me-3"></i>
-                info@example.com
+                info@alikurt.com
               </p>
-              <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+              <p><i class="fas fa-phone me-3"></i> + 546 609 6231</p>
             </div>
           </div>
         </div>
