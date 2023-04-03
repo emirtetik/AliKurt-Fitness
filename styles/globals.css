@@ -5,7 +5,15 @@
 }
 @import url(./Header.css);
 @import url(./Home.css);
+@import url(./about.css);
+@import url(./contact.css);
 
+
+
+
+:root{
+--primary-color:rgba(15,24,41,255);
+}
 a{
     text-decoration: none;
     color: white;

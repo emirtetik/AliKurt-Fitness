@@ -55,6 +55,10 @@ export default function Header() {
             Faqs
          </Link>
          </li>
+         <li className="nav"><Link  className={router.pathname == "/contact" ? "active" : ""} onClick={closeMenu}   href="/contact">
+            İletişim
+         </Link>
+         </li>
        </ul>
 
 

@@ -2,7 +2,9 @@
 .home{
     background-color: #F5F5F5;;
 }
-
+#carousel-img{
+  height: 90vh;
+}
 .testimonial{
   height: 500px;
   position: relative;
@@ -34,16 +36,12 @@
 
    }
   .testimonial-card{
-    height: 200px;
-    display: flex;
     flex-direction: column;
-   margin-bottom: 2rem;
    background-color:rgba(15,24,41,255);
    display: flex;
    flex-direction: column;
    transform: translateY(150px);
    transition: .5s ease-in-out;
-
    
   }
  
@@ -51,7 +49,6 @@
   .testimonial-card:hover{
     transform: none;
    overflow: scroll; 
-
   }
 
   .testimonial-card p{
@@ -59,10 +56,7 @@
     margin-left: 10px;
     margin-right: 10px;
   }
-  .testimonial-card p:hover{
-    
-    opacity: 1;
-
-  }
+  /* .testimonial-card p:hover{
+  } */
 
  

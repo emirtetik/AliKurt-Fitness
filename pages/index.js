@@ -21,35 +21,35 @@ export default function Home() {
       
       />
       <div className="home">
-       <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+       <div id="carouselExampleIndicators" className="carousel slide carousel-fade" data-ride="carousel">
+        <ol className="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
-        <div class="carousel-inner" id="myCarousel"
+        <div className="carousel-inner" id="myCarousel"
           
           data-bs-touch="false"
           data-bs-interval="false">
-            <div class="carousel-item active">
-                <img class="d-block w-100 " src="/images/bent.JPG" alt="First slide"/>
-                <div class="carousel-caption">
-                    <h3 class="text-center  font-weight-bold h2">ESTETİK <hr /></h3>
-                    <p class="text-center font-weight-bold h4 ">Vücudunu kontrol et!</p>
+            <div className="carousel-item active">
+                <img id='carousel-img' className="d-block w-100 " src="/images/bent.JPG" alt="First slide"/>
+                <div className="carousel-caption">
+                    <h3 className="text-center  font-weight-bold h2">ESTETİK <hr /></h3>
+                    <p className="text-center font-weight-bold h4 ">Vücudunu kontrol et!</p>
                 </div>
             </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="/images/ALP06315.JPG" alt="Second slide"/>
-                <div class="carousel-caption">
-                    <h3 class="text-center h1">GÜÇLÜ!</h3>
-                    <p class="text-center">Güç sporcuları gibi performans sergile!</p>
+            <div className="carousel-item">
+                <img id='carousel-img' className="d-block w-100" src="/images/ALP06315.JPG" alt="Second slide"/>
+                <div className="carousel-caption">
+                    <h3 className="text-center h1">GÜÇLÜ!</h3>
+                    <p className="text-center">Güç sporcuları gibi performans sergile!</p>
                 </div>
             </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="/images/bent.JPG" alt="Third slide"/>
-                <div class="carousel-caption">
-                    <h3 class="text-center h1">KASLI!</h3>
-                    <p class="text-center h3">Atlet gibi görün!</p>
+            <div className="carousel-item">
+                <img id='carousel-img' className="d-block w-100" src="/images/bent.JPG" alt="Third slide"/>
+                <div className="carousel-caption">
+                    <h3 className="text-center h1">KASLI!</h3>
+                    <p className="text-center h3">Atlet gibi görün!</p>
                 </div>
             </div>
         </div>
@@ -57,15 +57,15 @@ export default function Home() {
           className="carousel-control-prev"
           onClick={() => toggleCarousel("prev")}
         >
-         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
+         <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span className="sr-only">Previous</span>
         </button>
         <button
           className="carousel-control-next"
           onClick={() => toggleCarousel("next")}
         >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
+          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+            <span className="sr-only">Next</span>
         </button>
        
     </div>
@@ -90,73 +90,73 @@ export default function Home() {
                 </section> 
                 <section className='mb-5'>
                   
-  <div class="container ">
-    <h1 class="h1 text-center mb-5">MEET THE TEAM</h1>
+  <div className="container ">
+    <h1 className="h1 text-center mb-5">MEET THE TEAM</h1>
 
 
     <div >
 
-      <div class="row g-5" >
+      <div className="row g-5" >
          
        
-      <div class=" col-lg-6 col-md-6 ">
+      <div className=" col-lg-6 col-md-6 ">
 <div className='card testimonial'>
                <div className='testimonial-card  card-body'>
                <img src="images/iyi.jpg" alt="profile" className='rounded-circle' />
-               <h5 class="card-title text-center text-light ">Ali Kurt</h5>
-                  <p class=" card-text text-center text-white-50   ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+               <h5 className="card-title text-center text-light ">Ali Kurt</h5>
+                  <p className=" card-text text-center text-white-50   ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                </div>
                </div>
          </div>
 
           
-         <div class=" col-lg-6 col-md-6 ">
+         <div className=" col-lg-6 col-md-6 ">
 <div className='card testimonial'>
                <div className='testimonial-card  card-body'>
                <img src="images/iyi.jpg" alt="profile" className='rounded-circle' />
-               <h5 class="card-title text-center text-light ">Ali Kurt</h5>
-                  <p class=" card-text text-center text-white-50   ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+               <h5 className="card-title text-center text-light ">Ali Kurt</h5>
+                  <p className=" card-text text-center text-white-50   ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                </div>
                </div>
          </div>
               
-         <div class=" col-lg-6 col-md-6 ">
+         <div className=" col-lg-6 col-md-6 ">
 <div className='card testimonial'>
                <div className='testimonial-card  card-body'>
                <img src="images/iyi.jpg" alt="profile" className='rounded-circle' />
-               <h5 class="card-title text-center text-light ">Ali Kurt</h5>
-                  <p class=" card-text text-center text-white-50   ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+               <h5 className="card-title text-center text-light ">Ali Kurt</h5>
+                  <p className=" card-text text-center text-white-50   ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                </div>
                </div>
          </div>
               
-         <div class=" col-lg-6 col-md-6 ">
+         <div className=" col-lg-6 col-md-6 ">
 <div className='card testimonial'>
                <div className='testimonial-card  card-body'>
                <img src="images/iyi.jpg" alt="profile" className='rounded-circle' />
-               <h5 class="card-title text-center text-light ">Ali Kurt</h5>
-                  <p class=" card-text text-center text-white-50   ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+               <h5 className="card-title text-center text-light ">Ali Kurt</h5>
+                  <p className=" card-text text-center text-white-50   ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                </div>
                </div>
          </div>
             
-         <div class=" col-lg-6 col-md-6 ">
+         <div className=" col-lg-6 col-md-6 ">
 <div className='card testimonial'>
                <div className='testimonial-card  card-body'>
                <img src="images/iyi.jpg" alt="profile" className='rounded-circle' />
-               <h5 class="card-title text-center text-light ">Ali Kurt</h5>
-                  <p class=" card-text text-center text-white-50   ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+               <h5 className="card-title text-center text-light ">Ali Kurt</h5>
+                  <p className=" card-text text-center text-white-50   ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                </div>
                </div>
          </div>
 
 
-                <div class="col-lg-6 col-md-6 ">
+                <div className="col-lg-6 col-md-6 ">
 <div className='card  testimonial'>
                <div className='testimonial-card  card-body'>
                <img src="images/iyi.jpg" alt="profile" className='rounded-circle' />
-               <h5 class="card-title text-center text-light ">Ali Kurt</h5>
-               <p class=" card-text text-center text-white-50   ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishingsoftware like Aldus PageMaker including versions of Lorem Ipsum.</p>
+               <h5 className="card-title text-center text-light ">Ali Kurt</h5>
+               <p className=" card-text text-center text-white-50   ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishingsoftware like Aldus PageMaker including versions of Lorem Ipsum.</p>
                </div>
                </div>
          </div>
