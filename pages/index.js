@@ -27,12 +27,12 @@ export default function Home() {
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
-        <div className="carousel-inner" id="myCarousel"
+        <div className="carousel-inner " id="myCarousel"
           
           data-bs-touch="false"
           data-bs-interval="false">
             <div className="carousel-item active">
-                <img id='carousel-img' className="d-block w-100 " src="/images/bent.JPG" alt="First slide"/>
+                <img id='carousel-img' className="d-block w-100  " src="/images/bent.JPG" alt="First slide"/>
                 <div className="carousel-caption">
                     <h3 className="text-center  font-weight-bold h2">ESTETİK <hr /></h3>
                     <p className="text-center font-weight-bold h4 ">Vücudunu kontrol et!</p>
@@ -76,8 +76,6 @@ export default function Home() {
                 </div>
                   <div className=' h3 w-75 mx-auto p-3  '>
                     <p  className='  mx-auto'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem soluta optio, odit voluptate officia veniam possimus est molestias aliquid unde ipsa magni dignissimos ab commodi explicabo, dolorum sed provident doloribus.</p>
-                    <p className=' mx-auto'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem soluta optio, odit voluptate officia veniam possimus est molestias aliquid unde ipsa magni dignissimos ab commodi explicabo, dolorum sed provident doloribus.</p>
-                    <p className='  mx-auto'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem soluta optio, odit voluptate officia veniam possimus est molestias aliquid unde ipsa magni dignissimos ab commodi explicabo, dolorum sed provident doloribus.</p>
                     <ul className=' py-4'>
                       <li>Skills</li>
                       <li>Skills</li>

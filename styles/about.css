@@ -11,12 +11,6 @@
     margin-bottom: 5rem;
 }
 
-#hr{
-    border: 2px solid rgb(0, 0, 0);
-    top: 20%;
-    margin-top: 5%;
-    position: relative;
-}
 #bg-img img{
    border-radius: 30px;
    box-shadow: 0 15px 35px rgb(0, 0, 0);
@@ -30,7 +24,7 @@
          width: 200px;
          height: auto;
          position: relative;
-         right: 50%;
+         right: 20%;
     }
     
 }

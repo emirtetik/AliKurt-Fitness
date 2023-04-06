@@ -1,0 +1,12 @@
+.img-fluid {
+    width: 100%;
+    height: 50vh;
+}
+#write #text{
+    width: 400px;
+    left: 40%;
+     transform: translatey(-10%);
+    top: 20%;
+       position: absolute;
+     color: rgb(0, 0, 0);
+}

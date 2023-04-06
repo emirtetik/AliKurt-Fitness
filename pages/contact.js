@@ -1,6 +1,7 @@
 import Layout from '@/layout/Layout'
 import React from 'react'
-import {GiStrongMan} from "react-icons/gi"
+import {AiFillInstagram} from "react-icons/ai"
+import Image from 'next/image'
 import {BsFillSendCheckFill} from "react-icons/bs"
 function contact() {
   return (
@@ -8,12 +9,12 @@ function contact() {
 <section className="contact-us text-center ">
   <div className="fields">
     <div className="container ">
+    <Image src="/images/logom1.png" alt='logo' width={100} height={80}></Image>
       
       <div className="row">
-        
-      <GiStrongMan size={100}/>
         <h2>Bize Ulaşın</h2> 
         <p className="lead">bizimle iletişime geçmekten çekinmeyin</p>
+        <AiFillInstagram size={30}/>
 
         
         <form  >
@@ -38,7 +39,9 @@ function contact() {
             <div className="form-group">
               <textarea className="form-control" placeholder="Your Message..."></textarea>
             </div>
-            <button id='button' type="submit" className="btn btn-success btn-lg btn-block mt-3"><BsFillSendCheckFill/> Gönder</button>
+            <button className='mt-3' id='btn1'>
+            <span><BsFillSendCheckFill/> Gönder</span>
+</button> 
           </div>
 
         </form>
