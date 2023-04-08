@@ -52,7 +52,7 @@ function write({data}) {
 
           <Link href={`write/${write.id}`} className="btn ">
                
-           <Image src="/images/bent.jpg" alt="blog image" className='card-img-top' width={590} height={350} />
+           <Image src="/images/work.jpg" alt="blog image" className='card-img-top' width={590} height={350} />
         </Link>
 
         </div>

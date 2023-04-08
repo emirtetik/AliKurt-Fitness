@@ -19,7 +19,7 @@ function About() {
           <div id='bg-img' className=' w-75   mx-auto  ' data-aos="fade-right"
      data-aos-offset="300"
      data-aos-easing="ease-in-sine" >            
-              <Image property='' src="/images/iyi.jpg" alt='profil' width={350} height={450} className=' card-img-top  border border-white m-5   '></Image>
+              <Image property='' src="/images/work.jpg" alt='profil' width={350} height={450} className=' card-img-top  border border-white m-5   '></Image>
               </div>
               <div className=' mt-5 md-w-100 text-light w-100 ' data-aos="fade-left"
      data-aos-offset="300"
