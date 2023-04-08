@@ -1,8 +1,20 @@
+import React,{useEffect} from 'react'
 import Layout from '@/layout/Layout';
 import Head from 'next/head'
 import Image from 'next/image'
 import Meta from '@/components/Meta'
+import AOS from "aos"
+import "aos/dist/aos.css"
+
+
+
+
 export default function Home() {
+
+  useEffect(() => {
+    AOS.init({duration:1000});
+  },[]);
+
   const toggleCarousel = (action) => {
     const { Carousel } = require("bootstrap");
     const carousel = new Carousel("#myCarousel");
@@ -72,9 +84,9 @@ export default function Home() {
                <section className=' text-center py-lg-5  '>
                 <div className='container '>
                 <div className=' '>
-                  <h2 className='h1'>Welcome TO ALİKURT</h2>
+                  <h2 className='h1' data-aos="zoom-out">Welcome TO ALİKURT</h2>
                 </div>
-                  <div className=' h3 w-75 mx-auto p-3  '>
+                  <div className=' h3 w-75 mx-auto p-3  ' data-aos="zoom-out">
                     <p  className='  mx-auto'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem soluta optio, odit voluptate officia veniam possimus est molestias aliquid unde ipsa magni dignissimos ab commodi explicabo, dolorum sed provident doloribus.</p>
                     <ul className=' py-4'>
                       <li>Skills</li>
@@ -89,15 +101,15 @@ export default function Home() {
                 <section className='mb-5'>
                   
   <div className="container ">
-    <h1 className="h1 text-center mb-5">MEET THE TEAM</h1>
+    <h1 className="h1 text-center mb-5" data-aos="zoom-out" >MEET THE TEAM</h1>
 
 
     <div >
 
-      <div className="row g-5" >
+      <div className="row g-5"  >
          
        
-      <div className=" col-lg-6 col-md-6 ">
+      <div className=" col-lg-6 col-md-6 " data-aos="zoom-in">
 <div className='card testimonial'>
                <div className='testimonial-card  card-body'>
                <img src="images/iyi.jpg" alt="profile" className='rounded-circle' />
@@ -108,7 +120,7 @@ export default function Home() {
          </div>
 
           
-         <div className=" col-lg-6 col-md-6 ">
+         <div className=" col-lg-6 col-md-6 " data-aos="zoom-in">
 <div className='card testimonial'>
                <div className='testimonial-card  card-body'>
                <img src="images/iyi.jpg" alt="profile" className='rounded-circle' />
@@ -118,7 +130,7 @@ export default function Home() {
                </div>
          </div>
               
-         <div className=" col-lg-6 col-md-6 ">
+         <div className=" col-lg-6 col-md-6 " data-aos="zoom-in">
 <div className='card testimonial'>
                <div className='testimonial-card  card-body'>
                <img src="images/iyi.jpg" alt="profile" className='rounded-circle' />
@@ -128,7 +140,7 @@ export default function Home() {
                </div>
          </div>
               
-         <div className=" col-lg-6 col-md-6 ">
+         <div className=" col-lg-6 col-md-6 " data-aos="zoom-in">
 <div className='card testimonial'>
                <div className='testimonial-card  card-body'>
                <img src="images/iyi.jpg" alt="profile" className='rounded-circle' />
@@ -138,7 +150,7 @@ export default function Home() {
                </div>
          </div>
             
-         <div className=" col-lg-6 col-md-6 ">
+         <div className=" col-lg-6 col-md-6 " data-aos="zoom-in">
 <div className='card testimonial'>
                <div className='testimonial-card  card-body'>
                <img src="images/iyi.jpg" alt="profile" className='rounded-circle' />
@@ -149,7 +161,7 @@ export default function Home() {
          </div>
 
 
-                <div className="col-lg-6 col-md-6 ">
+                <div className="col-lg-6 col-md-6 " data-aos="zoom-in">
 <div className='card  testimonial'>
                <div className='testimonial-card  card-body'>
                <img src="images/iyi.jpg" alt="profile" className='rounded-circle' />

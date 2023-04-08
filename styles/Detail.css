@@ -1,0 +1,5 @@
+#detail-div p::first-letter{
+    text-transform: uppercase;
+    font-size:30px;
+    color: red;
+}
