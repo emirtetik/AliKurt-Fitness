@@ -46,22 +46,22 @@ export default function Home() {
             <div className="carousel-item active">
                 <img id='carousel-img' className="d-block w-100  " src="/images/bent.JPG" alt="First slide"/>
                 <div className="carousel-caption">
-                    <h3 className="text-center  font-weight-bold h2">ESTETİK <hr /></h3>
-                    <p className="text-center font-weight-bold h4 ">Vücudunu kontrol et!</p>
+                    <h3 className="text-center  font-weight-bold h2">Performans! <hr /></h3>
+                    <p className="text-center font-weight-bold h4 ">Jimnastik sporcusu gibi!</p>
                 </div>
             </div>
             <div className="carousel-item">
                 <img id='carousel-img' className="d-block w-100" src="/images/ALP06315.JPG" alt="Second slide"/>
                 <div className="carousel-caption">
-                    <h3 className="text-center h1">GÜÇLÜ!</h3>
-                    <p className="text-center">Güç sporcuları gibi performans sergile!</p>
+                    <h3 className="text-center h1">ESNETİK!<hr /></h3>
+                    <p className="text-center">Vucüt geliştirmeci gibi!</p>
                 </div>
             </div>
             <div className="carousel-item">
                 <img id='carousel-img' className="d-block w-100" src="/images/bent.JPG" alt="Third slide"/>
                 <div className="carousel-caption">
-                    <h3 className="text-center h1">KASLI!</h3>
-                    <p className="text-center h3">Atlet gibi görün!</p>
+                    <h3 className="text-center h1">GÜÇ<hr /></h3>
+                    <p className="text-center h3">Kuvvet sporcusu gibi!</p>
                 </div>
             </div>
         </div>
@@ -101,7 +101,7 @@ export default function Home() {
                 <section className='mb-5'>
                   
   <div className="container ">
-    <h1 className="h1 text-center mb-5" data-aos="zoom-out" >MEET THE TEAM</h1>
+    <h2 className="h1 text-center mb-5" data-aos="zoom-out" >MEET THE TEAM</h2>
 
 
     <div >
@@ -112,9 +112,9 @@ export default function Home() {
       <div className=" col-lg-6 col-md-6 " data-aos="zoom-in">
 <div className='card testimonial'>
                <div className='testimonial-card  card-body'>
-               <Image src="/images/nodejs.png" alt="profile" className='rounded-circle' width={120} height={120}/>
-               <h5 className="card-title text-center text-light ">Ali Kurt</h5>
-                  <p className=" card-text text-center text-white-50   ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+               <Image src="/images/study1.jpg" alt="profile" className='rounded-circle' width={120} height={120}/>
+               <h5 className="card-title text-center text-light ">EREN</h5>
+                  <p className=" card-text text-center text-white-50   ">Verdigim parayi sonuna kadar hakediyor kocluk icerisinde gercekten ilgilenildigimi hissettim gerek spor ici gerek gunluk hayattan abi-kardes iliskisindeki sorulari olsun cok samimi hissettirdi. Ayrica koclukta kazandigim bilgiler sayesinde kendi programimi yaratip takip edebilecek potansiyele sahip oldugumu dusunuyorum</p>
                </div>
                </div>
          </div>

@@ -1,6 +1,9 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image';
+import {FaYoutube} from "react-icons/fa"
+import {AiFillInstagram} from "react-icons/ai"
+import {MdEmail} from "react-icons/md"
 function Footer() {
   return (
   <footer className="text-center text-lg-start  text-muted" style={{backgroundColor: "rgba(15,24,41,255)"}}>
@@ -41,33 +44,37 @@ function Footer() {
                 Useful links
               </h6>
               <p>
-                <Link href="/" className="text-reset">Home</Link>
+                <Link href="/" className="text-reset">Anasayfa</Link>
               </p>
               <p>
-                <Link href="/write" className="text-reset">Write</Link>
+                <Link href="/write" className="text-reset">Yazılar</Link>
               </p>
               <p>
-                <Link href="/coaching" className="text-reset">Coaching</Link>
+                <Link href="/coaching" className="text-reset">Koçluk</Link>
               </p>
               <p>
-                <Link href="/faqs" className="text-reset">FAQS</Link>
+                <Link href="/about" className="text-reset">Hakkımda</Link>
+              </p>
+              <p>
+                <Link href="/contact" className="text-reset">İletişim</Link>
               </p>
             </div>
     
             <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
               <h6 className="text-uppercase fw-bold mb-4 ">Contact</h6>
               <p>
-                <i className="fas fa-envelope me-3"></i>
-                info@alikurt.com
+                <FaYoutube size={40}/> Youtube
+
               </p>
-              <p><i className="fas fa-phone me-3"></i> + 546 609 6231</p>
+              <p><AiFillInstagram size={40}/> İnstagram</p>
+              <p><MdEmail size={40}/> Email </p>
             </div>
           </div>
         </div>
       </section>
     
       <div className="text-center p-4">
-        © 2021 Copyright: AliKurt
+        © 2023 Ali Kurt
       </div>
     </footer>
   );

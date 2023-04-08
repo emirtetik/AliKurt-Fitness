@@ -21,6 +21,16 @@ a{
 }
 li{
     list-style-type: none;
+    font-family: Exo, Helvetica,Arial, sans-serif;
+    
+}
+h2{
+    font-family: Exo, Helvetica,Arial, sans-serif;
+    font-size: 36px;
+}
+p{
+    font-family: Exo, Helvetica,Arial, sans-serif;
+    font-size: 18px;
 }
 
 ::-webkit-scrollbar{
