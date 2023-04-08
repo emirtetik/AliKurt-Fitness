@@ -67,7 +67,19 @@
     
     
   }
- /* Modified code from @gagan-gv */
+ 
+ 
+  .form-group textarea {
+    height: 208px;
+
+  }
+  
+  .input-group input[type="text"], .form-group textarea {
+    background: rgba(41, 65, 110, 0.9);
+    color: #fff;
+  }
+
+
 #button {
   padding: 1em 2em;
   font-size: 17px;
