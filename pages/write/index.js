@@ -52,8 +52,9 @@ function write({data}) {
 
           <Link href={`write/${write.id}`} className="btn ">
                
-           <Image src="/images/bent.jpg" alt="profile" className='card-img-top' width={590} height={350} />
+           <Image src="/images/bent.jpg" alt="blog image" className='card-img-top' width={590} height={350} />
         </Link>
+
         </div>
         <p className="card-text m-2"><small className="text-muted fw-bold text-dark"><MdUpdate/>{write.date}</small></p>
 
