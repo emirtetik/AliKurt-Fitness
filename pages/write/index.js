@@ -6,6 +6,7 @@ import {data} from "../../data"
 import {MdUpdate} from "react-icons/md"
 import AOS from "aos"
 import "aos/dist/aos.css"
+import Image from 'next/image'
 
 function write({data}) {
 
@@ -48,9 +49,10 @@ function write({data}) {
                        
       <div className='card '   id='blog-card' data-aos="zoom-in-down">
         <div className='fluid img-thumbnail img-card'>
+
           <Link href={`write/${write.id}`} className="btn ">
                
-           <img src="images/bent.jpg" alt="profile" className='card-img-top   ' />
+           <Image src="/images/bent.jpg" alt="profile" className='card-img-top' width={590} height={350} />
         </Link>
         </div>
         <p className="card-text m-2"><small className="text-muted fw-bold text-dark"><MdUpdate/>{write.date}</small></p>

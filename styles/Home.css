@@ -16,8 +16,7 @@
 
 }
   .testimonial-card img{
-    width: 120px;
-    height: 120px;
+  
     display: flex;
     flex-direction: column;
     transition: .5s ease-in-out;
@@ -54,7 +53,20 @@
     margin-left: 10px;
     margin-right: 10px;
   }
-  /* .testimonial-card p:hover{
-  } */
+ .carousel-control-next:hover{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.486);
+    opacity: 0.5;
+ }
+ .carousel-control-prev:hover{
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.486);
+  opacity: 0.5;
+ }
+  @media only screen and (max-width:1680px ) and (min-width:768px){
+    #carousel-img{
+      height: 90vh;
+      }
+ }
 
  
