@@ -1,9 +1,10 @@
 import Layout from '@/layout/Layout'
 import React, {useEffect} from 'react';
 import { Container,Row,Tabs,Tab } from 'react-bootstrap';
-import {BsFillSendCheckFill} from "react-icons/bs"
+import {BsFillSendCheckFill,BsFillPersonCheckFill} from "react-icons/bs"
 import {GiStrongMan} from "react-icons/gi"
 import {FaInfoCircle} from "react-icons/fa"
+import {TiTick} from "react-icons/ti"
 import Image from 'next/image'
 import AOS from "aos"
 import "aos/dist/aos.css"
@@ -24,21 +25,23 @@ import {ImPriceTags} from "react-icons/im"
      data-aos-easing="ease-in-sine">
        <Tabs defaultActiveKey={1} animation="true" className='nav-tabs  ' justify  variant='pills' >
   <Tab eventKey={1} title="Koçluk" className='nav-item '>
-   <h3 className='' ><GiStrongMan size={40}/> Koçluk</h3>
-   <p className='mb-3 m-2 '>The coaching service is a great choice for people who want a full professional guidance at any stage of their calisthenics journey.
+   <h3 className=' lh-lg' ><BsFillPersonCheckFill size={25}/> Kimler İçin?</h3>
+   <p className='mb-3 m-2 lh-lg'>The coaching service is a great choice for people who want a full professional guidance at any stage of their calisthenics journey.
      We set up the goals, choose the best plan/approach, and tackle it on a daily basis.</p>
-     <h3 ><FaInfoCircle size={40}/> peki neden koçluk almalısın?</h3>
-     <p className='mb-3 m-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ab sed nemo earum tenetur inventore. Magni recusandae, facilis a odit architecto quod consequuntur minus repellat magnam ad sequi voluptate eum.</p>
-     <h3>Ne öğreniceksin?</h3>
-     <ul className='mb-3'>
-      <li>uzun vadeli yol haritası</li>
-      <li>bireysel eğitim</li>
-      <li>bireysel eğitim</li>
-      <li>bireysel eğitim</li>
-      <li>bireysel eğitim</li>
+     <h3 className='mb-3'><FaInfoCircle size={25} className=' m-1 lh-lg'/>Süreç Nasıl İşliyor?</h3>
+     <p className='mb-3 m-2 lh-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ab sed nemo earum tenetur inventore. Magni recusandae, facilis a odit architecto quod consequuntur minus repellat magnam ad sequi voluptate eum.</p>
+     <h3> <TiTick size={25} className='lh-lg mb-3'/> Tam olarak neler elde ediceksin?</h3>
+     <ul className='mb-3 lh-lg'>
+      <li className='mb-2'>uzun vadeli yol haritası</li>
+      <li className='mb-2'>uzun vadeli yol haritası</li>
+
+      <li className='mb-2'>uzun vadeli yol haritası</li>
+
+      <li className='mb-2'>uzun vadeli yol haritası</li>
+
      </ul>
-     <h3 ><ImPriceTags size={40}/> Fiyatlandırma</h3>
-     <ul className='mb-3'>
+     <h3 className='mb-3'><ImPriceTags size={25}/> Fiyatlandırma</h3>
+     <ul className='mb-3 lh-lg'>
       <li>1 ay (30 gün) - 220 dolar  <button className='m-1' id='button'>
       Başla
 </button>  
@@ -100,22 +103,24 @@ import {ImPriceTags} from "react-icons/im"
         
       </div>
   </Tab>
-  <Tab eventKey={2} title="Program">
-  <h3 className='text-red' ><GiStrongMan size={40}/> Program</h3>
-   <p className='mb-3 m-2 '>The coaching service is a great choice for people who want a full professional guidance at any stage of their calisthenics journey.
+  <Tab eventKey={2} title="Programlama">
+  <h3 className=' lh-lg' ><BsFillPersonCheckFill size={25}/> Kimler İçin?</h3>
+   <p className='mb-3 m-2 lh-lg'>The coaching service is a great choice for people who want a full professional guidance at any stage of their calisthenics journey.
      We set up the goals, choose the best plan/approach, and tackle it on a daily basis.</p>
-     <h3 ><FaInfoCircle size={40}/> peki neden koçluk almalısın?</h3>
-     <p className='mb-3 m-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ab sed nemo earum tenetur inventore. Magni recusandae, facilis a odit architecto quod consequuntur minus repellat magnam ad sequi voluptate eum.</p>
-     <h3>Ne öğreniceksin?</h3>
-     <ul className='mb-3'>
-      <li>uzun vadeli yol haritası</li>
-      <li>bireysel eğitim</li>
-      <li>bireysel eğitim</li>
-      <li>bireysel eğitim</li>
-      <li>bireysel eğitim</li>
+     <h3 className='mb-3'><FaInfoCircle size={25} className=' m-1 lh-lg'/>Süreç Nasıl İşliyor?</h3>
+     <p className='mb-3 m-2 lh-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ab sed nemo earum tenetur inventore. Magni recusandae, facilis a odit architecto quod consequuntur minus repellat magnam ad sequi voluptate eum.</p>
+     <h3> <TiTick size={25} className='lh-lg mb-3'/> Tam olarak neler elde ediceksin?</h3>
+     <ul className='mb-3 lh-lg'>
+      <li className='mb-2'>uzun vadeli yol haritası</li>
+      <li className='mb-2'>uzun vadeli yol haritası</li>
+
+      <li className='mb-2'>uzun vadeli yol haritası</li>
+
+      <li className='mb-2'>uzun vadeli yol haritası</li>
+
      </ul>
-     <h3 ><ImPriceTags size={40}/> Fiyatlandırma</h3>
-     <ul className='mb-3'>
+     <h3 className='mb-3'><ImPriceTags size={25}/> Fiyatlandırma</h3>
+     <ul className='mb-3 lh-lg'>
       <li>1 ay (30 gün) - 220 dolar  <button className='m-1' id='button'>
       Başla
 </button>  
@@ -129,11 +134,12 @@ import {ImPriceTags} from "react-icons/im"
 </button> 
  </li>
      </ul>
-     <div className="row border border-light rounded-5 m-3">
-        <h2>Bize Ulaşın</h2> 
-        <p className="lead">bizimle iletişime geçmekten çekinmeyin</p>
+     <div className="row border border-light rounded-5  m-3">
+        <h2 className='text-center mt-3'>Bize Ulaşın</h2> 
+        <p className="text-center">bizimle iletişime geçmekten çekinmeyin</p>
 
-        <form  >
+        
+        <form  data-aos="zoom-in">
           
           <div className="col-md-6 mx-auto d-grid m-3 gap-3">
           <div className="input-group">
@@ -176,44 +182,40 @@ import {ImPriceTags} from "react-icons/im"
         
       </div>
   </Tab>
-  <Tab eventKey={3} title="Danışmanlık" >
-  <h3 className='' ><GiStrongMan size={40}/> Danışmanlık</h3>
-   <p className='mb-3 m-2 '>The coaching service is a great choice for people who want a full professional guidance at any stage of their calisthenics journey.
+  <Tab eventKey={3} title="Danışma" >
+  <h3 className=' lh-lg' ><BsFillPersonCheckFill size={25}/> Kimler İçin?</h3>
+   <p className='mb-3 m-2 lh-lg'>The coaching service is a great choice for people who want a full professional guidance at any stage of their calisthenics journey.
      We set up the goals, choose the best plan/approach, and tackle it on a daily basis.</p>
-     <h3 ><FaInfoCircle size={40}/> peki neden koçluk almalısın?</h3>
-     <p className='mb-3 m-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ab sed nemo earum tenetur inventore. Magni recusandae, facilis a odit architecto quod consequuntur minus repellat magnam ad sequi voluptate eum.</p>
-     <h3>Ne öğreniceksin?</h3>
-     <ul className='mb-3'>
-      <li>uzun vadeli yol haritası</li>
-      <li>bireysel eğitim</li>
-      <li>bireysel eğitim</li>
-      <li>bireysel eğitim</li>
-      <li>bireysel eğitim</li>
+     <h3 className='mb-3'><FaInfoCircle size={25} className=' m-1 lh-lg'/>Süreç Nasıl İşliyor?</h3>
+     <p className='mb-3 m-2 lh-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ab sed nemo earum tenetur inventore. Magni recusandae, facilis a odit architecto quod consequuntur minus repellat magnam ad sequi voluptate eum.</p>
+     <h3> <TiTick size={25} className='lh-lg mb-3'/> Tam olarak neler elde ediceksin?</h3>
+     <ul className='mb-3 lh-lg'>
+      <li className='mb-2'>uzun vadeli yol haritası</li>
+      <li className='mb-2'>uzun vadeli yol haritası</li>
+
+      <li className='mb-2'>uzun vadeli yol haritası</li>
+
+      <li className='mb-2'>uzun vadeli yol haritası</li>
+
      </ul>
-     <h3 ><ImPriceTags size={40}/> Fiyatlandırma</h3>
-     <ul className='mb-3'>
-      <li>1 ay (30 gün) - 220 dolar  <button className='m-1' id='button'>
-      Başla
-</button>  
-      </li> 
-      <li>3 ay (90 gün) - 420 dolar   <button className='m-2' id='button'>
-  Başla
-</button>  </li>
-      <li>6 ay (180 gün) - 520 dolar    
+     <h3 className='mb-3'><ImPriceTags size={25}/> Fiyatlandırma</h3>
+     <ul className='mb-3 lh-lg'>
+     
+      <li>60 dakika + PDF - 80 $   
       <button  id='button' className='m-2'>
       Başla
 </button> 
  </li>
      </ul>
      <div className="row border border-light rounded-5  m-3">
-        <h2>Bize Ulaşın</h2> 
-        <p className="lead">bizimle iletişime geçmekten çekinmeyin</p>
+        <h2 className='text-center mt-3'>Bize Ulaşın</h2> 
+        <p className="text-center">bizimle iletişime geçmekten çekinmeyin</p>
 
-     
-        <form  >
+        
+        <form  data-aos="zoom-in">
           
           <div className="col-md-6 mx-auto d-grid m-3 gap-3">
-          <div className="input-group ">
+          <div className="input-group">
   <input required="" type="text" name="name"  className="input form-control"/>
   <label htmlFor="first" className="user-label">İsim</label>
 </div>
@@ -250,7 +252,6 @@ import {ImPriceTags} from "react-icons/im"
           </div>
 
         </form>
-        
         
       </div>
   </Tab>
