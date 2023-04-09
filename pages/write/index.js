@@ -50,17 +50,17 @@ function write({data}) {
       <div className='card '   id='blog-card' data-aos="zoom-in-down">
         <div className='fluid img-thumbnail img-card'>
 
-          <Link href={`write/${write.id}`} className="btn ">
                
            <Image src="/images/work.jpg" alt="blog image" className='card-img-top' width={590} height={350} />
-        </Link>
 
         </div>
         <p className="card-text m-2"><small className="text-muted fw-bold text-dark"><MdUpdate/>{write.date}</small></p>
 
           <div className=' card-body'>
+          <Link href={`write/${write.id}`} className="btn ">
 
-      <h5 className="card-title   h4 fw-bold ">{write.header}</h5>
+      <h5 id='btn-links' className="card-title   h4 fw-bold ">{write.header}</h5>
+        </Link>
                                  
                  </div>
                     </div>

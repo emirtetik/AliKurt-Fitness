@@ -32,7 +32,7 @@ export default function Header() {
   
          <li className="nav">
           <Link  className={router.pathname == "/" ? "active" : ""} onClick={closeMenu}   href="/">
-        Anasayfa
+        Ana sayfa
         </Link>
         </li>
        
