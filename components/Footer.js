@@ -41,7 +41,7 @@ function Footer() {
           
             <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
               <h6 className="text-uppercase fw-bold mb-4">
-                Useful links
+               KISAYOLLAR
               </h6>
               <p>
                 <Link href="/" className="text-reset">Anasayfa</Link>
@@ -61,13 +61,19 @@ function Footer() {
             </div>
     
             <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-              <h6 className="text-uppercase fw-bold mb-4 ">Contact</h6>
-              <p>
+              <h6 className="text-uppercase fw-bold mb-4 ">iLETİŞİM</h6>
+             
+             <Link href="https://www.youtube.com/channel/UCAj9nNNGENsKJn_ljmMGnOA"><p>
                 <FaYoutube size={40}/> Youtube
 
               </p>
+              </Link> 
+              <Link href="https://www.instagram.com/alies.wolf/">
               <p><AiFillInstagram size={40}/> İnstagram</p>
+              </Link>
+              <Link href="mailto:aliesswolf@gmail.com">
               <p><MdEmail size={40}/> Email </p>
+              </Link>
             </div>
           </div>
         </div>

@@ -17,6 +17,7 @@ header {
 	padding: 0 2rem;
   z-index: 1000;
   background-color:rgba(15,24,41,255);
+  border-bottom: 1px solid rgb(247, 248, 250);
   /* rgba(15,24,41,255) */
 
 }
@@ -53,6 +54,7 @@ header::after {
  font-size: 30px;
  margin: 10rem;
  padding-top: 8px;
+ margin-left: 1%;
 }
 
 

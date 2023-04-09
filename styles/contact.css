@@ -1,7 +1,6 @@
 .contact-us {
-    background: url("https://img.freepik.com/free-photo/young-healthy-man-athlete-doing-exercise-with-ropes-gym-single-male-model-practicing-hard-training-his-upper-body-concept-healthy-lifestyle-sport-fitness-bodybuilding-wellbeing_155003-27879.jpg?w=1380&t=st=1680486728~exp=1680487328~hmac=368b10e28faafb9b3e80c4099061ecd3ce69d0070a367ffa8f9952d34c103a89") no-repeat center fixed;
+    background: url("../public/images/bg-contact2.jpg") no-repeat center fixed;
     background-size: cover;
-    color: #fff;
   }
   
   .contact-us .fields {
@@ -22,10 +21,10 @@
   
   .contact-us input[type="text"], .contact-us textarea {
     background: rgba(15,24,41,0.90);
-    color: #fff;
     border-radius: 30px;
+    color: #000000;
   }
-
+ 
   .input-group {
     position: relative;
    }

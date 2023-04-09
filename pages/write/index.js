@@ -25,7 +25,7 @@ function write({data}) {
       <div className=' text-center  ' id='text' data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000">
-       <h1 className='text-center h1 text-light fw-bold '>Blog- Tüm Yazılar</h1>
+       <h1 className='text-center h1 text-light fw-bold '>Blogs - Tüm Yazılar</h1>
 
       <p className='h5 mx-auto text-light w-50 mt-3 lh-base'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, explicabo fugiat! Sed accusamus vero quis aspernatur excepturi dolorem, expedita iusto nam doloremque maxime eaque. Nesciunt mollitia repudiandae corrupti quasi numquam.</p>
        </div>
@@ -35,7 +35,7 @@ function write({data}) {
       <section className='mb-5 mt-5'>
                   
                   <div className="container ">
-                    <h1 className="h1 text-center mb-5">Blog</h1>
+                    <h2 className="h1 text-center mb-5 fw-bold">Tüm Yazılar</h2>
                 
                 
                     <div >

@@ -47,7 +47,7 @@ export default function Home() {
                 <img id='carousel-img' className="d-block w-100  " src="/images/bent.JPG" alt="First slide"/>
                 <div className="carousel-caption">
                     <h3 className="text-center  font-weight-bold h2">Performans! <hr /></h3>
-                    <p className="text-center font-weight-bold h4 ">Jimnastik sporcusu gibi!</p>
+                    <p className="text-center ">Jimnastik sporcusu gibi!</p>
                 </div>
             </div>
             <div className="carousel-item">
@@ -61,7 +61,7 @@ export default function Home() {
                 <img id='carousel-img' className="d-block w-100" src="/images/bent.JPG" alt="Third slide"/>
                 <div className="carousel-caption">
                     <h3 className="text-center h1">GÜÇ<hr /></h3>
-                    <p className="text-center h3">Kuvvet sporcusu gibi!</p>
+                    <p className="text-center ">Kuvvet sporcusu gibi!</p>
                 </div>
             </div>
         </div>

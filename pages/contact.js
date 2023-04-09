@@ -22,22 +22,19 @@ function contact() {
     <Image src="/images/logom1.png" alt='logo' width={100} height={80}></Image>
       
       <div className="row">
-        <h2>Bize Ulaşın</h2> 
-        <p className="lead">bizimle iletişime geçmekten çekinmeyin</p>
-        <AiFillInstagram size={30}/>
-
+      
         
         <form  >
           
           <div className="col-md-6 mx-auto d-grid m-3 gap-3">
           <div className="input-group">
-  <input required="" type="text" name="name" autoComplete="off" className="input form-control"/>
-  <label className="user-label">User Name</label>
+  <input required="" type="text" name="name"  className="input form-control"/>
+  <label className="user-label">İsim</label>
 </div>
 
             <div className="form-group">
             <div className="input-group">
-  <input required="" type="text" name="name" autoComplete="off" className="input form-control"/>
+  <input required="" type="text" name="email"  className="input form-control"/>
   <label className="user-label">Email</label>
 </div>
             </div>
@@ -47,7 +44,7 @@ function contact() {
           
           <div className="col-md-6 mx-auto ">
             <div className="form-group">
-              <textarea className="form-control" placeholder="Your Message..."></textarea>
+              <textarea className="form-control"  placeholder="Aklında ne var?"></textarea>
             </div>
             <button className='mt-3' id='btn1'>
             <span><BsFillSendCheckFill/> Gönder</span>
