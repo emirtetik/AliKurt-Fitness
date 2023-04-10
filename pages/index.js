@@ -5,7 +5,7 @@ import Image from 'next/image'
 import Meta from '@/components/Meta'
 import AOS from "aos"
 import "aos/dist/aos.css"
-
+import Carousel from 'react-bootstrap/Carousel';
 
 
 
@@ -15,15 +15,7 @@ export default function Home() {
     AOS.init({duration:1000});
   },[]);
 
-  const toggleCarousel = (action) => {
-    const { Carousel } = require("bootstrap");
-    const carousel = new Carousel("#myCarousel");
-    if (action === "next") {
-      carousel.next();
-    } else {
-      carousel.prev();
-    }
-  };
+  
   return (
     <Layout>
       <Meta 
@@ -33,54 +25,51 @@ export default function Home() {
       
       />
       <div className="home">
-       <div id="carouselExampleIndicators" className="carousel slide carousel-fade" data-ride="carousel">
-        <ol className="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div className="carousel-inner " id="myCarousel"
-          
-          data-bs-touch="false"
-          data-bs-interval="false">
-            <div className="carousel-item active">
-                <img id='carousel-img' className="d-block w-100  " src="/images/bent.JPG" alt="First slide"/>
-                <div className="carousel-caption">
-                    <h3 className="text-center  font-weight-bold h2">Performans! <hr /></h3>
-                    <p className="text-center ">Jimnastik sporcusu gibi!</p>
-                </div>
-            </div>
-            <div className="carousel-item">
-                <img id='carousel-img' className="d-block w-100" src="/images/ALP06315.JPG" alt="Second slide"/>
-                <div className="carousel-caption">
-                    <h3 className="text-center h1">ESNETİK!<hr /></h3>
-                    <p className="text-center">Vucüt geliştirmeci gibi!</p>
-                </div>
-            </div>
-            <div className="carousel-item">
-                <img id='carousel-img' className="d-block w-100" src="/images/bent.JPG" alt="Third slide"/>
-                <div className="carousel-caption">
-                    <h3 className="text-center h1">GÜÇ<hr /></h3>
-                    <p className="text-center ">Kuvvet sporcusu gibi!</p>
-                </div>
-            </div>
-        </div>
-        <button
-          className="carousel-control-prev"
-          onClick={() => toggleCarousel("prev")}
-        >
-         <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span className="sr-only "></span>
-        </button>
-        <button
-          className="carousel-control-next"
-          onClick={() => toggleCarousel("next")}
-        >
-          <span className="carousel-control-next-icon" aria-hidden="true"></span>
-            <span className="sr-only"></span>
-        </button>
-       
-    </div>
+
+      <Carousel fade>
+      <Carousel.Item>
+        <img
+        id='carousel-img'
+          className="d-block w-100"
+          src="/images/bent.JPG"
+          alt="First slide"
+        />
+        <Carousel.Caption>
+        <h3 className="text-center  font-weight-bold h2">Performans! <hr /></h3>
+        <p className="text-center ">Jimnastik sporcusu gibi!</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+        id='carousel-img'
+          className="d-block w-100"
+          src="/images/ALP06315.JPG"
+          alt="Second slide"
+        />
+
+        <Carousel.Caption>
+        <h3 className="text-center h1">ESNETİK!<hr /></h3>
+        <p className="text-center">Vucüt geliştirmeci gibi!</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+        id='carousel-img'
+          className="d-block w-100"
+          src="/images/bent.JPG"
+          alt="Third slide"
+        />
+
+        <Carousel.Caption>
+        <h3 className="text-center h1">GÜÇ<hr /></h3>
+        <p className="text-center ">Kuvvet sporcusu gibi!</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
+ 
+  
+
+
                <section className=' text-center py-lg-5  '>
                 <div className='container '>
                 <div className=' '>

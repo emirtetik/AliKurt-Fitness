@@ -1,5 +1,5 @@
 import Layout from '@/layout/Layout'
-import React, {useEffect} from 'react';
+import React, {useEffect,useRef} from 'react';
 import { Container,Row,Tabs,Tab } from 'react-bootstrap';
 import {BsFillSendCheckFill,BsFillPersonCheckFill} from "react-icons/bs"
 import {GiStrongMan} from "react-icons/gi"
@@ -11,6 +11,16 @@ import "aos/dist/aos.css"
 import {ImPriceTags} from "react-icons/im"
  export default function coaching() {
  
+  const testimonialDiv = React.useRef()
+
+  function smoothScroll(target) {
+    const { top } = target.getBoundingClientRect()
+    window.scrollTo({
+      top: top + window.pageYOffset,
+      behavior: "smooth"
+    });
+  }
+
 
   useEffect(() => {
     AOS.init({duration:1000});
@@ -25,6 +35,7 @@ import {ImPriceTags} from "react-icons/im"
      data-aos-easing="ease-in-sine">
        <Tabs defaultActiveKey={1} animation="true" className='nav-tabs  ' justify  variant='pills' >
   <Tab eventKey={1} title="Koçluk" className='nav-item '>
+    <button onClick={() => smoothScroll(testimonialDiv.current)} id='button' className=' text-light fw-bold float-end'>Testimonial</button>
    <h3 className=' lh-lg' ><BsFillPersonCheckFill size={25}/> Kimler İçin?</h3>
    <p className='mb-3 m-2 lh-lg'>The coaching service is a great choice for people who want a full professional guidance at any stage of their calisthenics journey.
      We set up the goals, choose the best plan/approach, and tackle it on a daily basis.</p>
@@ -62,7 +73,8 @@ import {ImPriceTags} from "react-icons/im"
         
         <form  data-aos="zoom-in">
           
-          <div className="col-md-6 mx-auto d-grid m-3 gap-3">
+          <div className="col-md-6 mx-auto d-flex m-3 gap-3">
+
           <div className="input-group">
   <input required="" type="text" name="name"  className="input form-control"/>
   <label htmlFor="first" className="user-label">İsim</label>
@@ -71,7 +83,11 @@ import {ImPriceTags} from "react-icons/im"
   <input required="" type="text" name="surname"  className="input form-control"/>
   <label htmlFor="last" className="user-label">Soyisim</label>
 </div>
-<div className="input-group">
+   
+          </div>
+
+          <div className='col-md-6 mx-auto d-flex m-3 gap-3'>
+          <div className="input-group">
   <input required="" type="text" name="age"  className="input form-control"/>
   <label htmlFor="years" className="user-label">Yaş</label>
 </div>
@@ -79,16 +95,14 @@ import {ImPriceTags} from "react-icons/im"
   <input required="" type="text" name="number"  className="input form-control"/>
   <label htmlFor="roll" className="user-label">Telefon No</label>
 </div>
-            <div className="form-group">
+          </div>
+
+          <div className="form-group col-md-6 mx-auto mb-3">
             <div className="input-group">
   <input required="" type="text" name="email" className="input form-control"/>
   <label htmlFor="mail" className="user-label">Email</label>
 </div>
             </div>
-
-           
-          </div>
-          
           <div className="col-md-6 mx-auto ">
             <div className="form-group">
               <textarea className="form-control" placeholder="Your Message..."></textarea>
@@ -104,6 +118,8 @@ import {ImPriceTags} from "react-icons/im"
       </div>
   </Tab>
   <Tab eventKey={2} title="Programlama">
+  <button onClick={() => smoothScroll(testimonialDiv.current)} id='button' className=' text-light fw-bold float-end'>Testimonial</button>
+
   <h3 className=' lh-lg' ><BsFillPersonCheckFill size={25}/> Kimler İçin?</h3>
    <p className='mb-3 m-2 lh-lg'>The coaching service is a great choice for people who want a full professional guidance at any stage of their calisthenics journey.
      We set up the goals, choose the best plan/approach, and tackle it on a daily basis.</p>
@@ -141,7 +157,8 @@ import {ImPriceTags} from "react-icons/im"
         
         <form  data-aos="zoom-in">
           
-          <div className="col-md-6 mx-auto d-grid m-3 gap-3">
+          <div className="col-md-6 mx-auto d-flex m-3 gap-3">
+
           <div className="input-group">
   <input required="" type="text" name="name"  className="input form-control"/>
   <label htmlFor="first" className="user-label">İsim</label>
@@ -150,7 +167,11 @@ import {ImPriceTags} from "react-icons/im"
   <input required="" type="text" name="surname"  className="input form-control"/>
   <label htmlFor="last" className="user-label">Soyisim</label>
 </div>
-<div className="input-group">
+   
+          </div>
+
+          <div className='col-md-6 mx-auto d-flex m-3 gap-3'>
+          <div className="input-group">
   <input required="" type="text" name="age"  className="input form-control"/>
   <label htmlFor="years" className="user-label">Yaş</label>
 </div>
@@ -158,16 +179,14 @@ import {ImPriceTags} from "react-icons/im"
   <input required="" type="text" name="number"  className="input form-control"/>
   <label htmlFor="roll" className="user-label">Telefon No</label>
 </div>
-            <div className="form-group">
+          </div>
+
+          <div className="form-group col-md-6 mx-auto mb-3">
             <div className="input-group">
   <input required="" type="text" name="email" className="input form-control"/>
   <label htmlFor="mail" className="user-label">Email</label>
 </div>
             </div>
-
-           
-          </div>
-          
           <div className="col-md-6 mx-auto ">
             <div className="form-group">
               <textarea className="form-control" placeholder="Your Message..."></textarea>
@@ -180,9 +199,12 @@ import {ImPriceTags} from "react-icons/im"
 
         </form>
         
+        
       </div>
   </Tab>
   <Tab eventKey={3} title="Danışma" >
+  <button onClick={() => smoothScroll(testimonialDiv.current)} id='button' className=' text-light fw-bold float-end'>Testimonial</button>
+
   <h3 className=' lh-lg' ><BsFillPersonCheckFill size={25}/> Kimler İçin?</h3>
    <p className='mb-3 m-2 lh-lg'>The coaching service is a great choice for people who want a full professional guidance at any stage of their calisthenics journey.
      We set up the goals, choose the best plan/approach, and tackle it on a daily basis.</p>
@@ -214,7 +236,8 @@ import {ImPriceTags} from "react-icons/im"
         
         <form  data-aos="zoom-in">
           
-          <div className="col-md-6 mx-auto d-grid m-3 gap-3">
+          <div className="col-md-6 mx-auto d-flex m-3 gap-3">
+
           <div className="input-group">
   <input required="" type="text" name="name"  className="input form-control"/>
   <label htmlFor="first" className="user-label">İsim</label>
@@ -223,7 +246,11 @@ import {ImPriceTags} from "react-icons/im"
   <input required="" type="text" name="surname"  className="input form-control"/>
   <label htmlFor="last" className="user-label">Soyisim</label>
 </div>
-<div className="input-group">
+   
+          </div>
+
+          <div className='col-md-6 mx-auto d-flex m-3 gap-3'>
+          <div className="input-group">
   <input required="" type="text" name="age"  className="input form-control"/>
   <label htmlFor="years" className="user-label">Yaş</label>
 </div>
@@ -231,16 +258,14 @@ import {ImPriceTags} from "react-icons/im"
   <input required="" type="text" name="number"  className="input form-control"/>
   <label htmlFor="roll" className="user-label">Telefon No</label>
 </div>
-            <div className="form-group">
+          </div>
+
+          <div className="form-group col-md-6 mx-auto mb-3">
             <div className="input-group">
   <input required="" type="text" name="email" className="input form-control"/>
   <label htmlFor="mail" className="user-label">Email</label>
 </div>
             </div>
-
-           
-          </div>
-          
           <div className="col-md-6 mx-auto ">
             <div className="form-group">
               <textarea className="form-control" placeholder="Your Message..."></textarea>
@@ -258,7 +283,7 @@ import {ImPriceTags} from "react-icons/im"
 </Tabs>
 </Row>
 </Container>
-<section >
+<section ref={testimonialDiv}>
                   
                   <div className="container ">
                     <h1 className="h1 text-center mb-5">MEET THE TEAM</h1>

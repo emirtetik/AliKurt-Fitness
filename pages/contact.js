@@ -1,5 +1,6 @@
 import Layout from '@/layout/Layout'
 import React,{useEffect} from 'react'
+import Form from 'react-bootstrap/Form';
 import {AiFillInstagram} from "react-icons/ai"
 import Image from 'next/image'
 import {BsFillSendCheckFill} from "react-icons/bs"
@@ -26,22 +27,36 @@ function contact() {
         
         <form  >
           
-          <div className="col-md-6 mx-auto d-grid m-3 gap-3">
-          <div className="input-group">
+          <div className="col-md-6 mx-auto d-flex m-3 gap-3">
+          <div className="input-group ">
   <input required="" type="text" name="name"  className="input form-control"/>
   <label className="user-label">İsim</label>
 </div>
+<div className="input-group ">
+  <input required="" type="text" name="surname"  className="input form-control"/>
+  <label className="user-label">Soyisim</label>
+</div>
 
-            <div className="form-group">
+            
+
+           
+          </div>
+          <div className="form-group col-md-4 mx-auto mb-3">
+          <Form.Select   >
+            <option >Seçenekler</option>
+      <option value="1">Koçluk</option>
+      <option value="2">İşbirliği</option>
+      <option value="3">Diğer</option>
+      </Form.Select>
+      </div>
+
+
+          <div className="form-group col-md-6 mx-auto mb-3">
             <div className="input-group">
   <input required="" type="text" name="email"  className="input form-control"/>
   <label className="user-label">Email</label>
 </div>
             </div>
-
-           
-          </div>
-          
           <div className="col-md-6 mx-auto ">
             <div className="form-group">
               <textarea className="form-control"  placeholder="Aklında ne var?"></textarea>

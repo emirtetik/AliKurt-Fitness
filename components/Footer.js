@@ -58,6 +58,9 @@ function Footer() {
               <p>
                 <Link href="/contact" className="text-reset">İletişim</Link>
               </p>
+              <p>
+                <Link href="/faqs" className="text-reset">Sıkça Sorulan Sorular</Link>
+              </p>
             </div>
     
             <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
@@ -69,7 +72,7 @@ function Footer() {
               </p>
               </Link> 
               <Link href="https://www.instagram.com/alies.wolf/" target="_blank" rel="noreferrer noopener">
-              <p><AiFillInstagram size={40}/> İnstagram</p>
+              <p><AiFillInstagram size={40}/> Instagram</p>
               </Link>
               <Link href="mailto:aliesswolf@gmail.com" target="_blank" rel="noreferrer noopener">
               <p><MdEmail size={40}/> Email </p>

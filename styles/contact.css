@@ -21,7 +21,6 @@
   
   .contact-us input[type="text"], .contact-us textarea {
     background: rgba(15,24,41,0.90);
-    border-radius: 30px;
     color: #000000;
   }
  
@@ -45,10 +44,12 @@
    .input:focus ~ label, input:valid ~ label {
     transform: translateY(-50%) scale(0.8);
     background-color: #000000;
-    border-radius: 8px;
     padding: 0 .4em;
     z-index: 10;
     color: #2196f3;
+   }
+   .form-select {
+    background-color: #89cff08c;
    }
 
 

@@ -1,0 +1,28 @@
+.accordion-body{
+  color: white;
+}
+.accordion .item {
+    border: 0;
+    border-radius: 0;
+    padding: 1.5rem 1rem;
+    background-color:rgba(15,24,41,255);
+
+    border-top: 2px dashed rgb(255, 252, 252);
+    
+
+}
+
+.accordion .item .accordion-header button {
+    background-color: transparent;
+     box-shadow: none;
+     font-size: 1rem;
+     letter-spacing: .125rem;
+     line-height: 3rem;
+     color: rgb(255, 251, 251);
+     font-weight: 900;
+     vertical-align: middle;
+     position: relative;
+     padding-bottom: 0;
+     padding-top: 0;
+
+}
