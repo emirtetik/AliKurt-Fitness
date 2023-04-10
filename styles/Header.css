@@ -21,33 +21,6 @@ header {
   /* rgba(15,24,41,255) */
 
 }
-/* 
-header:before {
-  content: "";
-  z-index: -1;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-
-  transform: translate3d(0px, 10px, 0) scale(0.95);
-  border-radius: inherit;
-} */
-/* 
-
-header::after { 
-  content: "";
-  z-index: -1;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: inherit;
-  border-radius: inherit;
-} */
-      
 
 
 .logo {
@@ -139,11 +112,7 @@ left: 0;
 		transform: none;
 	}
 
-	/* nav .nav-close-btn {
-		position: absolute;
-		top: 1rem;
-		right: 2rem;
-	} */
+	
    .hamburger{
     position: absolute;
 		top: 1.1rem;

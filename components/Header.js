@@ -60,11 +60,7 @@ export default function Header() {
 
 
 
-        {/* <button
-          className="nav-btn nav-close-btn"
-          onClick={showNavbar}>
-          <FaTimes />
-        </button> */}
+       
       </nav>
       <button className="nav-btn" onClick={showNavbar}>
         <RiMenu4Line className='hamburger' />

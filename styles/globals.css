@@ -3,7 +3,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-@import url(./header.css);
 @import url(./home.css);
 @import url(./about.css);
 @import url(./contact.css);
@@ -11,6 +10,7 @@
 @import url(./write.css);
 @import url(./detail.css);
 @import url(./faqs.css);
+@import url(./header.css);
 
 
 :root{
