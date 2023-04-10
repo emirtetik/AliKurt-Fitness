@@ -95,12 +95,10 @@ left: 0;
 	header nav {
 		position: fixed;
 		top: 10%;
-		left: 0;
+		right: 0;
 		height: 50%;
 		width: 100%;
     background-color:rgba(15,24,41,255);
-
-
 		justify-content: center;
     z-index: 1000;
 		transition: 1s;
@@ -139,12 +137,11 @@ left: 0;
     right: 3rem;
     position: absolute;
 	}
-  nav .nav-close-btn{
-    right: 3rem;
-    position: absolute;
-  }
+ 
   header nav{
     top: 12.9%;
+		transform: translateX(-100vh);
+
   }
   .hamburger{
     top: -10px;
@@ -160,7 +157,6 @@ left: 0;
     font-size: 20px;
   }
   .menu_list {
-
     display: grid;
     gap: 0rem;
   }
