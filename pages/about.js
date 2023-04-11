@@ -15,7 +15,7 @@ function About() {
        <section id='bg-section' className=' w-100  bg-gradient  '> 
              
           <div className='row w-100 justify-content-center '>
-            <div className='col-md-12 d-lg-flex  align-items-center w-75  items-center '>
+            <div className='col-md-10 d-lg-flex  align-items-center   items-center '>
               <div className='card mt-5  items-center mx-auto '  >
              
             <Image  src="/images/bg-contact.jpg" alt='profil' width={400} height={600} className=' card-img-top   m-5  '></Image>
@@ -26,7 +26,11 @@ function About() {
     data-aos-easing="ease-in-sine"
      >
                  <h1 className='mx-auto items-center w-75 text-light'> Ali Kurt </h1>
-                 <p className='col-md-9 mt-5 text-light mx-auto'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas similique quam possimus unde sapiente cupiditate modi temporibus porro, numquam natus doloremque nam deserunt, tenetur facere pariatur eos aliquid? Reprehenderit, magnam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet facilis velit porro ea inventore provident at earum, laborum perferendis voluptatem illo beatae explicabo, quod incidunt id corrupti eligendi iste eaque!</p>
+                 <p className='col-md-10 mt-5 text-light mx-auto h5 lh-base'>Merhaba, ben Ali. Metalurji Malzeme mühendisiği öğrencisiyim. Lise dönemimde evde vücut ağırlığı çalışmaları ve spor salonunda yaptığım genel antrenmanlardan sonra “fitness”, üniversite hayatına geçişim ile daha fazla ciddiyet kazandı ve istikrarlı hale geldi. Antrenman yolculuğumun ilk safhalarında sadece demirle haşır neşir bir dönem geçirdikten sonra, zaman geçtikçe oyunda kalabilmek ve daha fazla eğlenmek için bir yandan da vücut ağırlığı hareketlerine yöneldim. Merakım ve performansımı geliştirme arzum, bana öğrenmekten başka şans bırakmadı. Tutku duyduğum bu genel direnç antrenmanlarına ‘’hibrid‘’ bir şekilde çalışabilme isteği  kendimi spor salonu dışında da eğitmeye itti. 
+
+
+Yıllar boyunca antrenman ve beslenme bilimine daldım. Yurtdışından bazı koçlardan doğrudan, bazılarından dolaylı olarak hizmet aldım, çalıştım. 6 yılı aşkındır spor salonlarında ve masa başında öğrenme yolculuğundayım. Edindiğim ve edinmekte olduğum eğitim ve hizmetleri birçok insana aktardım ve aktarmaya devam ediyorum. Bir atlet ve koç olarak iki serüvende de yolun bir sonu olduğunu düşünmüyorum. Elimden geldiği müddetçe kendimi ve insanları geliştirmek için burdayım.
+</p>
                </div>
                 
             </div>
@@ -34,34 +38,6 @@ function About() {
           </div>
 
 
-
-
-
-
-
-
-
-       
-           {/* <div className='row w-100 '>
-
-          <div  id='bg-div' className=' w-75  mx-auto d-lg-flex '>
-          <div id='bg-img' className=' w-75   mx-auto  ' data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine" >            
-              <Image property='' src="/images/work.jpg" alt='profil' width={350} height={450} className=' card-img-top  border border-white m-5   '></Image>
-              </div>
-              <div className=' mt-5 md-w-100 text-light w-100 ' data-aos="fade-left"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-out">
-                 <h1 className='mx-auto items-center w-50 text-black'> Ali Kurt </h1>
-                 <p className='w-75 md-w-100 mt-5 text-dark mx-auto'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas similique quam possimus unde sapiente cupiditate modi temporibus porro, numquam natus doloremque nam deserunt, tenetur facere pariatur eos aliquid? Reprehenderit, magnam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet facilis velit porro ea inventore provident at earum, laborum perferendis voluptatem illo beatae explicabo, quod incidunt id corrupti eligendi iste eaque!</p>
-               </div>
-
-              
-
-          </div> 
-
-          </div>*/}
        </section>
       
     </Layout>

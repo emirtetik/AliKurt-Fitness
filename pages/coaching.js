@@ -283,7 +283,7 @@ import {ImPriceTags} from "react-icons/im"
 </Tabs>
 </Row>
 </Container>
-   {/* <section ref={testimonialDiv}>
+    <section ref={testimonialDiv}>
                   
                   <div className="container ">
                     <h1 className="h1 text-center mb-5">MEET THE TEAM</h1>
@@ -291,10 +291,10 @@ import {ImPriceTags} from "react-icons/im"
                 
                     <div >
                 
-                      <div className="row g-5" >
+                      <div className="row " >
                          
                        
-                      <div className=" col-lg-6 col-md-6 " data-aos="zoom-in">
+                      <div className=" col-lg-6 col-md-6 mb-5" data-aos="zoom-in">
                 <div className='card testimonial'>
                                <div className='testimonial-card  card-body'>
                                <Image src="/images/work.jpg" alt="profile" className='rounded-circle' width={120} height={120}/>
@@ -317,7 +317,7 @@ import {ImPriceTags} from "react-icons/im"
                                </div>
                          </div>
                               
-                         <div className=" col-lg-6 col-md-6 " data-aos="zoom-in">
+                         <div className=" col-lg-6 col-md-6 mb-5" data-aos="zoom-in">
                 <div className='card testimonial'>
                                <div className='testimonial-card  card-body'>
                                <Image src="/images/iyi.jpg" alt="profile" className='rounded-circle' width={120} height={120}/>
@@ -328,7 +328,7 @@ import {ImPriceTags} from "react-icons/im"
                                </div>
                          </div>
                               
-                         <div className=" col-lg-6 col-md-6 " data-aos="zoom-in">
+                         <div className=" col-lg-6 col-md-6 mb-5" data-aos="zoom-in">
                 <div className='card testimonial'>
                                <div className='testimonial-card  card-body'>
                                <Image src="/images/iyi.jpg" alt="profile" className='rounded-circle' width={120} height={120}/>
@@ -339,7 +339,7 @@ import {ImPriceTags} from "react-icons/im"
                                </div>
                          </div>
                             
-                         <div className=" col-lg-6 col-md-6 " data-aos="zoom-in">
+                         <div className=" col-lg-6 col-md-6 mb-5" data-aos="zoom-in">
                 <div className='card testimonial'>
                                <div className='testimonial-card  card-body'>
                                <Image src="/images/iyi.jpg" alt="profile" className='rounded-circle' width={120} height={120}/>
@@ -351,7 +351,7 @@ import {ImPriceTags} from "react-icons/im"
                          </div>
                 
                 
-                                <div className="col-lg-6 col-md-6 " data-aos="zoom-in">
+                                <div className="col-lg-6 col-md-6 mb-5" data-aos="zoom-in">
                 <div className='card  testimonial'>
                                <div className='testimonial-card  card-body'>
                                <Image src="/images/iyi.jpg" alt="profile" className='rounded-circle' width={120} height={120}/>
@@ -366,7 +366,7 @@ import {ImPriceTags} from "react-icons/im"
                 
                 </div>
                 
-                                </section> */}
+                                </section> 
 </div>
     </Layout>
   )

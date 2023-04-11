@@ -25,7 +25,7 @@ export default function Header() {
       </Link>
       
       </div>
-    <header className=''>
+    <header className='d-flex justify-content-end w-100'>
    
   
       <nav ref={navRef}>
@@ -34,7 +34,7 @@ export default function Header() {
   
          <li className="nav">
           <Link  className={router.pathname == "/" ? "active" : ""} onClick={closeMenu}   href="/">
-        Ana Sayfa
+        ANA SAYFA
         </Link>
         </li>
        

@@ -40,11 +40,11 @@ function write({data}) {
                 
                     <div >
                 
-                      <div className="row g-5" >
-{/*                          
+                      <div className="row " >
+                         
            {data.map((write) => (
                        
-                      <div  className=" col-lg-6 col-md-6  " key={write.id}>
+                      <div  className=" col-lg-6 col-md-6  mb-5 " key={write.id}>
 
                        
       <div className='card '   id='blog-card' data-aos="zoom-in-down">
@@ -68,7 +68,7 @@ function write({data}) {
                     </div>
                          </div>
                 
-                ))}  */}
+                ))}  
                           
                          </div>
                 
