@@ -4,27 +4,28 @@
     box-sizing: border-box;
 }
 
-#bg-div{
-    border-radius: 20px;
-    /* background: rgba(1, 14, 32, 0.226);  */
-    /* box-shadow: 0 15px 35px rgb(0, 0, 0); */
-    margin-bottom: 5rem;
-}
 
-#bg-img img{
-   border-radius: 30px;
+#bg-section img{
+   border-radius: 10px;
    box-shadow: 0 15px 35px rgb(0, 0, 0);
+   
 }
 #bg-section{
-    background-color: rgb(255, 255, 255);
-
+    background-color:rgba(15,24,41,255);
+    height: auto;
+    width: 100%;
+    /* border-bottom: 2px solid wheat; */
+}
+#bg-section .card {
+    opacity: 0.9;
+    background-color:  rgba(255, 255, 255, 0.315);
 }
 @media (min-width: 320px) and (max-width: 480px) {
-    #bg-div img{
-         width: 200px;
-         height: auto;
-         position: relative;
-         right: 20%;
+    #bg-section img{
+         height: 400px;
+    }
+    #bg-section p{
+        width: 100%;
     }
     
 }

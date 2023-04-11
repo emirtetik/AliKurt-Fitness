@@ -6,18 +6,24 @@
 	box-sizing: border-box;
 }
 
-
-header {
-	display: flex;
+#navbar{
+  display: flex;
   position: static;
   width: 100%;
-	align-items: center;
-	justify-content: space-between;
+	
 	height: 91px;
 	padding: 0 2rem;
   z-index: 1000;
   background-color:rgba(15,24,41,255);
   border-bottom: 1px solid rgb(247, 248, 250);
+}
+header {
+	display: flex;
+  width: 100%;
+  
+	justify-content: end;
+	align-items: end;
+
   /* rgba(15,24,41,255) */
 
 }
@@ -25,9 +31,8 @@ header {
 
 .logo {
  font-size: 30px;
- margin: 10rem;
  padding-top: 8px;
- margin-left: 1%;
+ position: relative;
 }
 
 
@@ -53,16 +58,14 @@ nav{
   list-style: none;
   display: flex;
   gap: 1rem;
-  list-style: none;
   color: antiquewhite;
 }
 .nav  a{
 
-  text-decoration: none;
   position: relative;
   padding: 14px;
-  letter-spacing: 4px;
-  font-weight: bolder;
+  letter-spacing: 1px;
+  font-weight:lighter;
  } 
 nav .active{
 color:#0d6efd;
@@ -124,10 +127,7 @@ left: 0;
       display: grid;
 	}
   .logo {
-    left: 10%;
-    margin: 2rem;
     position: relative;
-    font-size: 25px;
   }
 
 }
@@ -135,6 +135,7 @@ left: 0;
 @media (min-width: 320px) and (max-width: 480px) {
   header .nav-btn {
     right: 3rem;
+    top: 5%;
     position: absolute;
 	}
  
@@ -151,10 +152,6 @@ left: 0;
     height: 40px;
   }
   .logo {
-    left: 10%;
-    margin: 2rem;
-    position: relative;
-    font-size: 20px;
   }
   .menu_list {
     display: grid;

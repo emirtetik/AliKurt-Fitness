@@ -18,13 +18,15 @@ export default function Header() {
   const closeMenu = () => showNavbar(false)
 
   return (
-    <header>
-    <div className="logo" >
+    <div id='navbar'>
+       <div className="logo" >
       <Link  href="/">
         <Image  src="/images/logom1.png" width={100} height={70} alt='logo'></Image>
       </Link>
       
       </div>
+    <header className=''>
+   
   
       <nav ref={navRef}>
   
@@ -66,7 +68,7 @@ export default function Header() {
         <RiMenu4Line className='hamburger' />
       </button>
     </header>
-  
+    </div>
  
   )
 }

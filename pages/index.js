@@ -72,8 +72,8 @@ export default function Home() {
 
                <section className=' text-center py-lg-5  '>
                 <div className='container '>
-                <div className=' '>
-                  <h2 className='h1' data-aos="zoom-out">Welcome TO ALİKURT</h2>
+                <div className=' mt-5'>
+                  <h2 className='h1 ' data-aos="zoom-out">Welcome TO ALİKURT</h2>
                 </div>
                   <div className=' h3 w-75 mx-auto p-3  ' data-aos="zoom-out">
                     <p  className='  mx-auto'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem soluta optio, odit voluptate officia veniam possimus est molestias aliquid unde ipsa magni dignissimos ab commodi explicabo, dolorum sed provident doloribus.</p>
@@ -87,7 +87,7 @@ export default function Home() {
                   </div>
                 </div>
                 </section> 
-                <section className='mb-5'>
+                {/* <section className='mb-5'>
                   
   <div className="container ">
     <h2 className="h1 text-center mb-5" data-aos="zoom-out" >MEET THE TEAM</h2>
@@ -169,7 +169,7 @@ export default function Home() {
 
 </div>
 
-                </section>
+                </section> */}
     </div>
     </Layout>
   )

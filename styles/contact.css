@@ -18,10 +18,12 @@
     height: 208px;
 
   }
+ .contact-us textarea::placeholder {
+    color: rgb(0, 0, 0);
+  }
   
   .contact-us input[type="text"], .contact-us textarea {
     background: rgba(15,24,41,0.90);
-    color: #000000;
   }
  
   .input-group {

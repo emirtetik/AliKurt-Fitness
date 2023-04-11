@@ -41,7 +41,7 @@ function write({data}) {
                     <div >
                 
                       <div className="row g-5" >
-                         
+{/*                          
            {data.map((write) => (
                        
                       <div  className=" col-lg-6 col-md-6  " key={write.id}>
@@ -50,8 +50,10 @@ function write({data}) {
       <div className='card '   id='blog-card' data-aos="zoom-in-down">
         <div className='fluid img-thumbnail img-card'>
 
+          <Link href={`write/${write.id}`} className="btn ">
                
            <Image src="/images/work.jpg" alt="blog image" className='card-img-top' width={590} height={350} />
+           </Link>
 
         </div>
         <p className="card-text m-2"><small className="text-muted fw-bold text-dark"><MdUpdate/>{write.date}</small></p>
@@ -66,7 +68,7 @@ function write({data}) {
                     </div>
                          </div>
                 
-                ))} 
+                ))}  */}
                           
                          </div>
                 

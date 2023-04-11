@@ -105,7 +105,7 @@ import {ImPriceTags} from "react-icons/im"
             </div>
           <div className="col-md-6 mx-auto ">
             <div className="form-group">
-              <textarea className="form-control" placeholder="Your Message..."></textarea>
+              <textarea className="form-control" placeholder="Aklında Ne Var..."></textarea>
             </div>
             <button id='btn1' className='m-3 float-end' >
             <span><BsFillSendCheckFill/> Satın Al</span>
@@ -189,7 +189,7 @@ import {ImPriceTags} from "react-icons/im"
             </div>
           <div className="col-md-6 mx-auto ">
             <div className="form-group">
-              <textarea className="form-control" placeholder="Your Message..."></textarea>
+              <textarea className="form-control" placeholder="Aklında Ne Var..."></textarea>
             </div>
             <button id='btn1' className='m-3 float-end' >
             <span><BsFillSendCheckFill/> Satın Al</span>
@@ -268,7 +268,7 @@ import {ImPriceTags} from "react-icons/im"
             </div>
           <div className="col-md-6 mx-auto ">
             <div className="form-group">
-              <textarea className="form-control" placeholder="Your Message..."></textarea>
+              <textarea className="form-control" placeholder="Aklında Ne Var..."></textarea>
             </div>
             <button id='btn1' className='m-3 float-end' >
             <span><BsFillSendCheckFill/> Satın Al</span>
@@ -283,7 +283,7 @@ import {ImPriceTags} from "react-icons/im"
 </Tabs>
 </Row>
 </Container>
-<section ref={testimonialDiv}>
+   {/* <section ref={testimonialDiv}>
                   
                   <div className="container ">
                     <h1 className="h1 text-center mb-5">MEET THE TEAM</h1>
@@ -366,7 +366,7 @@ import {ImPriceTags} from "react-icons/im"
                 
                 </div>
                 
-                                </section>
+                                </section> */}
 </div>
     </Layout>
   )
