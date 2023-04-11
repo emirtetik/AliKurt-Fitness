@@ -3,8 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-
+/* #bg-section{
+    background:#1c2a39e3 !important;
+} */
 #bg-section img{
    border-radius: 10px;
    box-shadow: 0 15px 35px rgb(0, 0, 0);
@@ -21,10 +22,11 @@
 }
 @media (min-width: 320px) and (max-width: 480px) {
     #bg-section img{
-         height: 400px;
+         height: 500px;
+         width: 300px;
     }
     #bg-section p{
-        width: 100%;
+        width: 90%;
     }
     
 }

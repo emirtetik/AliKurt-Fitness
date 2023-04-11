@@ -1,7 +1,9 @@
 import Layout from '@/layout/Layout'
 import React, {useEffect,useRef} from 'react';
 import { Container,Row,Tabs,Tab } from 'react-bootstrap';
-import {BsFillSendCheckFill,BsFillPersonCheckFill} from "react-icons/bs"
+import {BsFillSendCheckFill,BsFillPersonCheckFill,BsQuestionCircleFill} from "react-icons/bs"
+import {RiUserSearchFill} from "react-icons/ri"
+
 import {GiStrongMan} from "react-icons/gi"
 import {FaInfoCircle} from "react-icons/fa"
 import {TiTick} from "react-icons/ti"
@@ -36,12 +38,12 @@ import {ImPriceTags} from "react-icons/im"
        <Tabs defaultActiveKey={1} animation="true" className='nav-tabs  ' justify  variant='pills' >
   <Tab eventKey={1} title="Koçluk" className='nav-item '>
     <button onClick={() => smoothScroll(testimonialDiv.current)} id='button' className=' text-light fw-bold float-end'>Testimonial</button>
-   <h3 className=' lh-lg' ><BsFillPersonCheckFill size={25}/> Kimler İçin?</h3>
+   <h3 className=' lh-lg mb-3' ><RiUserSearchFill size={30}/> Kimler İçin?</h3>
    <p className='mb-3 m-2 lh-lg'>The coaching service is a great choice for people who want a full professional guidance at any stage of their calisthenics journey.
      We set up the goals, choose the best plan/approach, and tackle it on a daily basis.</p>
-     <h3 className='mb-3'><FaInfoCircle size={25} className=' m-1 lh-lg'/>Süreç Nasıl İşliyor?</h3>
+     <h3 className='mb-3'>  <BsQuestionCircleFill size={30} /> Süreç Nasıl İşliyor?</h3>
      <p className='mb-3 m-2 lh-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ab sed nemo earum tenetur inventore. Magni recusandae, facilis a odit architecto quod consequuntur minus repellat magnam ad sequi voluptate eum.</p>
-     <h3> <TiTick size={25} className='lh-lg mb-3'/> Tam olarak neler elde ediceksin?</h3>
+     <h3 className='lh-lg mb-3'> <TiTick size={35} /> Tam olarak neler elde ediceksin?</h3>
      <ul className='mb-3 lh-lg'>
       <li className='mb-2'>uzun vadeli yol haritası</li>
       <li className='mb-2'>uzun vadeli yol haritası</li>
@@ -51,7 +53,7 @@ import {ImPriceTags} from "react-icons/im"
       <li className='mb-2'>uzun vadeli yol haritası</li>
 
      </ul>
-     <h3 className='mb-3'><ImPriceTags size={25}/> Fiyatlandırma</h3>
+     <h3 className='mb-3'><ImPriceTags size={30}/> Fiyatlandırma</h3>
      <ul className='mb-3 lh-lg'>
       <li>1 ay (30 gün) - 220 dolar  <button className='m-1' id='button'>
       Başla

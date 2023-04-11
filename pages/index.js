@@ -27,7 +27,7 @@ export default function Home() {
       />
       <div className="home">
 
-      <Carousel fade>
+      <Carousel fade interval={3000}>
       <Carousel.Item>
         <img
         id='carousel-img'

@@ -38,16 +38,16 @@ export default function Header() {
         </Link>
         </li>
        
+        <li className="nav"><Link  className={router.pathname == "/coaching" ? "active" : ""} onClick={closeMenu}  href="/coaching">
+       Koçluk
+         </Link>
+        
+         </li>
         <li className="nav"><Link  className={router.pathname == "/write" ? "active" : ""} onClick={closeMenu}   href="/write">
          Yazılar
          </Link>
          </li>
   
-         <li className="nav"><Link  className={router.pathname == "/coaching" ? "active" : ""} onClick={closeMenu}  href="/coaching">
-       Koçluk
-         </Link>
-        
-         </li>
         
          <li className="nav"><Link  className={router.pathname == "/about" ? "active" : ""} onClick={closeMenu}   href="/about">
          Hakkımda

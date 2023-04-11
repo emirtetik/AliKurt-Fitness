@@ -27,14 +27,15 @@ function Footer() {
                KISAYOLLAR
               </h6>
               <p>
-                <Link href="/" className="text-reset">Ana sayfa</Link>
-              </p>
-              <p>
-                <Link href="/write" className="text-reset">Yazılar</Link>
+                <Link href="/" className="text-reset">ANA SAYFA</Link>
               </p>
               <p>
                 <Link href="/coaching" className="text-reset">Koçluk</Link>
               </p>
+              <p>
+                <Link href="/write" className="text-reset">Yazılar</Link>
+              </p>
+              
               <p>
                 <Link href="/about" className="text-reset">Hakkımda</Link>
               </p>
