@@ -6,6 +6,7 @@
   .contact-us .fields {
     background: rgba(2, 2, 2, 0.7);
     min-height: 300px;
+
     padding-top: 40px;
     padding-bottom: 40px;
   }
@@ -16,7 +17,7 @@
   
   .contact-us textarea {
     height: 208px;
-
+  /* border-radius: 0; */
   }
  .contact-us textarea::placeholder {
     color: rgb(0, 0, 0);
@@ -29,30 +30,46 @@
   .input-group {
     position: relative;
    }
-   
-   .input {
-   border-radius: 0;    
-   }
+
   
-   
+   .form-group textarea {
+    height: 208px;
+
+  }
+  .form-group textarea::placeholder {
+    color: rgb(0, 0, 0);
+  }
+  
+  .input-group input[type="text"], .form-group textarea {
+    background: #89cff08c;
+  }
+  .form-group  .input-group input{
+    background: #89cff08c;
+
+  }
    .user-label {
     position: absolute;
     left: 15px;
     transition: 150ms cubic-bezier(0.4,0,0.2,1);
    }
    
-
+   .input-group > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+    margin-left: -1px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
    
    .input:focus ~ label, input:valid ~ label {
     transform: translateY(-50%) scale(0.8);
     background-color:rgba(15,24,41,255);
     padding: 0 .6em;
     z-index: 10;
+    border-radius: 30px;
     color: #ffffff;
+
    }
    .form-select {
     background-color: #89cff08c;
-    border-radius: 0;
    }
 
 

@@ -6,9 +6,27 @@ import Image from 'next/image'
 import {BsFillSendCheckFill} from "react-icons/bs"
 import AOS from "aos"
 import "aos/dist/aos.css"
-function contact() {
 
-  
+function contact() {
+ 
+  // async function handleSubmit(e) {
+  //   e.preventDefault();
+  //   const data = new FormData(e.currentTarget);
+  //   try {
+  //     const response = await fetch('/api/contact', {
+  //       method: 'post',
+  //       body: new URLSearchParams(data),
+  //     });
+  //     if (!response.ok) {
+  //       throw new Error(`Invalid response: ${response.status}`);
+  //     }
+  //     alert('Bizimle iletişime geçtiğin için Teşekkür ederiz.Yakında size dönüş yapacağız!');
+  //   } catch (err) {
+  //     console.error(err);
+  //     alert("Formu gönderemiyoruz, daha sonra tekrar dener misiniz?");
+  //   }
+  // } 
+
   useEffect(() => {
     AOS.init({duration:1000});
   },[]);
@@ -25,16 +43,17 @@ function contact() {
       <div className="row">
       
         
-        <form  >
+        <form className=""  action="https://getform.io/f/7425f91a-f183-4b2f-a943-e091582d760e" method='POST'  >
           
           <div className="col-md-6 mx-auto d-flex m-3 gap-3">
           <div className="input-group ">
-  <input required="" type="text" name="name"  className="input form-control"/>
-  <label className="user-label">İsim</label>
+  <input required type="text" name="first" id="frm-first"    autoComplete="given-name" className="input form-control rounded-4"/>
+  <label className="user-label "   htmlFor="frm-first">İsim</label>
 </div>
+
 <div className="input-group ">
-  <input required="" type="text" name="surname"  className="input form-control"/>
-  <label className="user-label">Soyisim</label>
+  <input required type="text" name="surname"  id="frm-surname"  autoComplete="family-name" className="input form-control rounded-4"/>
+  <label className="user-label" htmlFor="frm-surname">Soyisim</label>
 </div>
 
             
@@ -42,26 +61,27 @@ function contact() {
            
           </div>
           <div className="form-group col-md-4 mx-auto mb-3">
-          <Form.Select   >
-            <option >Seçenekler</option>
-      <option value="1">Koçluk</option>
-      <option value="2">İşbirliği</option>
-      <option value="3">Diğer</option>
-      </Form.Select>
+          <div className="input-group">
+  <input required type="text" name="subject" id="frm-subject" autoComplete="subject"  className="input form-control rounded-4"/>
+  <label htmlFor="frm-subject" className="user-label ">Konu</label>
+
+</div>
       </div>
 
 
-          <div className="form-group col-md-6 mx-auto mb-3">
+          <div className="form-group col-md-6 mx-auto mb-0">
             <div className="input-group">
-  <input required="" type="text" name="email"  className="input form-control"/>
-  <label className="user-label">Email</label>
+  <input required type="email" name="email" id="frm-email" autoComplete="email"  className="input form-control rounded-4"/>
+  <label htmlFor="frm-email" className="user-label ">Email</label>
+
 </div>
             </div>
           <div className="col-md-6 mx-auto ">
             <div className="form-group">
-              <textarea className="form-control"  placeholder="Aklında ne var?"></textarea>
+            <label htmlFor="frm-message"></label>
+              <textarea  id="frm-message"  name="message" className="form-control rounded-4"  placeholder="Aklında ne var?"></textarea>
             </div>
-            <button className='mt-3' id='btn1'>
+            <button className='mt-3' id='btn1' type='submit'>
             <span><BsFillSendCheckFill/> Gönder</span>
 </button> 
           </div>

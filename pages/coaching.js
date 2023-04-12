@@ -37,97 +37,13 @@ import {ImPriceTags} from "react-icons/im"
      data-aos-easing="ease-in-sine">
        <Tabs defaultActiveKey={1} animation="true" className='nav-tabs  ' justify  variant='pills' >
   <Tab eventKey={1} title="Koçluk" className='nav-item '>
-    <button onClick={() => smoothScroll(testimonialDiv.current)} id='button' className=' text-light fw-bold float-end'>Testimonial</button>
+    <button onClick={() => smoothScroll(testimonialDiv.current)} id='button' className=' text-white fw-bold float-end'>Testimonial</button>
    <h3 className=' lh-lg mb-3' ><RiUserSearchFill size={30}/> Kimler İçin?</h3>
    <p className='mb-3 m-2 lh-lg'>The coaching service is a great choice for people who want a full professional guidance at any stage of their calisthenics journey.
      We set up the goals, choose the best plan/approach, and tackle it on a daily basis.</p>
      <h3 className='mb-3'>  <BsQuestionCircleFill size={30} /> Süreç Nasıl İşliyor?</h3>
      <p className='mb-3 m-2 lh-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ab sed nemo earum tenetur inventore. Magni recusandae, facilis a odit architecto quod consequuntur minus repellat magnam ad sequi voluptate eum.</p>
-     <h3 className='lh-lg mb-3'> <TiTick size={35} /> Tam olarak neler elde ediceksin?</h3>
-     <ul className='mb-3 lh-lg'>
-      <li className='mb-2'>uzun vadeli yol haritası</li>
-      <li className='mb-2'>uzun vadeli yol haritası</li>
-
-      <li className='mb-2'>uzun vadeli yol haritası</li>
-
-      <li className='mb-2'>uzun vadeli yol haritası</li>
-
-     </ul>
-     <h3 className='mb-3'><ImPriceTags size={30}/> Fiyatlandırma</h3>
-     <ul className='mb-3 lh-lg'>
-      <li>1 ay (30 gün) - 220 dolar  <button className='m-1' id='button'>
-      Başla
-</button>  
-      </li> 
-      <li>3 ay (90 gün) - 420 dolar   <button className='m-2' id='button'>
-  Başla
-</button>  </li>
-      <li>6 ay (180 gün) - 520 dolar    
-      <button  id='button' className='m-2'>
-      Başla
-</button> 
- </li>
-     </ul>
-     <div className="row border border-light rounded-5  m-3">
-        <h2 className='text-center mt-3'>Bize Ulaşın</h2> 
-        <p className="text-center">bizimle iletişime geçmekten çekinmeyin</p>
-
-        
-        <form  data-aos="zoom-in">
-          
-          <div className="col-md-6 mx-auto d-flex m-3 gap-3">
-
-          <div className="input-group">
-  <input required="" type="text" name="name"  className="input form-control"/>
-  <label htmlFor="first" className="user-label">İsim</label>
-</div>
-<div className="input-group">
-  <input required="" type="text" name="surname"  className="input form-control"/>
-  <label htmlFor="last" className="user-label">Soyisim</label>
-</div>
-   
-          </div>
-
-          <div className='col-md-6 mx-auto d-flex m-3 gap-3'>
-          <div className="input-group">
-  <input required="" type="text" name="age"  className="input form-control"/>
-  <label htmlFor="years" className="user-label">Yaş</label>
-</div>
-<div className="input-group">
-  <input required="" type="text" name="number"  className="input form-control"/>
-  <label htmlFor="roll" className="user-label">Telefon No</label>
-</div>
-          </div>
-
-          <div className="form-group col-md-6 mx-auto mb-3">
-            <div className="input-group">
-  <input required="" type="text" name="email" className="input form-control"/>
-  <label htmlFor="mail" className="user-label">Email</label>
-</div>
-            </div>
-          <div className="col-md-6 mx-auto ">
-            <div className="form-group">
-              <textarea className="form-control" placeholder="Aklında Ne Var..."></textarea>
-            </div>
-            <button id='btn1' className='m-3 float-end' >
-            <span><BsFillSendCheckFill/> Satın Al</span>
-</button>  
-       
-          </div>
-
-        </form>
-        
-      </div>
-  </Tab>
-  <Tab eventKey={2} title="Programlama">
-  <button onClick={() => smoothScroll(testimonialDiv.current)} id='button' className=' text-light fw-bold float-end'>Testimonial</button>
-
-  <h3 className=' lh-lg' ><BsFillPersonCheckFill size={25}/> Kimler İçin?</h3>
-   <p className='mb-3 m-2 lh-lg'>The coaching service is a great choice for people who want a full professional guidance at any stage of their calisthenics journey.
-     We set up the goals, choose the best plan/approach, and tackle it on a daily basis.</p>
-     <h3 className='mb-3'><FaInfoCircle size={25} className=' m-1 lh-lg'/>Süreç Nasıl İşliyor?</h3>
-     <p className='mb-3 m-2 lh-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ab sed nemo earum tenetur inventore. Magni recusandae, facilis a odit architecto quod consequuntur minus repellat magnam ad sequi voluptate eum.</p>
-     <h3> <TiTick size={25} className='lh-lg mb-3'/> Tam olarak neler elde ediceksin?</h3>
+     <h3 className='lh-lg mb-2'> <TiTick size={30} /> Tam olarak neler elde ediceksin?</h3>
      <ul className='mb-3 lh-lg'>
       <li className='mb-2'>uzun vadeli yol haritası</li>
       <li className='mb-2'>uzun vadeli yol haritası</li>
@@ -157,16 +73,16 @@ import {ImPriceTags} from "react-icons/im"
         <p className="text-center">bizimle iletişime geçmekten çekinmeyin</p>
 
         
-        <form  data-aos="zoom-in">
+        <form  data-aos="zoom-in" action='https://getform.io/f/cd1e2a05-fa44-4642-9811-b742a475faec' method='POST'>
           
           <div className="col-md-6 mx-auto d-flex m-3 gap-3">
 
           <div className="input-group">
-  <input required="" type="text" name="name"  className="input form-control"/>
+  <input required="" type="text" name="name"  className="input form-control rounded-4"/>
   <label htmlFor="first" className="user-label">İsim</label>
 </div>
 <div className="input-group">
-  <input required="" type="text" name="surname"  className="input form-control"/>
+  <input required="" type="text" name="surname"  className="input form-control rounded-4"/>
   <label htmlFor="last" className="user-label">Soyisim</label>
 </div>
    
@@ -174,24 +90,108 @@ import {ImPriceTags} from "react-icons/im"
 
           <div className='col-md-6 mx-auto d-flex m-3 gap-3'>
           <div className="input-group">
-  <input required="" type="text" name="age"  className="input form-control"/>
+  <input required="" type="text" name="age"  className="input form-control rounded-4"/>
   <label htmlFor="years" className="user-label">Yaş</label>
 </div>
 <div className="input-group">
-  <input required="" type="text" name="number"  className="input form-control"/>
+  <input required="" type="text" name="number"  className="input form-control rounded-4"/>
   <label htmlFor="roll" className="user-label">Telefon No</label>
 </div>
           </div>
 
           <div className="form-group col-md-6 mx-auto mb-3">
             <div className="input-group">
-  <input required="" type="text" name="email" className="input form-control"/>
+  <input required="" type="text" name="email" className="input form-control rounded-4"/>
+  <label htmlFor="mail" className="user-label">Email</label>
+</div>
+            </div>
+          <div className="col-md-6 mx-auto ">
+          <div className="form-group">
+            <label htmlFor="frm-message"></label>
+              <textarea  id="frm-message"  name="message" className="form-control rounded-4"  placeholder="Aklında ne var?"></textarea>
+            </div>
+            <button id='btn1' className='m-3 float-end' type='submit' >
+            <span><BsFillSendCheckFill/> Satın Al</span>
+</button>  
+       
+          </div>
+
+        </form>
+        
+      </div>
+  </Tab>
+  <Tab eventKey={2} title="Programlama">
+  <button onClick={() => smoothScroll(testimonialDiv.current)} id='button' className=' text-light fw-bold float-end'>Testimonial</button>
+  <h3 className=' lh-lg mb-3' ><RiUserSearchFill size={30}/> Kimler İçin?</h3>
+   <p className='mb-3 m-2 lh-lg'>The coaching service is a great choice for people who want a full professional guidance at any stage of their calisthenics journey.
+     We set up the goals, choose the best plan/approach, and tackle it on a daily basis.</p>
+     <h3 className='mb-3'>  <BsQuestionCircleFill size={30} /> Süreç Nasıl İşliyor?</h3>
+     <p className='mb-3 m-2 lh-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ab sed nemo earum tenetur inventore. Magni recusandae, facilis a odit architecto quod consequuntur minus repellat magnam ad sequi voluptate eum.</p>
+     <h3 className='lh-lg mb-2'> <TiTick size={30} /> Tam olarak neler elde ediceksin?</h3>
+     <ul className='mb-3 lh-lg'>
+      <li className='mb-2'>uzun vadeli yol haritası</li>
+      <li className='mb-2'>uzun vadeli yol haritası</li>
+
+      <li className='mb-2'>uzun vadeli yol haritası</li>
+
+      <li className='mb-2'>uzun vadeli yol haritası</li>
+
+     </ul>
+     <h3 className='mb-3'><ImPriceTags size={25}/> Fiyatlandırma</h3>
+     <ul className='mb-3 lh-lg'>
+      <li>1 ay (30 gün) - 220 dolar  <button className='m-1' id='button'>
+      Başla
+</button>  
+      </li> 
+      <li>3 ay (90 gün) - 420 dolar   <button className='m-2' id='button'>
+  Başla
+</button>  </li>
+      <li>6 ay (180 gün) - 520 dolar    
+      <button  id='button' className='m-2'>
+      Başla
+</button> 
+ </li>
+     </ul>
+     <div className="row border border-light rounded-5  m-3">
+        <h2 className='text-center mt-3'>Bize Ulaşın</h2> 
+        <p className="text-center">bizimle iletişime geçmekten çekinmeyin</p>
+
+        
+        <form  data-aos="zoom-in" action='https://getform.io/f/cd1e2a05-fa44-4642-9811-b742a475faec' method='POST'>
+          
+          <div className="col-md-6 mx-auto d-flex m-3 gap-3">
+
+          <div className="input-group">
+  <input required="" type="text" name="name"  className="input form-control rounded-4"/>
+  <label htmlFor="first" className="user-label">İsim</label>
+</div>
+<div className="input-group">
+  <input required="" type="text" name="surname"  className="input form-control rounded-4"/>
+  <label htmlFor="last" className="user-label">Soyisim</label>
+</div>
+   
+          </div>
+
+          <div className='col-md-6 mx-auto d-flex m-3 gap-3'>
+          <div className="input-group">
+  <input required="" type="text" name="age"  className="input form-control rounded-4"/>
+  <label htmlFor="years" className="user-label">Yaş</label>
+</div>
+<div className="input-group">
+  <input required="" type="text" name="number"  className="input form-control rounded-4"/>
+  <label htmlFor="roll" className="user-label">Telefon No</label>
+</div>
+          </div>
+
+          <div className="form-group col-md-6 mx-auto mb-3">
+            <div className="input-group">
+  <input required="" type="text" name="email" className="input form-control rounded-4"/>
   <label htmlFor="mail" className="user-label">Email</label>
 </div>
             </div>
           <div className="col-md-6 mx-auto ">
             <div className="form-group">
-              <textarea className="form-control" placeholder="Aklında Ne Var..."></textarea>
+              <textarea className="form-control rounded-4" placeholder="Aklında Ne Var..."></textarea>
             </div>
             <button id='btn1' className='m-3 float-end' >
             <span><BsFillSendCheckFill/> Satın Al</span>
@@ -201,18 +201,17 @@ import {ImPriceTags} from "react-icons/im"
 
         </form>
         
-        
       </div>
   </Tab>
   <Tab eventKey={3} title="Danışma" >
   <button onClick={() => smoothScroll(testimonialDiv.current)} id='button' className=' text-light fw-bold float-end'>Testimonial</button>
 
-  <h3 className=' lh-lg' ><BsFillPersonCheckFill size={25}/> Kimler İçin?</h3>
+  <h3 className=' lh-lg' ><RiUserSearchFill size={30}/> Kimler İçin?</h3>
    <p className='mb-3 m-2 lh-lg'>The coaching service is a great choice for people who want a full professional guidance at any stage of their calisthenics journey.
      We set up the goals, choose the best plan/approach, and tackle it on a daily basis.</p>
-     <h3 className='mb-3'><FaInfoCircle size={25} className=' m-1 lh-lg'/>Süreç Nasıl İşliyor?</h3>
+     <h3 className='mb-3 '><BsQuestionCircleFill size={30}  className='m-2'/>Süreç Nasıl İşliyor?</h3>
      <p className='mb-3 m-2 lh-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ab sed nemo earum tenetur inventore. Magni recusandae, facilis a odit architecto quod consequuntur minus repellat magnam ad sequi voluptate eum.</p>
-     <h3> <TiTick size={25} className='lh-lg mb-3'/> Tam olarak neler elde ediceksin?</h3>
+     <h3 className='mb-3 lh-lg'> <TiTick size={30} /> Tam olarak neler elde ediceksin?</h3>
      <ul className='mb-3 lh-lg'>
       <li className='mb-2'>uzun vadeli yol haritası</li>
       <li className='mb-2'>uzun vadeli yol haritası</li>
@@ -236,16 +235,16 @@ import {ImPriceTags} from "react-icons/im"
         <p className="text-center">bizimle iletişime geçmekten çekinmeyin</p>
 
         
-        <form  data-aos="zoom-in">
+        <form  data-aos="zoom-in" action='https://getform.io/f/cd1e2a05-fa44-4642-9811-b742a475faec' method='POST'>
           
           <div className="col-md-6 mx-auto d-flex m-3 gap-3">
 
           <div className="input-group">
-  <input required="" type="text" name="name"  className="input form-control"/>
+  <input required="" type="text" name="name"  className="input form-control rounded-4"/>
   <label htmlFor="first" className="user-label">İsim</label>
 </div>
 <div className="input-group">
-  <input required="" type="text" name="surname"  className="input form-control"/>
+  <input required="" type="text" name="surname"  className="input form-control rounded-4"/>
   <label htmlFor="last" className="user-label">Soyisim</label>
 </div>
    
@@ -253,33 +252,32 @@ import {ImPriceTags} from "react-icons/im"
 
           <div className='col-md-6 mx-auto d-flex m-3 gap-3'>
           <div className="input-group">
-  <input required="" type="text" name="age"  className="input form-control"/>
+  <input required="" type="text" name="age"  className="input form-control rounded-4"/>
   <label htmlFor="years" className="user-label">Yaş</label>
 </div>
 <div className="input-group">
-  <input required="" type="text" name="number"  className="input form-control"/>
+  <input required="" type="text" name="number"  className="input form-control rounded-4"/>
   <label htmlFor="roll" className="user-label">Telefon No</label>
 </div>
           </div>
 
           <div className="form-group col-md-6 mx-auto mb-3">
             <div className="input-group">
-  <input required="" type="text" name="email" className="input form-control"/>
+  <input required="" type="text" name="email" className="input form-control rounded-4"/>
   <label htmlFor="mail" className="user-label">Email</label>
 </div>
             </div>
           <div className="col-md-6 mx-auto ">
             <div className="form-group">
-              <textarea className="form-control" placeholder="Aklında Ne Var..."></textarea>
+              <textarea className="form-control rounded-4" placeholder="Aklında Ne Var..."></textarea>
             </div>
-            <button id='btn1' className='m-3 float-end' >
+            <button id='btn1' className='m-3 float-end' type='submit' >
             <span><BsFillSendCheckFill/> Satın Al</span>
 </button>  
        
           </div>
 
         </form>
-        
       </div>
   </Tab>
 </Tabs>
