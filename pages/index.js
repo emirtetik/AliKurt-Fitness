@@ -25,7 +25,7 @@ export default function Home() {
       description={"Emir Tetik Frontend Developer Portfolio, web teknolojileri kullanıp üreten bir yazılımcı.I am a Front End Web Developer creating Front End of Websites and Web Applications."}
       
       />
-      <div className="home">
+      <div className="home ">
 
       <Carousel fade interval={3000}>
       <Carousel.Item>
@@ -79,7 +79,7 @@ export default function Home() {
                   <div className=' h3 w-75 mx-auto p-3   ' data-aos="zoom-out">
                     <p  className='  mx-auto'>Koçluk ve diğer hizmetler genel fitness, direnç antremanlarının birçok dalını içermektedir.</p>
                     <ul className=' py-4 d-grid text-start justify-content-center'>
-                      <li><TiTick size={40} />Streetlifting(Pull up, Dips, Squat , Muscle Up 1 Rm)</li>
+                      <li><TiTick size={40} />Streetlifting (Dips,Push Up, Squat , Muscle Up 1 Rm)</li>
                       <li><TiTick size={40} />Esnetik Fizik</li>
                       <li><TiTick size={40} />Calisthenics Skills (Muscle Up, F.Lever, Handstand Push Up vb.)</li>
                       <li><TiTick size={40} />Powerlifting</li>

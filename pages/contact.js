@@ -62,8 +62,15 @@ function contact() {
           </div>
           <div className="form-group col-md-4 mx-auto mb-3">
           <div className="input-group">
-  <input required type="text" name="subject" id="frm-subject" autoComplete="subject"  className="input form-control rounded-4"/>
-  <label htmlFor="frm-subject" className="user-label ">Konu</label>
+  <label htmlFor="seçenekler" className='user-label '></label> 
+
+          <Form.Select id='koçluk' name='seçenekler'  aria-label="Default select example"  className="text-dark fw-bold input form-control rounded-4 form-select ">
+      <option  >Seçenekler</option>
+      <option value="işbirliği" className='text-dark fw-bold'>İşbirliği</option>
+      <option value="koçluk" className='text-dark fw-bold'>Koçluk</option>
+      <option value="diğer" className='text-dark fw-bold'>Diğer</option>
+
+    </Form.Select>
 
 </div>
       </div>

@@ -47,6 +47,10 @@
     background: #89cff08c;
 
   }
+  .form-group  .input-group select{
+    background: #89cff08c;
+
+  }
    .user-label {
     position: absolute;
     left: 15px;
