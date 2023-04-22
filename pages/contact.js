@@ -1,4 +1,5 @@
 import Layout from '@/layout/Layout'
+import Meta from '@/components/Meta';
 import React,{useEffect} from 'react'
 import Form from 'react-bootstrap/Form';
 import {AiFillInstagram} from "react-icons/ai"
@@ -33,6 +34,14 @@ function contact() {
 
   return (
     <Layout>
+
+<Meta 
+      title={"İletişim"}
+      keywords={""}
+      description={""}
+      
+      />
+
 <section className="contact-us text-center ">
   <div className="fields">
     <div className="container " data-aos="fade-left"
@@ -43,7 +52,7 @@ function contact() {
       <div className="row">
       
         
-        <form className=""  action="https://getform.io/f/7425f91a-f183-4b2f-a943-e091582d760e" method='POST'  >
+        <form className=""  action='https://getform.io/f/cd1e2a05-fa44-4642-9811-b742a475faec' method='POST'  >
           
           <div className="col-md-6 mx-auto d-flex m-3 gap-3">
           <div className="input-group ">

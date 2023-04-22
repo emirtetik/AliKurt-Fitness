@@ -1,4 +1,5 @@
 import Layout from '@/layout/Layout'
+import Meta from '@/components/Meta';
 import React, {useEffect,useRef} from 'react';
 import { Container,Row,Tabs,Tab } from 'react-bootstrap';
 import {BsFillSendCheckFill,BsFillPersonCheckFill,BsQuestionCircleFill} from "react-icons/bs"
@@ -30,6 +31,15 @@ import {ImPriceTags} from "react-icons/im"
 
   return (
     <Layout>
+
+
+<Meta 
+      title={"Koçluk"}
+      keywords={""}
+      description={""}
+      
+      />
+
       <div className='w-100 ' id='container'>
       < Container   >
         <Row className='clearfix justify-content-center  fields' id='row' data-aos="fade-left"
@@ -41,7 +51,7 @@ import {ImPriceTags} from "react-icons/im"
    <h3 className=' lh-lg mb-3' ><RiUserSearchFill size={30}/> Kimler İçin?</h3>
    <p className='mb-3 m-2 lh-lg w-75'>Koçluk hizmeti antrenman yolculuğunun herhangi bir aşamasında tam profesyonel rehberlik isteyen kişiler için mükemmel bir seçimdir. Kısa/uzun vadeli hedefleri belirliyoruz, en iyi planı seçiyoruz ve bunları günlük olarak ele alıyoruz.</p>
      <h3 className='mb-3'>  <BsQuestionCircleFill size={30} /> Süreç Nasıl İşliyor?</h3>
-     <p className='mb-3 m-2 lh-lg w-75'>  Satın alma işlemini gerçekleştirdikten sonra  24 saat içinde onay içeren bir e-posta alacaksınız. Daha sonra 30 dakikalık görüntülü görüşmede tüm detayları konuşacağız ve ardından planınız üzerinde çalışmaya başlayacağım.</p>
+     <p className='mb-3 m-2 lh-lg w-75'>Satın alma işlemini gerçekleştirdikten sonra 24 saat içinde onay içeren bir e-posta alacaksınız. Daha sonra 30 dakikalık görüntülü görüşmede tüm detayları konuşacağız ve ardından planınız üzerinde çalışmaya başlayacağım.</p>
      <h3 className='lh-lg mb-2'> <TiTick size={30} /> Tam olarak neler elde ediceksin?</h3>
      <ul className='mb-3 lh-lg'>
       <li className='mb-2'>	Hedefler doğrultusunda uzun vadeli yol haritası</li>
@@ -72,7 +82,7 @@ import {ImPriceTags} from "react-icons/im"
         <p className="text-center">bizimle iletişime geçmekten çekinmeyin</p>
 
         
-        <form  data-aos="zoom-in" action='https://getform.io/f/cd1e2a05-fa44-4642-9811-b742a475faec' method='POST'>
+        <form  data-aos="zoom-in"  action="https://getform.io/f/7425f91a-f183-4b2f-a943-e091582d760e" method='POST'>
           
           <div className="col-md-6 mx-auto d-flex m-3 gap-3">
 
@@ -152,7 +162,7 @@ import {ImPriceTags} from "react-icons/im"
         <p className="text-center">bizimle iletişime geçmekten çekinmeyin</p>
 
         
-        <form  data-aos="zoom-in" action='https://getform.io/f/cd1e2a05-fa44-4642-9811-b742a475faec' method='POST'>
+        <form  data-aos="zoom-in"  action="https://getform.io/f/7425f91a-f183-4b2f-a943-e091582d760e" method='POST'>
           
           <div className="col-md-6 mx-auto d-flex m-3 gap-3">
 
@@ -227,7 +237,7 @@ import {ImPriceTags} from "react-icons/im"
         <p className="text-center">bizimle iletişime geçmekten çekinmeyin</p>
 
         
-        <form  data-aos="zoom-in" action='https://getform.io/f/cd1e2a05-fa44-4642-9811-b742a475faec' method='POST'>
+        <form  data-aos="zoom-in"  action="https://getform.io/f/7425f91a-f183-4b2f-a943-e091582d760e" method='POST'>
           
           <div className="col-md-6 mx-auto d-flex m-3 gap-3">
 
@@ -278,7 +288,7 @@ import {ImPriceTags} from "react-icons/im"
     <section ref={testimonialDiv}>
                   
                   <div className="container ">
-                    <h1 className="h1 text-center mb-5">MEET THE TEAM</h1>
+                    <h2 className="h1 text-center mb-5">MEET THE TEAM</h2>
                 
                 
                     <div >
@@ -298,7 +308,7 @@ import {ImPriceTags} from "react-icons/im"
                          </div>
                 
                           
-                         <div className=" col-lg-6 col-md-6 " data-aos="zoom-in">
+                         <div className=" col-lg-6 col-md-6 mb-5" data-aos="zoom-in">
                 <div className='card testimonial'>
                                <div className='testimonial-card  card-body'>
                                <Image src="/images/nodejs5.jpg" alt="profile" className='rounded-circle' width={120} height={120}/>

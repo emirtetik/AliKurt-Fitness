@@ -21,13 +21,13 @@ export default function Home() {
     <Layout>
       <Meta 
       title={"AliKurt"}
-      keywords={"Html,Css,JavaScript,React,Nextjs,Frontend developer,developer,portfolio,Web "}
-      description={"Emir Tetik Frontend Developer Portfolio, web teknolojileri kullanıp üreten bir yazılımcı.I am a Front End Web Developer creating Front End of Websites and Web Applications."}
+      keywords={""}
+      description={""}
       
       />
       <div className="home ">
 
-      <Carousel fade interval={3000}>
+      <Carousel fade interval={3000} >
       <Carousel.Item>
         <img
         id='carousel-img'
@@ -37,7 +37,7 @@ export default function Home() {
         />
         <Carousel.Caption>
         <h3 className="text-center  font-weight-bold h2">Performans! <hr /></h3>
-        <p className="text-center ">Jimnastikçik gibi vücudunu kontrol et.</p>
+        <p className="text-center ">Vücudunu kontrol et.  </p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -49,8 +49,8 @@ export default function Home() {
         />
 
         <Carousel.Caption>
-        <h3 className="text-center h1">ESNETİK!<hr /></h3>
-        <p className="text-center">Vucüt geliştirmecisi gibi görün.</p>
+        <h3 className="text-center h1">ESTETİK!<hr /></h3>
+        <p className="text-center">Kas kütleni  arttır. </p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -63,7 +63,7 @@ export default function Home() {
 
         <Carousel.Caption>
         <h3 className="text-center h1">GÜÇ<hr /></h3>
-        <p className="text-center ">Kuvvet sporcusu gibi ağırlık kaldır.</p>
+        <p className="text-center ">Ağır kiloları hareket ettir</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
@@ -77,26 +77,28 @@ export default function Home() {
                   <h2 className='h1 ' data-aos="zoom-out">Hoş Geldiniz!</h2>
                 </div>
                   <div className=' h3 w-75 mx-auto p-3   ' data-aos="zoom-out">
-                    <p  className='  mx-auto'>Koçluk ve diğer hizmetler genel fitness, direnç antremanlarının birçok dalını içermektedir.</p>
+                    <p  className='  mx-auto'>Koçluk hizmetlerim genel olarak  fitness, beslenme ve direnç antrenmanlarının birçok dalını içermektedir.</p>
                     <ul className=' py-4 d-grid text-start justify-content-center'>
-                      <li><TiTick size={40} />Streetlifting (Dips,Push Up, Squat , Muscle Up 1 Rm)</li>
+                      <li><TiTick size={40} />	Streetlifting (Barfiks, Dips, Squat , Muscle Up 1 tekrar maksimum)</li>
                       <li><TiTick size={40} />Esnetik Fizik</li>
-                      <li><TiTick size={40} />Calisthenics Skills (Muscle Up, F.Lever, Handstand Push Up vb.)</li>
+                      <li><TiTick size={40} />	Calisthenics Skills ( Muscle Up , Front Lever, Handstand Push Up vb)</li>
                       <li><TiTick size={40} />Powerlifting</li>
                     </ul>
-                    <p className='  mx-auto'>Amacınız yukarıdakilerden birinde, birkaçında veya tümünde çok iyi olmak olabilir, bunun için burdayım!</p>
+                    <p className='  mx-auto'>Amacınız yukarıdakilerden birinde, birkaçında veya tümünde çok iyi olmak olabilir.  Bunun için burdayım!</p>
                   </div>
                 </div>
                 </section> 
-                <section className='mb-5'>
+                
+                <section className=' mt-5 w-100'>
                   
-  <div className="container ">
-    <h2 className="h1 text-center mb-5" data-aos="zoom-out" >MEET THE TEAM</h2>
+  
 
+    <div className="container ">
+    <h2 className="h1 text-center mb-5"  >MEET THE TEAM</h2>
 
-    <div >
+    <div className='w-100'>
 
-      <div className="row  justify-content-center"  >
+      <div className="row  "  data-aos="zoom-in" >
          
        
       <div className=" col-lg-6 col-md-6  mb-5" >

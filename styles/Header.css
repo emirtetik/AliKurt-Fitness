@@ -56,7 +56,8 @@ nav{
   position: relative;
   padding: 14px;
   letter-spacing: 1px;
-  font-weight:lighter;
+  font-weight:bold;
+  font-size: 0.8em !important;
  } 
 nav .active{
 color:#0d6efd;

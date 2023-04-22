@@ -1,4 +1,5 @@
 import React,{useEffect} from 'react'
+import Meta from '@/components/Meta'
 import Layout from '@/layout/Layout'
 import Link from 'next/link'
 import { useRouter } from 'next/router.js'
@@ -18,6 +19,15 @@ function write({data}) {
 
   return (
     <Layout>
+
+
+<Meta 
+      title={"Yazılar"}
+      keywords={""}
+      description={""}
+      
+      />
+
       <div>
       <div id='write' className='w-100  '>
      

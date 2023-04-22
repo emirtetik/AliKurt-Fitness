@@ -1,35 +1,30 @@
 import Layout from '@/layout/Layout'
 import React from 'react'
 import Accordion from 'react-bootstrap/Accordion';
+import Meta from '@/components/Meta';
 function faqs() {
   return (
     <Layout>
+       <Meta 
+      title={"SSS"}
+      keywords={""}
+      description={""}
+      
+      />
       <div className=' mx-auto items-center text-center'>
           <h2 className='items-center mt-5 mx-auto fw-bold'>Sıkça Sorulan Sorular</h2>
       </div>
     <Accordion defaultActiveKey="0" flush className='mt-5 p-3' >
       <Accordion.Item eventKey="0" className='item'>
-        <Accordion.Header>Soru 1</Accordion.Header>
+        <Accordion.Header>Koçluk Geri Ödemesi ve Duraklatma Hakkında</Accordion.Header>
         <Accordion.Body>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+        Bir danışmanlık randevusu ayarladınız ve ücretini ödediniz, ancak daha sonra iptal etmeye karar verirseniz, bana bu konuda bilgi verdikten sonra birkaç gün içinde geri ödeme alırsınız. Koçluk ve programlama hizmetim için, paketi satın aldıysanız ve işbirliğimize zaten başladıysak (antrenmanınızın ilk günü) ilk ay için geri ödeme yapmayacağım çünkü bu noktaya kadar ben zaten çok fazla zaman ve çaba harcamış. Bununla birlikte, herhangi bir dış kısıtlama nedeniyle katılamayacağınız ortaya çıkarsa, önceki ayların fiyatının yalnızca bu dönem için normal fiyatla eşleşecek şekilde artması koşuluyla, koçluk paketinin sonraki aylarını iade etme seçeneği vardır. Ayrıca koçluğu, geri dönebileceğiniz zamana kadar duraklatma seçeneği de vardır. Sadece bana haber verin ve onunla başa çıkmak için en iyi seçeneği beraber bulalım.
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="1" className='item'>
-        <Accordion.Header>Soru 2</Accordion.Header>
+        <Accordion.Header>Koçluk için herhangi bir gereklilik var mı?</Accordion.Header>
         <Accordion.Body>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+        Genel kuvvet sporları (powerlifting,streetlifting), calisthenics veya vücut geliştirme için koçluk almakla ilgilenen kişiyseniz, hizmete katılmanın tek şartı, satın aldıktan sonra size göndereceğim sözleşmeye kaydolmaktır. Nadir durumlarda birine koçluk yapmayı reddediyorum çünkü belirli bir konuda onlara benden çok daha fazla yardımcı olacak insanlar olduğuna inanıyorum (örneğin: uzun mesafe koşucusu ya da halter sporcusu gibi). Örnek olarak hem iyi bir kondisyon hem de genel olarak güçlenmek isteyen bir kişi için ise bu spefisik konularda elimden geleni sonuna kadar yaparım.
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="2" className='item'>

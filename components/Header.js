@@ -34,7 +34,7 @@ export default function Header() {
   
          <li className="nav">
           <Link  className={router.pathname == "/" ? "active" : ""} onClick={closeMenu}   href="/">
-        ANA SAYFA
+        Ana Sayfa
         </Link>
         </li>
        

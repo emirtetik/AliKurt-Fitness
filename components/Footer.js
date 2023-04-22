@@ -27,7 +27,7 @@ function Footer() {
                KISAYOLLAR
               </h6>
               <p>
-                <Link href="/" className="text-reset">ANA SAYFA</Link>
+                <Link href="/" className="text-reset">Ana Sayfa</Link>
               </p>
               <p>
                 <Link href="/coaching" className="text-reset">Koçluk</Link>

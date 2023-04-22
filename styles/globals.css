@@ -18,21 +18,23 @@
 }
 a{
     text-decoration: none;
-    color:whitesmoke;
+    color:white;
 }
 .py-4{
     list-style: none;
 }
 li{
-    font-family: Exo, Helvetica,Arial, sans-serif;
-    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
 }
 h2{
     font-family: Exo, Helvetica,Arial, sans-serif;
 }
 p{
-    font-family: Exo, Helvetica,Arial, sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px !important;
 }
+
 
 ::-webkit-scrollbar{
 width: 6px;
