@@ -81,7 +81,7 @@ export default function Home() {
                     <ul className=' py-4 d-grid text-start justify-content-center'>
                       <li><TiTick size={40} />	Streetlifting (Barfiks, Dips, Squat , Muscle Up 1 tekrar maksimum)</li>
                       <li><TiTick size={40} />Esnetik Fizik</li>
-                      <li><TiTick size={40} />	Calisthenics Skills ( Muscle Up , Front Lever, Handstand Push Up vb)</li>
+                      <li><TiTick size={40} />	Calisthenics Skills ( Muscle Up , Front Lever, Handstand Push Up vb.)</li>
                       <li><TiTick size={40} />Powerlifting</li>
                     </ul>
                     <p className='  mx-auto'>Amacınız yukarıdakilerden birinde, birkaçında veya tümünde çok iyi olmak olabilir.  Bunun için burdayım!</p>
