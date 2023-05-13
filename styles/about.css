@@ -11,7 +11,7 @@
    
 }
 #bg-section{
-    background-color:rgba(15,24,41,255);
+    background-color:   var(--primary-color);
     height: auto;
     width: 100%;
     /* border-bottom: 2px solid wheat; */

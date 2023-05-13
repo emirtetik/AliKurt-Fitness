@@ -1,7 +1,7 @@
 
 #write{
     width: 100%;
-    background-color:rgba(15,24,41,255);
+    background-color:var(--primary-color);
     height: 50vh; 
 }
 #write #text{
@@ -10,7 +10,7 @@
     position: absolute;
 } 
 .img-card{
-    background-color:rgba(15,24,41,255);
+    background-color:var(--primary-color);
     border-radius: 10px;
 }
 .img-card img{

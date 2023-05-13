@@ -37,7 +37,7 @@ function write({data}) {
      data-aos-duration="2000">
        <h1 className='text-center h1 text-light fw-bold '>Blogs - Tüm Yazılar</h1>
 
-      <p className='h5 mx-auto text-light w-50 mt-3 lh-base'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, explicabo fugiat! Sed accusamus vero quis aspernatur excepturi dolorem, expedita iusto nam doloremque maxime eaque. Nesciunt mollitia repudiandae corrupti quasi numquam.</p>
+      <p className='h5 mx-auto text-light w-75 mt-3 lh-base'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, explicabo fugiat! Sed accusamus vero quis aspernatur excepturi dolorem, expedita iusto nam doloremque maxime eaque. Nesciunt mollitia repudiandae corrupti quasi numquam.</p>
        </div>
       </div>
       </div>
@@ -71,7 +71,7 @@ function write({data}) {
           <div className=' card-body'>
           <Link href={`write/${write.id}`} className="btn ">
 
-      <h5 id='btn-links' className="card-title   h4 fw-bold ">{write.header}</h5>
+      <h5 id='btn-links' className="card-title   h4 fw-bold text-left">{write.header}</h5>
         </Link>
                                  
                  </div>

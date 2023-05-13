@@ -48,9 +48,15 @@ export  const  data = [
 },
 {
     "id":3,
-    "date" :" 9 Nisan 2023 "
- 
-   
+    "date" :" 9 Nisan 2023 ",
+      "header" : `Süreklilik gerçekten antrenmanlarda başarının anahtarı mı?`,
+    "text": `Hayattaki her şey de olduğu gibi uzun vadede sürekli olmak büyük olasılıkla kısa vade de yoğun çalışmaktan daha iyi sonuçlar doğurur. Söz konusu kas yapmak, performansımızı arttırmak olduğunda da durum yine böyle mi? Cevap hem evet hem hayır.`,
+    "text2":`İki insanı ele alalım. İkisinin de genetiği,antrenman geçmişi, yaşadığı çevre, antrenman programları vb aynı olsun. Sadece süreklilik parametresi farklı olduğunu varsayalım. Cevap çok aşikar ki 3 ay spora giden ve bir süre ara verip tekrar başlayan daha uzun süre sporu bırakmadan gidene göre geride kalacak. Hatta üstte saydığım parametreleride dezavantajlı olsa bile geri kalıcak. Gerçek şu ki süreklilik; yeteneği,iyi antrenman programını, beslenmeyi ve daha birçok şeyden çok daha kritik. `,
+     "li_text" : `Peki tek başına yeterli mi? E madem öyle hangi durumlarda “süreklilik” yeterli değil? Neden sadece spora gidiyor olmak bizi geliştirmeye yetmiyor?`,    
+     "content" : `Öncelikle “sürekli olmak” ile “sürekli olmak”arasında farklar var. Ne demek istiyorum? Eğer biz saçma sapan antrenmanlarda sürekli olursak çok net bir şekilde saçma sapan sonuçlar alırız. Yanlış teknikle hareketleri yaparsak maksimum performansımızı hareketlerde sergileyemeyiz .Hipertrofi bileşenlerinden uzak kalırsak, yorgunluk seviyemizi göz ardı edersek vs. devamlılık sahibi olmamız bizi geliştirmek için tek başına tüm işi sırtlayamayacaktır. Maalesef yıllarca spor yapıp başlangıç seviyesinde kalan birçok insan tanıdım, gördüm. Süreklilik başarıyı sağlasaydı spor salonlarında sürekli gördüğümüz insanların hepsinin gelişimine şahit olmamız gerekirdi fakat görüyoruz ki sporu aksatmayan herkes başarılı olamıyor. `,
+     "header1" : "Bu İnsanları Diğerlerinden Ne Ayırıyor, Fark Nerede Yatıyor?",
+     "text4":`Hal böyle olunca devamlılık sağlayan insanları birbirinden ayıran şey ya da şeyler neler? Bu derin ve başka büyük başlıkların konusu ama size bazı değiştirebileceğiniz parametreleri sayayım. Antrenman programınız, yorgunluk seviyenizin yönetimi, hedefinize spesifik çalışma, düzenli overload, doğru hareket seçimleri, doğru set ve tekrar seçimi, doğru antrenman sıklığı, doğru antrenman evresi seçimi ve uygulanışı, optümal hareket teknikleri vb. gibi örnekler sayılabilir. Akıllıca “sürekli” olmak bizi geliştirir, eğlendirir ve verdiğimiz vaktin karşılığını almamızı sağlar..`,
+     "header2": `“İyi uygulama, iyi bir fikirden daha önemlidir. Ama biri diğerine yardımcı olur.”`
 },
 {
     "id":4,

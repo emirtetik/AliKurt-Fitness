@@ -18,19 +18,18 @@ export default function Header() {
   const closeMenu = () => showNavbar(false)
 
   return (
-    <div id='navbar'>
-       <div className="logo" >
+    <div id='navbar' >
+    
+    <header className='d-flex justify-content-center w-100'>
+    <div className="logo " >
       <Link  href="/">
-        <Image  src="/images/logom1.png" width={100} height={70} alt='logo'></Image>
+        <Image  src="/images/logom1.png" width={120} height={60} alt='logo'></Image>
       </Link>
       
       </div>
-    <header className='d-flex justify-content-end w-100'>
-   
-  
       <nav ref={navRef}>
   
-      <ul className="menu_list">
+      <ul className="menu_list ">
   
          <li className="nav">
           <Link  className={router.pathname == "/" ? "active" : ""} onClick={closeMenu}   href="/">

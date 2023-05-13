@@ -9,23 +9,36 @@ function Footer() {
   <footer className="text-center text-lg-start  text-muted" style={{backgroundColor: "rgba(15,24,41,255)"}}>
      
     
-      <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <section className="d-flex justify-content-center justify-content-lg-between  border-bottom">
         <div className="container text-center text-md-start mt-5">
-          <div className="row mt-3">
-            <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <div className="row ">
+            <div className="col-md-3 col-lg-4 col-xl-3 mx-auto ">
             <Link  href="/">
-        <Image  src="/images/logom1.png" width={100} height={70} alt='logo'></Image>
+        <Image   src="/images/logom1.png" width={120} height={60} alt='logo'></Image>
       </Link>
-              <p className='mt-5'>
-                Here you can use rows and columns to organize your footer content. Lorem ipsum
-                dolor sit amet, consectetur adipisicing elit.
-              </p>
+              
             </div>
-          
-            <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-              <h6 className="text-uppercase fw-bold mb-4">
-               KISAYOLLAR
-              </h6>
+
+            <div className=" col-lg-6 ">
+            <p className='follow-me '>Beni Takip Edin! </p>
+          <div className="contact-icon " >
+             <Link href="https://www.youtube.com/@alieswolf" target="_blank" rel="noreferrer noopener"><p>
+                <FaYoutube size={24} style={{ color: 'white' }}/>
+
+              </p>
+              </Link> 
+              <Link href="https://www.instagram.com/alies.wolf/" target="_blank" rel="noreferrer noopener">
+              <p><AiFillInstagram size={24} style={{ color: 'white' }}/> </p>
+              </Link>
+              <Link href="mailto:aliesswolf@gmail.com" target="_blank" rel="noreferrer noopener">
+              <p><MdEmail size={24} style={{ color: 'white' }}/>  </p>
+              </Link>
+              </div>
+            </div>
+            <hr className='hr' />
+
+            <div className="col-lg-1   ">
+             
               <p>
                 <Link href="/" className="text-reset">Ana Sayfa</Link>
               </p>
@@ -36,32 +49,27 @@ function Footer() {
                 <Link href="/write" className="text-reset">Yazılar</Link>
               </p>
               
-              <p>
-                <Link href="/about" className="text-reset">Hakkımda</Link>
-              </p>
-              <p>
-                <Link href="/contact" className="text-reset">İletişim</Link>
-              </p>
-              <p>
-                <Link href="/faqs" className="text-reset">Sıkça Sorulan Sorular</Link>
-              </p>
+            
             </div>
-    
-            <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-              <h6 className="text-uppercase fw-bold mb-4 ">iLETİŞİM</h6>
+            <div className="col-md-3 col-lg-2 col-xl-2  ">
              
-             <Link href="https://www.youtube.com/@alieswolf" target="_blank" rel="noreferrer noopener"><p>
-                <FaYoutube size={40}/> Youtube
+            
+             <p>
+               <Link href="/about" className="text-reset">Hakkımda</Link>
+             </p>
+             <p>
+               <Link href="/contact" className="text-reset">İletişim</Link>
+             </p>
+             <p>
+               <Link href="/faqs" className="text-reset">SSS</Link>
 
-              </p>
-              </Link> 
-              <Link href="https://www.instagram.com/alies.wolf/" target="_blank" rel="noreferrer noopener">
-              <p><AiFillInstagram size={40}/> Instagram</p>
-              </Link>
-              <Link href="mailto:aliesswolf@gmail.com" target="_blank" rel="noreferrer noopener">
-              <p><MdEmail size={40}/> Email </p>
-              </Link>
-            </div>
+             </p>
+
+           </div>
+             
+            
+          
+
           </div>
         </div>
       </section>

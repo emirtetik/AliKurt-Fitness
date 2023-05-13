@@ -1,0 +1,54 @@
+p a{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 122.7%;
+/* identical to box height, or 20px */
+
+text-align: right;
+letter-spacing: -0.05em;
+
+color: #6A6A6A;
+
+}
+a:hover{
+    color: white !important;
+}
+.follow-me{
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 122.7%;
+/* identical to box height, or 20px */
+
+letter-spacing: -0.05em;
+
+color: #6A6A6A;
+
+
+}
+.contact-icon{
+    display: flex;
+    gap: 10px;
+}
+.hr{
+    display: none;
+}
+
+@media screen and (max-width:487px) {
+    .contact-icon{
+        justify-content: center;
+    }
+    .follow-me{
+        margin-top: 3rem;
+    }
+    .hr{
+        display: block;
+        width: 200px !important;
+        position: relative;
+        left: 24%;
+    }
+}
