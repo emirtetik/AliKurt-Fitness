@@ -34,50 +34,60 @@ export default function Home() {
       <Carousel fade interval={3000} >
 
       <Carousel.Item>
-        <div className='shadow'>
+        <div className='shadow ' style={{width:"100%", height:"90vh"}}>
 
-        <img
+        <Image
+        rel="preload"
+        priority
         id='carousel-img'
-          className="d-block w-100"
-          src="/images/bent.JPG"
-          alt="First slide"
+          src="/images/image0.jpeg"
+          alt="First slide Performans"
+         layout='fill' 
+          as="image"
         />
         </div>
 
         <Carousel.Caption>
-        <h3 className="text-center  font-weight-bold ">Performans! <hr /></h3>
+        <h3 className="text-center   carousel-head">Performans! <hr /></h3>
         <p className="text-center ">Vücudunu kontrol et.  </p>
       
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-      <div className='shadow'>
+      <div className='shadow' style={{width:"100%", height:"90vh"}}>
 
-        <img
+        <Image
+        rel="preload"
+        priority
         id='carousel-img'
-          className="d-block w-100"
-          src="/images/ALP06315.JPG"
+          src="/images/image2.jpeg"
           alt="Second slide"
+       layout='fill' 
+        as="image"
         />
 </div>
         <Carousel.Caption>
-        <h3 className="text-center ">Estetik!<hr /></h3>
+        <h3 className="text-center carousel-head">Estetik!<hr /></h3>
         <p className="text-center">Kas kütleni  arttır. </p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-      <div className='shadow'>
+      <div className='shadow' style={{width:"100%", height:"90vh"}}>
 
-        <img
+        <Image
+        rel="preload"
+        priority
         id='carousel-img'
-          className="d-block w-100"
-          src="/images/bent.JPG"
+          src="/images/image3.jpeg"
           alt="Third slide"
+         layout='fill' 
+          as="image"
+
         />
 </div>
         <Carousel.Caption>
-        <h3 className="text-center ">Güç!<hr /></h3>
-        <p className="text-center ">Ağır kiloları hareket ettir</p>
+        <h3 className="text-center carousel-head">Güç!<hr /></h3>
+        <p className="text-center ">Ağır kiloları hareket ettir.</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

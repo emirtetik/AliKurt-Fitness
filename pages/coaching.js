@@ -10,6 +10,7 @@ import {GiStrongMan} from "react-icons/gi"
 import {FaInfoCircle} from "react-icons/fa"
 import {TiTick} from "react-icons/ti"
 import Image from 'next/image'
+import Link from 'next/link'
 import AOS from "aos"
 import "aos/dist/aos.css"
 import {ImPriceTags} from "react-icons/im"
@@ -42,7 +43,7 @@ import {ImPriceTags} from "react-icons/im"
       
       />
 
-      <div className='w-100 ' id='container'>
+      <div className='w-100  ' id='container'>
       < Container   >
         <Row className='clearfix justify-content-center  fields' id='row' data-aos="fade-left"
      data-aos-offset="300"
@@ -64,21 +65,48 @@ import {ImPriceTags} from "react-icons/im"
       <li className='mb-2'>	Whatsapp aracılığıyla günlük iletişim</li>
 
      </ul>
-     <h3 className='mb-3'><ImPriceTags size={25}/> Fiyatlandırma</h3>
-     <ul className='mb-3 lh-lg w-100 text-left'>
-      <li>Aylık (30 gün) - 1400 ₺  <button className='m-1' id='button'>
-      Başla
-</button>  
-      </li> 
-      <li>3 ay (90 gün) - 3400 ₺  <button className='m-2' id='button'>
-  Başla
-</button>  </li>
-      <li>6 ay (180 gün) -  6600 ₺   
-      <button  id='button' className='m-2'>
-      Başla
-</button> 
- </li>
-     </ul>
+     <h3 className='mb-5 '><ImPriceTags size={25}/> Fiyatlandırma</h3>
+     <div id='price' class="container">
+  <div class="row justify-content-center">
+   
+    <div class="col-md-3">
+    <Link href="/">
+      <div class="card" >
+        <div class="card-body d-flex flex-column justify-content-center align-items-center" >
+           <h4>Aylık</h4>
+           <span>(30 gün)</span>
+           <hr />
+           <h1 className='fw-bold '>1400₺</h1>
+        </div>
+      </div>
+      </Link>
+    </div>
+    <div id='cardUp' class="col-md-3">
+    <Link href="/">
+      <div class="card" >
+        <div class="card-body d-flex flex-column justify-content-center align-items-center" >
+        <h4>6 Aylık</h4>
+           <span>(180 gün)</span>
+           <hr />
+           <h1 className='fw-bold'>6600₺</h1>
+        </div>
+      </div>
+      </Link>
+    </div>
+    <div class="col-md-3">
+    <Link href="/">
+      <div class="card" >
+        <div class="card-body d-flex flex-column justify-content-center align-items-center" >
+        <h4>3 Aylık</h4>
+           <span >(90 gün)</span>
+           <hr />
+           <h1 className='fw-bold' >3400₺</h1>
+        </div>
+      </div>
+    </Link>
+    </div>
+  </div>
+</div>
      <div className="row border border-light rounded-5  m-3">
         <h2 className='text-center mt-3'>Bize Ulaşın</h2> 
         <p className="text-center">Burada genel direnç antrenmanları, fitness ve fitness paralelinde hayata dair bazı konularda ihtiyacınız olabilecek birçok içerik bulabilirsiniz.</p>
@@ -145,20 +173,47 @@ import {ImPriceTags} from "react-icons/im"
      </ul>
      
      <h3 className='mb-3'><ImPriceTags size={25}/> Fiyatlandırma</h3>
-     <ul className='mb-3 lh-lg'>
-      <li>6 Haftalık (42 gün) - 1050 ₺  <button className='m-1' id='button'>
-      Başla
-</button>  
-      </li> 
-      <li>3 ay (90 gün) - 1700 ₺   <button className='m-2' id='button'>
-  Başla
-</button>  </li>
-      <li>6 ay (180 gün) - 3400 ₺    
-      <button  id='button' className='m-2'>
-      Başla
-</button> 
- </li>
-     </ul>
+     <div id='price' class="container">
+  <div class="row justify-content-center">
+   
+    <div class="col-md-3">
+    <Link href="/">
+      <div class="card" >
+        <div class="card-body d-flex flex-column justify-content-center align-items-center" >
+           <h4>Aylık</h4>
+           <span>(30 gün)</span>
+           <hr />
+           <h1 className='fw-bold'>1050₺</h1>
+        </div>
+      </div>
+      </Link>
+    </div>
+    <div id='cardUp' class="col-md-3">
+    <Link href="/">
+      <div class="card" >
+        <div class="card-body d-flex flex-column justify-content-center align-items-center" >
+        <h4 >6 Aylık</h4>
+           <span>(180 gün)</span>
+           <hr />
+           <h1 className='fw-bold'>6600₺</h1>
+        </div>
+      </div>
+      </Link>
+    </div>
+    <div class="col-md-3">
+    <Link href="/">
+      <div class="card" >
+        <div class="card-body d-flex flex-column justify-content-center align-items-center" >
+        <h4>3 Aylık</h4>
+           <span>(90 gün)</span>
+           <hr />
+           <h1 className='fw-bold'>1700₺</h1>
+        </div>
+      </div>
+    </Link>
+    </div>
+  </div>
+</div>
      <div className="row border border-light rounded-5  m-3">
         <h2 className='text-center mt-3'>Bize Ulaşın</h2> 
         <p className="text-center">Burada genel direnç antrenmanları, fitness ve fitness paralelinde hayata dair bazı konularda ihtiyacınız olabilecek birçok içerik bulabilirsiniz.</p>
@@ -226,14 +281,25 @@ import {ImPriceTags} from "react-icons/im"
 
      </ul>
      <h3 className='mb-3'><ImPriceTags size={25}/> Fiyatlandırma</h3>
-     <ul className='mb-3 lh-lg'>
-     
-      <li>60 dakika + PDF - 425 ₺ 
-      <button  id='button' className='m-2'>
-      Başla
-</button> 
- </li>
-     </ul>
+     <div id='price' class="container">
+  <div class="row justify-content-center">
+   
+    
+    <div id='cardUp' class="col-md-3">
+    <Link href="/">
+      <div class="card" >
+        <div class="card-body d-flex flex-column justify-content-center align-items-center" >
+        <h4>60 DAKİKA</h4>
+           <span>+ pdf</span>
+           <hr />
+           <h1 className='fw-bold'>425₺</h1>
+        </div>
+      </div>
+      </Link>
+    </div>
+   
+  </div>
+</div>
      <div className="row border border-light rounded-5  m-3">
         <h2 className='text-center mt-3'>Bize Ulaşın</h2> 
         <p className="text-center">Burada genel direnç antrenmanları, fitness ve fitness paralelinde hayata dair bazı konularda ihtiyacınız olabilecek birçok içerik bulabilirsiniz.</p>

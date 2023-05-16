@@ -3,21 +3,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /* #bg-section{
     background:#1c2a39e3 !important;
 } */
+
 #bg-section img{
-   box-shadow: 0 15px 35px rgb(0, 0, 0);
-   
+   filter: drop-shadow(15px -1px 40px rgba(0, 0, 0, 0.25));
+   border-radius: 46px;
 }
 #bg-section{
-    background-color:   var(--primary-color);
     height: auto;
     width: 100%;
-    /* border-bottom: 2px solid wheat; */
 }
-#bg-section .card {
-    background-color:  rgba(255, 255, 255, 0.030);
+#bg-section p {
+    font-family: 'Gotham Light';
+font-style: normal;
+font-weight: 500;
+font-size: 19px;
+letter-spacing: 0.05em;
+
+color: #000000;
+
 }
 @media (min-width: 320px) and (max-width: 480px) {
     #bg-section img{
@@ -27,5 +34,12 @@
     #bg-section p{
         width: 90%;
     }
+    #bg-section p {
+       text-align: center;
     
+    }
+    #bg-section img{
+        position: relative;
+        left: 40px;
+     }
 }

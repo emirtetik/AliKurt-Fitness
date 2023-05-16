@@ -25,6 +25,8 @@
 
 
 }
+
+
 a{
     text-decoration: none;
 }
@@ -32,16 +34,13 @@ a{
     list-style: none;
 }
 li{
-    font-family: 'Gotham';
     font-size: var(--size-2) !important;
 }
 h2{
-    font-family: Exo, Helvetica,Arial, sans-serif;
     font-size: var(--size-3) !important;
 }
-h3{
+.carousel-head{
 text-transform: uppercase;
-font-family: 'Gotham Black';
 font-style: normal;
 font-weight: bold;
 font-size: 5vh;
@@ -50,12 +49,8 @@ font-size: 5vh;
 color: #FFFFFF
 }
 p{
-    font-family: 'Gotham';
-    font-style: normal;
     font-weight: 400;
-    font-size: 25px;
     line-height: 24px;
-    /* identical to box height */
     
     letter-spacing: 0.05em;
     
@@ -64,7 +59,6 @@ p{
   
    
     p{
-        font-family: 'Raleway', sans-serif;
         font-size: 16px !important;
     }   
     
@@ -85,3 +79,34 @@ background-color: white;
     background: rgb(13, 36, 78);
 
 }
+@font-face {
+    font-family: 'Gotham Book';
+    src: url("../public/fonts/Gotham.woff/GothamBook.ttf");
+   
+
+  }
+ 
+  @font-face {
+    font-family: 'Gotham Black';
+    src: url("../public/fonts/Gotham.woff/GothamBlack.otf");
+   
+
+  }
+  @font-face {
+    font-family: 'Gotham Light';
+    src: url("../public/fonts/Gotham.woff/GothamLight.ttf");
+   
+
+  }
+  @font-face {
+    font-family: 'Gotham Bold';
+    src: url("../public/fonts/Gotham.woff/GothamBold.ttf");
+   
+
+  }
+  @font-face {
+    font-family: 'Gotham Medium';
+    src: url("../public/fonts/Gotham.woff/GothamMedium_1.ttf");
+   
+
+  }

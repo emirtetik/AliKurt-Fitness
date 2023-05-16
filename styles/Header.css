@@ -137,12 +137,12 @@ left: 0;
 @media (min-width: 320px) and (max-width: 480px) {
   header .nav-btn {
     right: 3rem;
-    top: 5%;
+    top: 8%;
     position: absolute;
 	}
  
   header nav{
-    top: 12.9%;
+    top: 16%;
 		transform: translateX(-100vh);
 
   }
@@ -157,6 +157,7 @@ left: 0;
   .menu_list {
     display: grid;
     gap: 0rem;
+    right: 20px;
   }
   
  

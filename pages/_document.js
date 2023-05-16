@@ -2,14 +2,15 @@ import { Html, Head, Main, NextScript } from 'next/document'
 
 export default function Document() {
   return (
-    <Html lang="en">
+    <Html lang="tr">
       <Head >
-      <link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link rel="preconnect" href="https://fonts.gstatic.com" cross0rigin/>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Source+Sans+Pro&display=swap" rel="stylesheet"/>
-<link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link rel="preconnect" href="https://fonts.gstatic.com" cross0rigin/>
-<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet"/>
+      {/* <link rel="stylesheet" href="/fonts/Gotham/GothamBook.ttf" />
+          <link rel="stylesheet" href="/fonts/Gotham/GothamBold.ttf" />
+          <link rel="stylesheet" href="/fonts/Gotham/GothamBlack.otf" />
+          <link rel="stylesheet" href="/fonts/Gotham/GothamLight.ttf" />
+          <link rel="stylesheet" href="/fonts/Gotham/GothamMedium.ttf" /> */}
+
+
       </Head>
       <body>
         <Main />

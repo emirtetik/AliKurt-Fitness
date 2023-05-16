@@ -9,35 +9,37 @@
     margin: 30px;
 }
 #container {
-  background-color:  var(--primary-color);
-
-        color: white;
+  background: linear-gradient(to bottom, rgba(15, 24, 41, 255), #ffffff);
   }
-   .fields {
+  .fields {
     padding-top: 40px;
     padding-bottom: 40px;
   }
+#container p,li,h3 {
+   color: #ffffff;
+}
+ 
 
 
 .nav-tabs {
-    padding-left: 5px;
+    padding-left: 20px;
     gap: 10px;
     border-bottom: 1px solid rgb(255, 255, 255) !important;
+     max-width: 100%;
+     color: rgb(255, 254, 254)  !important;
+    border-radius: 50px;
+    background-color: rgb(0, 0, 0)!important;
+
   }
         
   .nav-tabs .nav-item {
-     padding: 3px;
      margin-bottom: 5px;
-    max-width: 150px;
-    color: rgb(255, 254, 254)  !important;
-    background-color: rgb(0, 0, 0)!important;
-  
-    border-radius: 40px;
-
-    border-top: 1px solid  rgb(255, 253, 253) !important;
+    margin-top: 5px;
+     max-width: 150px;  
+    /* border-top: 1px solid  rgb(255, 253, 253) !important;
     border-bottom: 1px solid rgb(255, 255, 255) !important;
     border-left: 1px solid rgb(255, 255, 255) !important;
-    border-right: 1px solid rgb(255, 255, 255) !important;
+    border-right: 1px solid rgb(255, 255, 255) !important;  */
 
   }
   .nav-tabs .nav-item.active {
@@ -55,8 +57,44 @@
     
     
   }
+ #price .card{
+  background: #FFFFFF;
+   box-shadow: 2.67453px 7.13208px 43px -13.3726px rgba(0, 0, 0, 0.25);
+   border-radius: 27px;
+    padding: 17.8302px 117.679px;
+    margin-bottom: 8.92px;
+     width: 305px;
+     height: 266px;
+ }
+ #price hr{
+    width: 200px;
+    z-index: 100;
  
- 
+ }
+ #price span{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+ }
+ #price h4{
+  font-family: Gotham Bold;
+  font-size: 30px;
+  font-weight: bold;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+}
+#price #cardUp{
+    position: relative;
+    top: -50px;
+}
+#price a{
+  color: black;
+}
+#price a:hover{
+  color: black !important;
+}
+  
   .form-group textarea {
     height: 208px;
 
@@ -69,61 +107,21 @@
     background: #89cff08c;
   }
 
+#button{
+  border: 1px solid rgb(255, 255, 255) !important;
+  color: #89CFF0 !important;
 
-#button {
-  padding: 1em 2em;
-  font-size: 12px;
-  background: transparent;
-  border: none;
-  position: relative;
-  color: rgb(0, 0, 0);
-  z-index: 1;
- }
- 
- #button::after,
- #button::before {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  z-index: -99999;
-  transition: all .4s;
- }
- 
- #button::before {
-  transform: translate(0%, 0%);
-  width: 100%;
-  height: 100%;
-  background: #89CFF0;
+   width: 150px;
+   height: 40px;
   border-radius: 50px;
- }
- 
- #button::after {
-  transform: translate(0px, 0px);
-  width: 10px;
-  height: 10px;
-  background: #ffffff15;
-  backdrop-filter: blur(5px);
-  border-radius: 50px;
- }
- 
- #button:hover::before {
-  transform: translate(5%, 20%);
-  width: 10px;
-  height: 10px;
- }
- 
- #button:hover::after {
-  border-radius: 50px;
-  transform: translate(0, 0);
-  width: 100%;
-  height: 100%;
- }
- #button:active::after {
-  transition: 0s;
-  transform: translate(0, 5%);
- }
-   
+  background-color: rgb(0, 0, 0)!important;
+
+}
+#button:hover{
+  border: 0px solid rgb(255, 255, 255) !important;
+  box-shadow: 0px 5px 10px 2px rgba(255, 255, 255, 0.322);
+  
+}
 
 
 
@@ -184,4 +182,29 @@
   #btn1 :hover:after {
     top: 0;
     left: 50%;
+  }
+
+  @media screen and (max-width:768px) {
+     
+ 
+   .nav-tabs {
+      border-bottom: 1px solid rgb(255, 255, 255) !important;
+      max-width: 100%;
+      border-radius: 50px;
+      padding-left: 0px;
+      box-shadow: 0px 5px 10px 2px rgba(255, 255, 255, 0.322);
+     }
+           
+     .nav-tabs .nav-item {
+      margin-bottom: 10px;
+      margin-top: 10px;
+      max-width: 130px;  
+     }
+     .nav-tabs .nav-link{
+      display: contents;
+     }
+     #price #cardUp{
+      position: relative;
+      top: 0px;
+  }
   }
