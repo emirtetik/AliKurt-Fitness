@@ -1,9 +1,10 @@
 import Layout from '@/layout/Layout'
 import Card from "../components/Card"
+import Formik from "../components/Formik"
 import Meta from '@/components/Meta';
 import React, {useEffect,useRef} from 'react';
 import { Container,Row,Tabs,Tab } from 'react-bootstrap';
-import {BsFillSendCheckFill,BsFillPersonCheckFill,BsQuestionCircleFill} from "react-icons/bs"
+import {BsFillPersonCheckFill,BsQuestionCircleFill} from "react-icons/bs"
 import {RiUserSearchFill} from "react-icons/ri"
 
 import {GiStrongMan} from "react-icons/gi"
@@ -66,13 +67,13 @@ import {ImPriceTags} from "react-icons/im"
 
      </ul>
      <h3 className='mb-5 '><ImPriceTags size={25}/> Fiyatlandırma</h3>
-     <div id='price' class="container">
-  <div class="row justify-content-center">
+     <div id='price' className="container">
+  <div className="row justify-content-center">
    
-    <div class="col-md-3">
+    <div className="col-md-3">
     <Link href="/">
-      <div class="card" >
-        <div class="card-body d-flex flex-column justify-content-center align-items-center" >
+      <div className="card" >
+        <div className="card-body d-flex flex-column justify-content-center align-items-center" >
            <h4>Aylık</h4>
            <span>(30 gün)</span>
            <hr />
@@ -81,10 +82,10 @@ import {ImPriceTags} from "react-icons/im"
       </div>
       </Link>
     </div>
-    <div id='cardUp' class="col-md-3">
+    <div id='cardUp' className="col-md-3">
     <Link href="/">
-      <div class="card" >
-        <div class="card-body d-flex flex-column justify-content-center align-items-center" >
+      <div className="card" >
+        <div className="card-body d-flex flex-column justify-content-center align-items-center" >
         <h4>6 Aylık</h4>
            <span>(180 gün)</span>
            <hr />
@@ -93,10 +94,10 @@ import {ImPriceTags} from "react-icons/im"
       </div>
       </Link>
     </div>
-    <div class="col-md-3">
+    <div className="col-md-3">
     <Link href="/">
-      <div class="card" >
-        <div class="card-body d-flex flex-column justify-content-center align-items-center" >
+      <div className="card" >
+        <div className="card-body d-flex flex-column justify-content-center align-items-center" >
         <h4>3 Aylık</h4>
            <span >(90 gün)</span>
            <hr />
@@ -107,60 +108,10 @@ import {ImPriceTags} from "react-icons/im"
     </div>
   </div>
 </div>
-     <div className="row border border-light rounded-5  m-3">
-        <h2 className='text-center mt-3'>Bize Ulaşın</h2> 
-        <p className="text-center">Burada genel direnç antrenmanları, fitness ve fitness paralelinde hayata dair bazı konularda ihtiyacınız olabilecek birçok içerik bulabilirsiniz.</p>
-
-        
-        <form  data-aos="zoom-in"  action="https://getform.io/f/7425f91a-f183-4b2f-a943-e091582d760e" method='POST'>
-          
-          <div className="col-md-6 mx-auto d-flex m-3 gap-3">
-
-          <div className="input-group">
-  <input required="" type="text" name="name"  className="input form-control rounded-4"/>
-  <label htmlFor="first" className="user-label">İsim</label>
-</div>
-<div className="input-group">
-  <input required="" type="text" name="surname"  className="input form-control rounded-4"/>
-  <label htmlFor="last" className="user-label">Soyisim</label>
-</div>
-   
-          </div>
-
-          <div className='col-md-6 mx-auto d-flex m-3 gap-3'>
-          <div className="input-group">
-  <input required="" type="text" name="age"  className="input form-control rounded-4"/>
-  <label htmlFor="years" className="user-label">Yaş</label>
-</div>
-<div className="input-group">
-  <input required="" type="text" name="number"  className="input form-control rounded-4"/>
-  <label htmlFor="roll" className="user-label">Telefon No</label>
-</div>
-          </div>
-
-          <div className="form-group col-md-6 mx-auto mb-3">
-            <div className="input-group">
-  <input required="" type="text" name="email" className="input form-control rounded-4"/>
-  <label htmlFor="mail" className="user-label">Email</label>
-</div>
-            </div>
-          <div className="col-md-6 mx-auto ">
-          <div className="form-group">
-            <label htmlFor="frm-message"></label>
-              <textarea  id="frm-message"  name="message" className="form-control rounded-4"  placeholder="Aklında ne var?"></textarea>
-            </div>
-            <button id='btn1' className='m-3 float-end' type='submit' >
-            <span><BsFillSendCheckFill/> Gönder</span>
-</button>  
-       
-          </div>
-
-        </form>
-        
-      </div>
+     
   </Tab>
   <Tab eventKey={2} title="Programlama">
-  <button onClick={() => smoothScroll(testimonialDiv.current)} id='button' className=' text-light fw-bold float-end'>Testimonial</button>
+  <button onClick={() => smoothScroll(testimonialDiv.current)} id='button' className=' text-light fw-bold float-end'>Danışanlar</button>
   <h3 className=' lh-lg mb-3' ><RiUserSearchFill size={30}/> Kimler İçin?</h3>
    <p className='mb-3 m-2 lh-lg w-100 text-left'>Programlama hizmeti antrenman yolculuğunun herhangi bir aşamasında hedeflerine uygun kısa ve uzun vadeli program isteyen, çok fazla detaya odaklanılmasına ihtiyaç duymayan kişiler için mükemmel bir seçimdir.</p>
      <h3 className='mb-3'>  <BsQuestionCircleFill size={30} /> Süreç Nasıl İşliyor?</h3>
@@ -173,13 +124,13 @@ import {ImPriceTags} from "react-icons/im"
      </ul>
      
      <h3 className='mb-3'><ImPriceTags size={25}/> Fiyatlandırma</h3>
-     <div id='price' class="container">
-  <div class="row justify-content-center">
+     <div id='price' className="container">
+  <div className="row justify-content-center">
    
-    <div class="col-md-3">
+    <div className="col-md-3">
     <Link href="/">
-      <div class="card" >
-        <div class="card-body d-flex flex-column justify-content-center align-items-center" >
+      <div className="card" >
+        <div className="card-body d-flex flex-column justify-content-center align-items-center" >
            <h4>Aylık</h4>
            <span>(30 gün)</span>
            <hr />
@@ -188,10 +139,10 @@ import {ImPriceTags} from "react-icons/im"
       </div>
       </Link>
     </div>
-    <div id='cardUp' class="col-md-3">
+    <div id='cardUp' className="col-md-3">
     <Link href="/">
-      <div class="card" >
-        <div class="card-body d-flex flex-column justify-content-center align-items-center" >
+      <div className="card" >
+        <div className="card-body d-flex flex-column justify-content-center align-items-center" >
         <h4 >6 Aylık</h4>
            <span>(180 gün)</span>
            <hr />
@@ -200,10 +151,10 @@ import {ImPriceTags} from "react-icons/im"
       </div>
       </Link>
     </div>
-    <div class="col-md-3">
+    <div className="col-md-3">
     <Link href="/">
-      <div class="card" >
-        <div class="card-body d-flex flex-column justify-content-center align-items-center" >
+      <div className="card" >
+        <div className="card-body d-flex flex-column justify-content-center align-items-center" >
         <h4>3 Aylık</h4>
            <span>(90 gün)</span>
            <hr />
@@ -214,59 +165,10 @@ import {ImPriceTags} from "react-icons/im"
     </div>
   </div>
 </div>
-     <div className="row border border-light rounded-5  m-3">
-        <h2 className='text-center mt-3'>Bize Ulaşın</h2> 
-        <p className="text-center">Burada genel direnç antrenmanları, fitness ve fitness paralelinde hayata dair bazı konularda ihtiyacınız olabilecek birçok içerik bulabilirsiniz.</p>
-
-        
-        <form  data-aos="zoom-in"  action="https://getform.io/f/7425f91a-f183-4b2f-a943-e091582d760e" method='POST'>
-          
-          <div className="col-md-6 mx-auto d-flex m-3 gap-3">
-
-          <div className="input-group">
-  <input required="" type="text" name="name"  className="input form-control rounded-4"/>
-  <label htmlFor="first" className="user-label">İsim</label>
-</div>
-<div className="input-group">
-  <input required="" type="text" name="surname"  className="input form-control rounded-4"/>
-  <label htmlFor="last" className="user-label">Soyisim</label>
-</div>
-   
-          </div>
-
-          <div className='col-md-6 mx-auto d-flex m-3 gap-3'>
-          <div className="input-group">
-  <input required="" type="text" name="age"  className="input form-control rounded-4"/>
-  <label htmlFor="years" className="user-label">Yaş</label>
-</div>
-<div className="input-group">
-  <input required="" type="text" name="number"  className="input form-control rounded-4"/>
-  <label htmlFor="roll" className="user-label">Telefon No</label>
-</div>
-          </div>
-
-          <div className="form-group col-md-6 mx-auto mb-3">
-            <div className="input-group">
-  <input required="" type="text" name="email" className="input form-control rounded-4"/>
-  <label htmlFor="mail" className="user-label">Email</label>
-</div>
-            </div>
-          <div className="col-md-6 mx-auto ">
-            <div className="form-group">
-              <textarea className="form-control rounded-4" placeholder="Aklında Ne Var..."></textarea>
-            </div>
-            <button id='btn1' className='m-3 float-end' >
-            <span><BsFillSendCheckFill/> Gönderl</span>
-</button>  
-       
-          </div>
-
-        </form>
-        
-      </div>
+    
   </Tab>
   <Tab eventKey={3} title="Danışma" >
-  <button onClick={() => smoothScroll(testimonialDiv.current)} id='button' className=' text-light fw-bold float-end'>Testimonial</button>
+  <button onClick={() => smoothScroll(testimonialDiv.current)} id='button' className=' text-light fw-bold float-end'>Danışanlar</button>
 
   <h3 className=' lh-lg' ><RiUserSearchFill size={30}/> Kimler İçin?</h3>
    <p className='mb-3 m-2 lh-lg w-100 text-left'>Danışmanlık hizmeti, yardıma ihtiyaç duydukları belirli bir konuda soruları olan ve bunlara çözüm arayan kişiler içindir. Programınız , antrenman sürenizin organizasyonu, egzersiz teknikleriniz veya yorgunluk yönetimi vb gibi konularda yardım arıyorsanız danışmanlık hizmeti tam size göre.</p>
@@ -281,14 +183,14 @@ import {ImPriceTags} from "react-icons/im"
 
      </ul>
      <h3 className='mb-3'><ImPriceTags size={25}/> Fiyatlandırma</h3>
-     <div id='price' class="container">
-  <div class="row justify-content-center">
+     <div id='price' className="container">
+  <div className="row justify-content-center">
    
     
-    <div id='cardUp' class="col-md-3">
+    <div id='cardUp' className="col-md-3">
     <Link href="/">
-      <div class="card" >
-        <div class="card-body d-flex flex-column justify-content-center align-items-center" >
+      <div className="card" >
+        <div className="card-body d-flex flex-column justify-content-center align-items-center" >
         <h4>60 DAKİKA</h4>
            <span>+ pdf</span>
            <hr />
@@ -300,55 +202,7 @@ import {ImPriceTags} from "react-icons/im"
    
   </div>
 </div>
-     <div className="row border border-light rounded-5  m-3">
-        <h2 className='text-center mt-3'>Bize Ulaşın</h2> 
-        <p className="text-center">Burada genel direnç antrenmanları, fitness ve fitness paralelinde hayata dair bazı konularda ihtiyacınız olabilecek birçok içerik bulabilirsiniz.</p>
-
-        
-        <form  data-aos="zoom-in"  action="https://getform.io/f/7425f91a-f183-4b2f-a943-e091582d760e" method='POST'>
-          
-          <div className="col-md-6 mx-auto d-flex m-3 gap-3">
-
-          <div className="input-group">
-  <input required="" type="text" name="name"  className="input form-control rounded-4"/>
-  <label htmlFor="first" className="user-label">İsim</label>
-</div>
-<div className="input-group">
-  <input required="" type="text" name="surname"  className="input form-control rounded-4"/>
-  <label htmlFor="last" className="user-label">Soyisim</label>
-</div>
-   
-          </div>
-
-          <div className='col-md-6 mx-auto d-flex m-3 gap-3'>
-          <div className="input-group">
-  <input required="" type="text" name="age"  className="input form-control rounded-4"/>
-  <label htmlFor="years" className="user-label">Yaş</label>
-</div>
-<div className="input-group">
-  <input required="" type="text" name="number"  className="input form-control rounded-4"/>
-  <label htmlFor="roll" className="user-label">Telefon No</label>
-</div>
-          </div>
-
-          <div className="form-group col-md-6 mx-auto mb-3">
-            <div className="input-group">
-  <input required="" type="text" name="email" className="input form-control rounded-4"/>
-  <label htmlFor="mail" className="user-label">Email</label>
-</div>
-            </div>
-          <div className="col-md-6 mx-auto ">
-            <div className="form-group">
-              <textarea className="form-control rounded-4" placeholder="Aklında Ne Var..."></textarea>
-            </div>
-            <button id='btn1' className='m-3 float-end' type='submit' >
-            <span><BsFillSendCheckFill/>Gönder</span>
-</button>  
-       
-          </div>
-
-        </form>
-      </div>
+    
   </Tab>
 </Tabs>
 </Row>
@@ -357,6 +211,7 @@ import {ImPriceTags} from "react-icons/im"
 <section ref={testimonialDiv}>
     <Card />
     </section>
+    <Formik/>
 </div>
     </Layout>
   )

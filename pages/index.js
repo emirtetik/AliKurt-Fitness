@@ -34,7 +34,7 @@ export default function Home() {
       <Carousel fade interval={3000} >
 
       <Carousel.Item>
-        <div className='shadow ' style={{width:"100%", height:"90vh"}}>
+        <div className='shadow ' style={{width:"100%", height:"88vh"}}>
 
         <Image
         rel="preload"
@@ -54,7 +54,7 @@ export default function Home() {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-      <div className='shadow' style={{width:"100%", height:"90vh"}}>
+      <div className='shadow' style={{width:"100%", height:"88vh"}}>
 
         <Image
         rel="preload"
@@ -72,7 +72,7 @@ export default function Home() {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-      <div className='shadow' style={{width:"100%", height:"90vh"}}>
+      <div className='shadow' style={{width:"100%", height:"88vh"}}>
 
         <Image
         rel="preload"
@@ -92,13 +92,13 @@ export default function Home() {
       </Carousel.Item>
     </Carousel>
  
-                                           {/* ---------------TEXT---------- */}
+                                           {/* ---------------TEXT---------- data-aos="zoom-out"*/}
                <section className=' py-lg-5  '>
                 <div className='container ' id='welcome'>
                 <div className=' mt-5'>
-                  <h2 className='h1  text-center'  data-aos="zoom-out">Hoş Geldiniz!</h2>
+                  <h2 className='h1  text-center'  >Hoş Geldiniz!</h2>
                 </div>
-                  <div className=' h3 w-100 mx-auto p-3  text-center' data-aos="zoom-out">
+                  <div className=' h3 w-100 mx-auto p-3  text-center' >
                     <p  className='  mx-auto'>Koçluk hizmetlerim genel olarak  <b> fitness, beslenme </b> ve <b> direnç </b> antrenmanlarının birçok dalını içermektedir.</p>
                     <ul className=' py-4 d-grid text-start justify-content-center'>
                       <li>	Streetlifting (Barfiks, Dips, Squat , Muscle Up 1 tekrar maksimum)</li>

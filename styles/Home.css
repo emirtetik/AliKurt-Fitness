@@ -2,6 +2,12 @@
 .home{
     background-color: #F5F5F5;;
 }
+.carousel-indicators [data-bs-target]{
+  width: 14.84px !important;
+  height: 14.84px !important;
+  border-radius: 50% !important;
+  margin-left: 12px !important;
+}
 .shadow::after {
   content:'';
   position:absolute;
@@ -12,12 +18,7 @@
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.66) 0%, rgba(0, 0, 0, 0.06) 32.81%, #000000 93.23%);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-/* 
-.shadow{
-  position: relative;
-  height: 90vh;
-  width: 100%;
-} */
+
  #welcome p{
 font-style: normal;
 font-weight: 700;
@@ -49,7 +50,10 @@ list-style:disc;
  
 .shadow{
   position: relative;
-  height: 85vh;
+  height: 50vh !important;
   width: 100%;
+}
+.home h3 {
+  font-size: 22px;
 }
 }
