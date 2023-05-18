@@ -21,7 +21,7 @@
    /* font */
    --size-1:  2vmin;
    --size-2:  18px;
-   --size-3:  5vh;
+   --size-3:  4.5vh;
 
 
 }
@@ -34,7 +34,7 @@ a{
     list-style: none;
 }
 li{
-    font-size: var(--size-3) !important;
+    font-size: var(--size-2) !important;
 }
 h2{
     font-size: var(--size-3) !important;
