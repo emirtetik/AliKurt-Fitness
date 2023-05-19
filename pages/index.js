@@ -44,6 +44,7 @@ export default function Home() {
           alt="First slide Performans"
          layout='fill' 
           as="image"
+          quality={100}
         />
         </div>
 
@@ -64,6 +65,7 @@ export default function Home() {
           alt="Second slide"
        layout='fill' 
         as="image"
+        quality={100}
         />
 </div>
         <Carousel.Caption>
@@ -82,7 +84,7 @@ export default function Home() {
           alt="Third slide"
          layout='fill' 
           as="image"
-
+          quality={100}
         />
 </div>
         <Carousel.Caption>
@@ -102,7 +104,7 @@ export default function Home() {
                     <p  className='  mx-auto'>Koçluk hizmetlerim genel olarak  <b> fitness, beslenme </b> ve <b> direnç </b> antrenmanlarının birçok dalını içermektedir.</p>
                     <ul className=' py-4 d-grid text-start justify-content-center'>
                       <li>	Streetlifting (Barfiks, Dips, Squat , Muscle Up 1 tekrar maksimum)</li>
-                      <li>Esnetik Fizik</li>
+                      <li>Estetik Fizik</li>
                       <li>	Calisthenics Skills ( Muscle Up , Front Lever, Handstand Push Up vb.)</li>
                       <li>Powerlifting</li>
                     </ul>

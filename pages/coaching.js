@@ -19,6 +19,8 @@ import {ImPriceTags} from "react-icons/im"
  export default function coaching() {
  
   const testimonialDiv = React.useRef()
+  
+  
 
   function smoothScroll(target) {
     const { top } = target.getBoundingClientRect()
@@ -51,23 +53,31 @@ import {ImPriceTags} from "react-icons/im"
      data-aos-easing="ease-in-sine">
        <Tabs defaultActiveKey={1} animation="true" className='nav-tabs  ' justify  variant='pills' >
   <Tab eventKey={1} title="Koçluk" className='nav-item '>
-    <button onClick={() => smoothScroll(testimonialDiv.current)} id='button' className=' text-white fw-bold float-end'>Danışanlar</button>
-   <h3 className=' lh-lg mb-3' ><RiUserSearchFill size={30}/> Kimler İçin?</h3>
-   <p className='mb-3 m-2 lh-lg w-100 text-left'>Koçluk hizmeti antrenman yolculuğunun herhangi bir aşamasında tam profesyonel rehberlik isteyen kişiler için mükemmel bir seçimdir. Kısa/uzun vadeli hedefleri belirliyoruz, en iyi planı seçiyoruz ve bunları günlük olarak ele alıyoruz.</p>
-     <h3 className='mb-3'>  <BsQuestionCircleFill size={30} /> Süreç Nasıl İşliyor?</h3>
+  <button onClick={() => smoothScroll(testimonialDiv.current)} id='button' className=' text-white fw-bold float-end'>Danışanlar</button>
+  
+     <div  id='context' className="container mb-5">
+
+   <h3 className=' lh-lg mb-3 ' > Kimler İçin?</h3>
+   <p className='mb-3 m-2 lh-lg w-100 text-left'>Koçluk hizmeti antrenman yolculuğunun herhangi bir aşamasında tam profesyonel rehberlik isteyen kişiler için mükemmel bir seçimdir. Kısa/ uzun vadeli hedefleri belirliyoruz, en iyi planı seçiyoruz ve bunları günlük olarak ele alıyoruz.</p>
+     <h3 className='mb-3'>  Süreç Nasıl İşliyor?</h3>
      <p className='mb-3 m-2 lh-lg w-100 text-left'>Satın alma işlemini gerçekleştirdikten sonra 24 saat içinde onay içeren bir e-posta alacaksınız. Daha sonra 30 dakikalık görüntülü görüşmede tüm detayları konuşacağız ve ardından planınız üzerinde çalışmaya başlayacağım.</p>
-     <h3 className='lh-lg mb-2'> <TiTick size={30} /> Tam olarak neler elde ediceksin?</h3>
+     <h3 className='lh-lg mb-2'>  Tam olarak neler elde ediceksin?</h3>
      <ul className='mb-3 lh-lg w-100 text-left'>
       <li className='mb-2'>	Hedefler doğrultusunda uzun vadeli yol haritası</li>
       <li className='mb-2'>	Tamamen kişiselleştirilmiş antrenman programı</li>
       <li className='mb-2'>	Haftalık program güncellemeleri</li>
-      <li className='mb-2'>	Form/teknik değerlendirmeler</li>
+      <li className='mb-2'>	Form/ teknik değerlendirmeler</li>
+      <li className='mb-2'>	Hedef doğrultusunda kalori,makro takibi ve yardımı (Diyet Listesi Değil!)</li>
       <li className='mb-2'>	Antrenman döngüleri sonunda görüntülü görüşme. (4-12 hafta)</li>
       <li className='mb-2'>	Whatsapp aracılığıyla günlük iletişim</li>
 
      </ul>
-     <h3 className='mb-5 '><ImPriceTags size={25}/> Fiyatlandırma</h3>
-     <div id='price' className="container">
+ 
+    
+
+     </div>
+    
+     <div id='price' className="container " >
   <div className="row justify-content-center">
    
     <div className="col-md-3">
@@ -86,10 +96,10 @@ import {ImPriceTags} from "react-icons/im"
     <Link href="/">
       <div className="card" >
         <div className="card-body d-flex flex-column justify-content-center align-items-center" >
-        <h4>6 Aylık</h4>
-           <span>(180 gün)</span>
+        <h4>3 Aylık</h4>
+           <span>(90 gün)</span>
            <hr />
-           <h1 className='fw-bold'>6600₺</h1>
+           <h1 className='fw-bold'>3400₺</h1>
         </div>
       </div>
       </Link>
@@ -98,10 +108,10 @@ import {ImPriceTags} from "react-icons/im"
     <Link href="/">
       <div className="card" >
         <div className="card-body d-flex flex-column justify-content-center align-items-center" >
-        <h4>3 Aylık</h4>
-           <span >(90 gün)</span>
+        <h4>6 Aylık</h4>
+           <span >(180 gün)</span>
            <hr />
-           <h1 className='fw-bold' >3400₺</h1>
+           <h1 className='fw-bold' >6500₺</h1>
         </div>
       </div>
     </Link>
@@ -112,27 +122,28 @@ import {ImPriceTags} from "react-icons/im"
   </Tab>
   <Tab eventKey={2} title="Programlama">
   <button onClick={() => smoothScroll(testimonialDiv.current)} id='button' className=' text-light fw-bold float-end'>Danışanlar</button>
-  <h3 className=' lh-lg mb-3' ><RiUserSearchFill size={30}/> Kimler İçin?</h3>
+  <div id='context' className="container mb-5">
+  <h3 className=' lh-lg mb-3' > Kimler İçin?</h3>
    <p className='mb-3 m-2 lh-lg w-100 text-left'>Programlama hizmeti antrenman yolculuğunun herhangi bir aşamasında hedeflerine uygun kısa ve uzun vadeli program isteyen, çok fazla detaya odaklanılmasına ihtiyaç duymayan kişiler için mükemmel bir seçimdir.</p>
-     <h3 className='mb-3'>  <BsQuestionCircleFill size={30} /> Süreç Nasıl İşliyor?</h3>
-     <p className='mb-3 m-2 lh-lg w-100 text-left'>Satın alma işlemini gerçekleştirdikten sonra  24 saat içinde onay içeren bir e-posta alacaksınız. Daha sonra 30 dakikalık görüntülü toplantıda tüm detayları konuşacağız ve ardından plan üzerinde çalışmaya başlayacağım.</p>
-     <h3 className='lh-lg mb-2'> <TiTick size={30} /> Tam olarak neler elde ediceksin?</h3>
+     <h3 className='mb-3'>   Süreç Nasıl İşliyor?</h3>
+     <p className='mb-3 m-2 lh-lg w-100 text-left'>Satın alma işlemini gerçekleştirdikten sonra  24 saat içinde onay içeren bir e-posta alacaksınız. Daha sonra 30 dakikalık görüntülü görüşmede tüm detayları konuşacağız ve ardından plan üzerinde çalışmaya başlayacağım.</p>
+     <h3 className='lh-lg mb-2'> Tam olarak neler elde ediceksin?</h3>
      <ul className='mb-3 lh-lg w-100 text-left'>
       <li className='mb-2'>	Tamamen kişiselleştirilmiş antrenman programı</li>
-      <li className='mb-2'>	İlk antrenman haftasının sonunda form/teknik geri bildirimleri</li>
+      <li className='mb-2'>	İlk antrenman haftasının sonunda form/ teknik geri bildirimleri</li>
       <li className='mb-2'>	Biten antrenman döngüleri sonrası görüntülü görüşme ve raporlama (6-12 hafta)</li>
      </ul>
-     
-     <h3 className='mb-3'><ImPriceTags size={25}/> Fiyatlandırma</h3>
-     <div id='price' className="container">
+   
+     </div>
+     <div id='price' className="container"  >
   <div className="row justify-content-center">
    
     <div className="col-md-3">
     <Link href="/">
       <div className="card" >
         <div className="card-body d-flex flex-column justify-content-center align-items-center" >
-           <h4>Aylık</h4>
-           <span>(30 gün)</span>
+           <h4>6 Haftalık</h4>
+           <span>(42 gün)</span>
            <hr />
            <h1 className='fw-bold'>1050₺</h1>
         </div>
@@ -143,10 +154,10 @@ import {ImPriceTags} from "react-icons/im"
     <Link href="/">
       <div className="card" >
         <div className="card-body d-flex flex-column justify-content-center align-items-center" >
-        <h4 >6 Aylık</h4>
-           <span>(180 gün)</span>
+        <h4 >3 Aylık</h4>
+           <span>(90 gün)</span>
            <hr />
-           <h1 className='fw-bold'>6600₺</h1>
+           <h1 className='fw-bold'>1750₺</h1>
         </div>
       </div>
       </Link>
@@ -155,10 +166,10 @@ import {ImPriceTags} from "react-icons/im"
     <Link href="/">
       <div className="card" >
         <div className="card-body d-flex flex-column justify-content-center align-items-center" >
-        <h4>3 Aylık</h4>
-           <span>(90 gün)</span>
+        <h4>6 Aylık</h4>
+           <span>(180 gün)</span>
            <hr />
-           <h1 className='fw-bold'>1700₺</h1>
+           <h1 className='fw-bold'>3400₺</h1>
         </div>
       </div>
     </Link>
@@ -169,21 +180,20 @@ import {ImPriceTags} from "react-icons/im"
   </Tab>
   <Tab eventKey={3} title="Danışma" >
   <button onClick={() => smoothScroll(testimonialDiv.current)} id='button' className=' text-light fw-bold float-end'>Danışanlar</button>
-
-  <h3 className=' lh-lg' ><RiUserSearchFill size={30}/> Kimler İçin?</h3>
+  <div id='context' className="container mb-5">
+  <h3 className=' lh-lg' > Kimler İçin?</h3>
    <p className='mb-3 m-2 lh-lg w-100 text-left'>Danışmanlık hizmeti, yardıma ihtiyaç duydukları belirli bir konuda soruları olan ve bunlara çözüm arayan kişiler içindir. Programınız , antrenman sürenizin organizasyonu, egzersiz teknikleriniz veya yorgunluk yönetimi vb gibi konularda yardım arıyorsanız danışmanlık hizmeti tam size göre.</p>
-     <h3 className='mb-3 '><BsQuestionCircleFill size={30}  className='m-2'/>Süreç Nasıl İşliyor?</h3>
+     <h3 className='mb-3 '>Süreç Nasıl İşliyor?</h3>
      <p className='mb-3 m-2 lh-lg w-100 text-left'>Satın alma işlemini gerçekleştirdikten sonra  24 saat içinde onay içeren bir e-posta alacaksınız. Daha sonra size daha detaylı sorular soracağım ve görüntülü görüşmemizin zamanını belirleyeceğiz.</p>
-     <h3 className='mb-3 lh-lg'> <TiTick size={30} /> Tam olarak neler elde ediceksin?</h3>
+     <h3 className='mb-3 lh-lg'>  Tam olarak neler elde ediceksin?</h3>
      <ul className='mb-3 lh-lg w-100 text-left'>
       <li className='mb-2'>	İhtiyaç duyduğunuz konulara kişisel çözümler ve rehberlik</li>
       <li className='mb-2'>	E-postanıza gönderilen , hazırlık notlarımı içeren kişisel PDF dosyası</li>
 
-
-
      </ul>
-     <h3 className='mb-3'><ImPriceTags size={25}/> Fiyatlandırma</h3>
-     <div id='price' className="container">
+   
+     </div>
+     <div id='price' className="container" > 
   <div className="row justify-content-center">
    
     
@@ -207,11 +217,12 @@ import {ImPriceTags} from "react-icons/im"
 </Tabs>
 </Row>
 </Container>
-
-<section ref={testimonialDiv}>
+<hr  />
+<section ref={testimonialDiv} className='mt-1 mb-5'>
     <Card />
     </section>
-    <Formik/>
+    <Formik />
+    
 </div>
     </Layout>
   )

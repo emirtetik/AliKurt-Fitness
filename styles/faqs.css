@@ -1,15 +1,31 @@
 .accordion-body{
-  color: white;
+  color: rgb(0, 0, 0);
 }
 .accordion .item {
     border: 0;
     border-radius: 0;
     padding: 1.5rem 1rem;
-    background-color:var(--primary-color);
+    background: #FFFFFF;
+    
 
     /* border-top: 2px solid rgb(255, 252, 252); */
     
 
+}
+.accordion{
+  width: 75%;
+}
+
+.accordion-header,.accordion-body{
+  font-family: 'Gotham Light';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 27px;
+text-align: justify;
+letter-spacing: 0.05em;
+
+color: #343434;
 }
 
 .accordion .item .accordion-header button {
@@ -18,7 +34,7 @@
      font-size: 1rem;
      letter-spacing: .125rem;
      line-height: 3rem;
-     color: rgb(255, 251, 251);
+     color: rgb(0, 0, 0);
      font-weight: 900;
      vertical-align: middle;
      position: relative;
@@ -26,3 +42,11 @@
      padding-top: 0;
 
 }
+
+
+@media only screen and (max-width:768px) and (min-width:320px){
+ 
+  .accordion{
+    width: 100%;
+  }
+  }
