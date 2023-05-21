@@ -16,15 +16,258 @@
 @import url(./formik.css);
 :root{
 --primary-color:rgba(15,24,41,255);
- 
-
-   /* font */
-   --size-1:  2vmin;
-   --size-2:  18px;
-   --size-3:  4.5vh;
-
-
+--white-color:#FFFFFF; 
+--black-color:#000000;
+  
 }
+
+@font-face {
+    font-family: 'Gotham ';
+    font-style:normal;
+    src: url("../public/fonts/Gotham-Thin.otf");
+}
+@font-face {
+    font-family: 'Gotham Black';
+    font-style: normal;
+    src: url("../public/fonts/GothamBlack.otf");
+}
+@font-face {
+    font-family: 'Gotham Medium';
+    font-style: normal;
+    src: url("../public/fonts/GothamMedium.ttf");
+}
+@font-face {
+    font-family: 'Gotham Light';
+    font-style: normal;
+    src: url("../public/fonts/Gotham-Light.otf");
+}
+
+                                /* menu list-font */
+.nav a{
+    list-style: none;
+    font-family: 'Gotham ';
+    font-size: 18px;
+    line-height: 17px;
+}
+                                /* carousel-font */
+.carousel-caption p{
+    font-family: 'Gotham';
+font-style: normal;
+font-weight: 400;
+font-size: 2.5vh;
+line-height: 20px;
+letter-spacing: 0.05em;
+}
+.carousel-head{
+    font-family: 'Gotham Black';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 5vh;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    }
+                                   /* home page-font */
+
+ #welcome h2{
+    font-family: 'Gotham Medium';
+font-style: normal;
+font-weight: 700;
+font-size: 4vh;
+line-height: 62px;
+ }
+ #welcome p{
+    font-family: 'Gotham Light';
+font-style: normal;
+font-weight: 500;
+font-size: 19px;
+line-height: 21px;
+letter-spacing: 0.05em;
+ }
+ #welcome li{
+    font-family: 'Gotham Light';
+font-style: normal;
+font-weight: 500;
+font-size: 19.7132px;
+line-height: 49px;
+letter-spacing: 0.05em;
+ }
+ #welcome h4{
+    font-family: 'Gotham Medium';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 24px;
+letter-spacing: 0.05em;
+ }
+                                    /* Card-font */
+
+#comment-more{
+    font-family: 'Gotham Medium';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+}
+.testimonial-card p{
+    font-family: 'Gotham Light';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 122.7%;
+letter-spacing: 0.055em;
+}
+.btn-more{
+    font-family: 'Gotham';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 19px;
+}
+                                        /* FOooter-font */
+
+footer a{
+    font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 122.7%;
+letter-spacing: -0.05em;
+}
+
+                                          /* Koçluk-fonts */
+.nav-tabs .nav-item{
+    font-family: 'Gotham Medium';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+
+} 
+#button{
+    font-family: 'Gotham Medium';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    
+}
+#container p{
+    font-family: 'Gotham Light';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 27px;
+text-align: justify;
+letter-spacing: 0.05em;
+}
+
+                                     /* Hakkımda-fonts */
+ #bg-section p{
+    font-family: 'Gotham Light';
+font-style: normal;
+font-weight: 500;
+font-size: 19.7132px;
+line-height: 21px;
+text-align: justify;
+letter-spacing: 0.05em;
+ }
+
+                                       /* İletişim-fonts */
+
+#form-contact h2{
+    font-family: 'Gotham Medium';
+font-style: normal;
+font-weight: 700;
+font-size: 56.3233px;
+line-height: 62px;
+}
+#form-contact p{
+    font-family: 'Gotham Light';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 27px;
+}
+                                      /* BLOG-FONTS */
+ #write h1{
+    font-family: 'Gotham Black';
+font-style: normal;
+font-weight: 500;
+font-size: 9vh;
+line-height: 110px;
+ }
+ #write p{
+    font-family: 'Gotham ';
+font-style: normal;
+font-weight: 400;
+font-size: 2.5vh;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.05em;
+ }
+ #btn-links{
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 36px;
+ }
+                                     /* Blog-detail-fonts */
+
+#detail-div p{
+    font-family: 'Gotham Light';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 122.7%;
+    text-align: justify;
+    letter-spacing: 0.055em;
+}
+#detail-div li{
+    font-family: 'Gotham Light';
+font-style: normal;
+font-weight: 500;
+font-size: 19.7132px;
+line-height: 49px;
+letter-spacing: 0.05em;
+ }
+ #detail-div h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4vh;
+    line-height: 62px;
+ }
+
+
+                                                /* SSS-FONT */
+
+#sss-head{
+    font-family: 'Gotham Medium';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 35px;
+}
+.accordion-body li{
+    font-family: 'Gotham Light';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 122.7%;
+    letter-spacing: 0.055em;
+}
+.accordion .item .accordion-header button{
+    font-family: 'Gotham Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 122.7%;
+    letter-spacing: 0.055em;
+}
+
+
+                                         
+
 
 
 a{
@@ -33,36 +276,33 @@ a{
 .py-4{
     list-style: none;
 }
-li{
-    font-size: var(--size-2) !important;
-}
-h2{
-    font-size: var(--size-3) !important;
-}
-.carousel-head{
-text-transform: uppercase;
-font-style: normal;
-font-weight: bold;
-font-size: 5vh;
 
 
-color: #FFFFFF
-}
-p{
-    font-weight: 400;
-    line-height: 24px;
-    
-    letter-spacing: 0.05em;
-    
-}
+
 @media screen and (max-width:479px) {
   
-   
-    p{
-        font-size: 16px !important;
-    }   
-    
+    .nav-tabs .nav-item{
+    font-size: 16px;
+    } 
+    #detail-div h1{
+        line-height: 30px;
+     }
+     #detail-div li{
+    font-size: 17px;
+    line-height: 35px;
+    letter-spacing: 0.00em;
+     }
+     #write h1{
+    font-size: 6vh;
+    line-height: 40px;
+     }
+     #write p{
+    font-size: 2vh;
+     }
 }
+
+
+
 
 ::-webkit-scrollbar{
 width: 6px;
@@ -79,34 +319,3 @@ background-color: white;
     background: rgb(13, 36, 78);
 
 }
-@font-face {
-    font-family: 'Gotham Book';
-    src: url("../public/fonts/Gotham.woff/GothamBook.ttf");
-   
-
-  }
- 
-  @font-face {
-    font-family: 'Gotham Black';
-    src: url("../public/fonts/Gotham.woff/GothamBlack.otf");
-   
-
-  }
-  @font-face {
-    font-family: 'Gotham Light';
-    src: url("../public/fonts/Gotham.woff/GothamLight.ttf");
-   
-
-  }
-  @font-face {
-    font-family: 'Gotham Bold';
-    src: url("../public/fonts/Gotham.woff/GothamBold.ttf");
-   
-
-  }
-  @font-face {
-    font-family: 'Gotham Medium';
-    src: url("../public/fonts/Gotham.woff/GothamMedium_1.ttf");
-   
-
-  }

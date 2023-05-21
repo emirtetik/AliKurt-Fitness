@@ -4,12 +4,9 @@ export default function Document() {
   return (
     <Html lang="tr">
       <Head >
-      {/* <link rel="stylesheet" href="/fonts/Gotham/GothamBook.ttf" />
-          <link rel="stylesheet" href="/fonts/Gotham/GothamBold.ttf" />
-          <link rel="stylesheet" href="/fonts/Gotham/GothamBlack.otf" />
-          <link rel="stylesheet" href="/fonts/Gotham/GothamLight.ttf" />
-          <link rel="stylesheet" href="/fonts/Gotham/GothamMedium.ttf" /> */}
-
+      <link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" cross0rigin/>
+<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet"/>
 
       </Head>
       <body>

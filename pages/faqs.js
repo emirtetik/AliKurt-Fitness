@@ -11,16 +11,24 @@ function faqs() {
       description={""}
       
       />
-     <section className='d-flex justify-content-center align-content-center'>
+     <section id='sss' className='d-flex justify-content-center align-content-center'>
     <Accordion defaultActiveKey="0" flush className='mt-5 p-3  ' >
-    <h2 className='items-center mt-5 mx-auto border-bottom border-dark mb-3'>Sıkça Sorulan Sorular</h2>
+    <h2 id='sss-head' className='items-center mt-5 mx-auto border-bottom border-dark mb-3'>Sıkça Sorulan Sorular</h2>
       
-      <Accordion.Item eventKey="0" className='item'>
+      <Accordion.Item eventKey="0" className='item mb-3'>
         <Accordion.Header>1. Koçluk Geri Ödemesi ve Duraklatma Hakkında</Accordion.Header>
         <Accordion.Body>
           <ul>
             <li>
-            Bir danışmanlık randevusu ayarladınız ve ücretini ödediniz, ancak daha sonra iptal etmeye karar verirseniz, bana bu konuda bilgi verdikten sonra birkaç gün içinde geri ödeme alırsınız. Koçluk ve programlama hizmetim için, paketi satın aldıysanız ve işbirliğimize zaten başladıysak (antrenmanınızın ilk günü) ilk ay için geri ödeme yapmayacağım çünkü bu noktaya kadar ben zaten çok fazla zaman ve çaba harcamış. Bununla birlikte, herhangi bir dış kısıtlama nedeniyle katılamayacağınız ortaya çıkarsa, önceki ayların fiyatının yalnızca bu dönem için normal fiyatla eşleşecek şekilde artması koşuluyla, koçluk paketinin sonraki aylarını iade etme seçeneği vardır. Ayrıca koçluğu, geri dönebileceğiniz zamana kadar duraklatma seçeneği de vardır. Sadece bana haber verin ve onunla başa çıkmak için en iyi seçeneği beraber bulalım.
+            Bir danışmanlık randevusu ayarladınız ve ücretini ödediniz, ancak daha sonra iptal etmeye
+             karar verirseniz bana bu konuda bilgi verdikten sonra birkaç gün içinde geri ödeme alırsınız
+             . Koçluk veya programlama hizmetim için, paketi satın aldıysanız ve beraber çalışmaya zaten 
+             başladıysak, (antrenmanınızın ilk günü) ilk ay için geri ödeme yapamayacağım. Çünkü bu
+              noktaya kadar zaten çok fazla zaman ve çaba harcamış bulunmaktayım.Bununla birlikte, 
+              herhangi bir olağan dışı faktörle koçluğa katılamayacağanız bir durum meydana gelirse,
+               daha sonraki katılamayacağınız ayların iadesini alma opsiyonunuz vardır. Ayrıca koçluğu,
+                geri dönebileceğiniz zamana kadar duraklatma seçeneği de vardır. Sadece bana haber verin
+                 ve en iyi seçeneği beraber bulalım.
 
             </li>
           </ul>
@@ -31,13 +39,19 @@ function faqs() {
         <Accordion.Body>
           <ul>
             <li>
-            Genel kuvvet sporları (powerlifting,streetlifting), calisthenics veya vücut geliştirme için koçluk almakla ilgilenen kişiyseniz, hizmete katılmanın tek şartı, satın aldıktan sonra size göndereceğim sözleşmeye kaydolmaktır. Nadir durumlarda birine koçluk yapmayı reddediyorum çünkü belirli bir konuda onlara benden çok daha fazla yardımcı olacak insanlar olduğuna inanıyorum (örneğin: uzun mesafe koşucusu ya da halter sporcusu gibi). Örnek olarak hem iyi bir kondisyon hem de genel olarak güçlenmek isteyen bir kişi için ise bu spefisik konularda elimden geleni sonuna kadar yaparım.
+            Genel kuvvet sporları (powerlifting,streetlifting), calisthenics veya vücut geliştirme 
+            için koçluk almakla ilgilenen kişiyseniz, hizmete katılmanın tek şartı, satın aldıktan 
+            sonra size göndereceğim sözleşmeye kaydolmaktır. Nadir durumlarda birine koçluk yapmayı
+             reddediyorum çünkü belirli bir konuda onlara benden çok daha fazla yardımcı olacak insanlar
+              olduğuna inanıyorum (örneğin: uzun mesafe koşucusu ya da halter sporcusu gibi). 
+              Örneğin hem iyi bir kondisyon hem de genel olarak güçlenmek isteyen bir kişi için ise 
+              bu spefisik konularda elimden geleni sonuna kadar yaparım.
 
             </li>
           </ul>
         </Accordion.Body>
       </Accordion.Item>
-      <Accordion.Item eventKey="2" className='item'>
+      {/* <Accordion.Item eventKey="2" className='item'>
         <Accordion.Header>3. deserunt mollit anim id est laborum.</Accordion.Header>
         <Accordion.Body>
         <ul>
@@ -52,8 +66,8 @@ function faqs() {
           </li>
         </ul>
         </Accordion.Body>
-      </Accordion.Item>
-      <Accordion.Item eventKey="3" className='item'>
+      </Accordion.Item> */}
+      {/* <Accordion.Item eventKey="3" className='item'>
         <Accordion.Header>4. deserunt mollit anim id est laborum.</Accordion.Header>
         <Accordion.Body>
         <ul>
@@ -68,8 +82,8 @@ function faqs() {
           </li>
         </ul>
         </Accordion.Body>
-      </Accordion.Item>
-      <Accordion.Item eventKey="4" className='item'>
+      </Accordion.Item> */}
+      {/* <Accordion.Item eventKey="4" className='item'>
         <Accordion.Header>5. deserunt mollit anim id est laborum.</Accordion.Header>
         <Accordion.Body>
         <ul>
@@ -84,7 +98,7 @@ function faqs() {
           </li>
         </ul>
         </Accordion.Body>
-      </Accordion.Item>
+      </Accordion.Item> */}
     </Accordion>
     </section>
     </Layout>

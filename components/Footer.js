@@ -14,7 +14,7 @@ function Footer() {
           <div className="row ">
             <div className="col-md-3 col-lg-4 col-xl-3 mx-auto ">
             <Link  href="/">
-        <Image   src="/images/logom1.png" width={120} height={60} alt='logo'></Image>
+        <Image priority as="image"  src="/images/logom1.png" width={120} height={60} alt='logo'></Image>
       </Link>
               
             </div>

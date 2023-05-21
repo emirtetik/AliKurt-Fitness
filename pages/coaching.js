@@ -46,19 +46,19 @@ import {ImPriceTags} from "react-icons/im"
       
       />
 
-      <div className='w-100  ' id='container'>
+      <div className='w-100 mt-5  ' id='container'>
       < Container   >
         <Row className='clearfix justify-content-center  fields' id='row' data-aos="fade-left"
      data-aos-offset="300"
      data-aos-easing="ease-in-sine">
        <Tabs defaultActiveKey={1} animation="true" className='nav-tabs  ' justify  variant='pills' >
   <Tab eventKey={1} title="Koçluk" className='nav-item '>
-  <button onClick={() => smoothScroll(testimonialDiv.current)} id='button' className=' text-white fw-bold float-end'>Danışanlar</button>
+  <button onClick={() => smoothScroll(testimonialDiv.current)} id='button' className=' text-white  float-end'>Danısanlar</button>
   
      <div  id='context' className="container mb-5">
 
    <h3 className=' lh-lg mb-3 ' > Kimler İçin?</h3>
-   <p className='mb-3 m-2 lh-lg w-100 text-left'>Koçluk hizmeti antrenman yolculuğunun herhangi bir aşamasında tam profesyonel rehberlik isteyen kişiler için mükemmel bir seçimdir. Kısa/ uzun vadeli hedefleri belirliyoruz, en iyi planı seçiyoruz ve bunları günlük olarak ele alıyoruz.</p>
+   <p className='mb-3 m-2 lh-lg w-100 text-left'>Koçluk hizmeti antrenman yolculuğunun herhangi bir aşamasında tam profesyonel rehberlik isteyen kişiler için mükemmel bir seçimdir. Kısa ve uzun vadeli hedefleri belirliyoruz, en iyi planı seçiyoruz ve bunları günlük olarak ele alıyoruz.</p>
      <h3 className='mb-3'>  Süreç Nasıl İşliyor?</h3>
      <p className='mb-3 m-2 lh-lg w-100 text-left'>Satın alma işlemini gerçekleştirdikten sonra 24 saat içinde onay içeren bir e-posta alacaksınız. Daha sonra 30 dakikalık görüntülü görüşmede tüm detayları konuşacağız ve ardından planınız üzerinde çalışmaya başlayacağım.</p>
      <h3 className='lh-lg mb-2'>  Tam olarak neler elde ediceksin?</h3>
@@ -121,7 +121,7 @@ import {ImPriceTags} from "react-icons/im"
      
   </Tab>
   <Tab eventKey={2} title="Programlama">
-  <button onClick={() => smoothScroll(testimonialDiv.current)} id='button' className=' text-light fw-bold float-end'>Danışanlar</button>
+  <button onClick={() => smoothScroll(testimonialDiv.current)} id='button' className=' text-light float-end'>Danısanlar</button>
   <div id='context' className="container mb-5">
   <h3 className=' lh-lg mb-3' > Kimler İçin?</h3>
    <p className='mb-3 m-2 lh-lg w-100 text-left'>Programlama hizmeti antrenman yolculuğunun herhangi bir aşamasında hedeflerine uygun kısa ve uzun vadeli program isteyen, çok fazla detaya odaklanılmasına ihtiyaç duymayan kişiler için mükemmel bir seçimdir.</p>
@@ -178,8 +178,8 @@ import {ImPriceTags} from "react-icons/im"
 </div>
     
   </Tab>
-  <Tab eventKey={3} title="Danışma" >
-  <button onClick={() => smoothScroll(testimonialDiv.current)} id='button' className=' text-light fw-bold float-end'>Danışanlar</button>
+  <Tab eventKey={3} title="Danısma" >
+  <button onClick={() => smoothScroll(testimonialDiv.current)} id='button' className=' text-light  float-end'>Danısanlar</button>
   <div id='context' className="container mb-5">
   <h3 className=' lh-lg' > Kimler İçin?</h3>
    <p className='mb-3 m-2 lh-lg w-100 text-left'>Danışmanlık hizmeti, yardıma ihtiyaç duydukları belirli bir konuda soruları olan ve bunlara çözüm arayan kişiler içindir. Programınız , antrenman sürenizin organizasyonu, egzersiz teknikleriniz veya yorgunluk yönetimi vb gibi konularda yardım arıyorsanız danışmanlık hizmeti tam size göre.</p>

@@ -3,7 +3,7 @@
     width: 100%;
     background: url("../public/images/bg-contact2.jpg") no-repeat center fixed;
     background-size: cover;
-    height: 50vh; 
+    height: 70vh; 
    z-index: 1000;
 }
 #write .fields {
@@ -16,30 +16,21 @@
   }
 #text{
     width: 100%;
-    top: 42%;
+    top: 57%;
     position: absolute;
 } 
 #text h1{
-    font-family: 'Gotham Black';
-font-style: normal;
-font-weight: 500;
-font-size: 8vh;
-line-height: 70px;
+  
 }
 #text p{
-    font-family: 'Gotham';
-font-style: normal;
-font-weight: 400;
-font-size: 2.5vh;
-line-height: 24px;
+
 text-align: center;
-letter-spacing: 0.05em;
 width: 50%;
 
 }
 
 #btn-links:hover{
-    color: #0d6efd;
+    color:var(--primary-color);
 }
 #blog-card{
     border-radius: 24.3467px;
@@ -48,39 +39,33 @@ width: 50%;
 }
 .card-body a{
     text-decoration: none;
-    font-family: 'Gotham';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32.4622px;
-    line-height: 36px;
-    /* identical to box height */
+   
     
     text-transform: uppercase;
     
     color: #2A2A2A; 
 }
+.btn img {
+  
+  }
+  
+  .btn img:hover {
+  }
+  
+
 @media only screen and (max-width:768px) and (min-width:320px){
     #text h1{
-        font-family: 'Gotham Black';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 5vh;
-    line-height: 30px;
+   
     width: 100% ;
     }
     #text p{
-        font-family: 'Gotham';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 2vh;
-    line-height: 24px;
-    text-align: center;
-    letter-spacing: 0.05em;
-    width: 80%;
+    
+    text-align: justify;
+    width: 100%;
     }
     #write #text{
         width: 100%;
-        top: 43%;
+        top: 63%;
         position: absolute;
     } 
     }

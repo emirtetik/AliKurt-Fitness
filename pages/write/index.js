@@ -35,7 +35,7 @@ function write({data}) {
      data-aos-duration="2000">
        <h1 className='text-center text-light  '>Tüm Yazılar</h1>
 
-      <p className='h5 mx-auto text-light mt-3 lh-base'>Burada genel direnç antrenmanları, fitness ve fitness paralelinde hayata dair konularda ihtiyacınız olabilecek birçok içerik bulabilirsiniz.</p>
+      <p className=' mx-auto text-light mt-3 lh-base'>Burada genel direnç antrenmanları, fitness ve fitness paralelinde hayata dair konularda ihtiyacınız olabilecek birçok içerik bulabilirsiniz.</p>
        </div>
       </div>
       </div>
@@ -53,7 +53,7 @@ function write({data}) {
 
                        
       <div className='card '   id='blog-card' data-aos="zoom-in-down">
-        <div className='fluid  img-card'>
+        <div className='  img-card'>
 
           <Link href={`write/${write.id}`} className="btn ">
                
@@ -61,12 +61,12 @@ function write({data}) {
            </Link>
 
         </div>
-        <p className="card-text m-2"><small className="text-muted fw-bold text-dark"><MdUpdate/>{write.date}</small></p>
+        <p className="card-text m-2"><small className="text-muted text-dark"><MdUpdate/>{write.date}</small></p>
 
           <div className=' card-body'>
           <Link href={`write/${write.id}`} >
 
-      <h5 id='btn-links' className="card-title h4 fw-bold text-center ">{write.header}</h5>
+      <h5 id='btn-links' className="card-title   text-center ">{write.header}</h5>
         </Link>
                                  
                  </div>

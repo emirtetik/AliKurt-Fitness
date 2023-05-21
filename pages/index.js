@@ -69,7 +69,7 @@ export default function Home() {
         />
 </div>
         <Carousel.Caption>
-        <h3 className="text-center carousel-head">Estetik!<hr /></h3>
+        <h3 className="text-center carousel-head">Estetık!<hr /></h3>
         <p className="text-center">Kas kütleni  arttır. </p>
         </Carousel.Caption>
       </Carousel.Item>
@@ -98,9 +98,9 @@ export default function Home() {
                <section className=' py-lg-5  '>
                 <div className='container ' id='welcome'>
                 <div className=' mt-5'>
-                  <h2 className='h1  text-center'  >Hoş Geldiniz!</h2>
+                  <h2 className=' text-center'  >Hos Geldiniz!</h2>
                 </div>
-                  <div className=' h3 w-100 mx-auto p-3  text-center' >
+                  <div className='  w-100 mx-auto p-3  text-center' >
                     <p  className='  mx-auto'>Koçluk hizmetlerim genel olarak  <b> fitness, beslenme </b> ve <b> direnç </b> antrenmanlarının birçok dalını içermektedir.</p>
                     <ul className=' py-4 d-grid text-start justify-content-center'>
                       <li>	Streetlifting (Barfiks, Dips, Squat , Muscle Up 1 tekrar maksimum)</li>

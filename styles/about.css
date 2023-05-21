@@ -17,14 +17,12 @@
     width: 100%;
 }
 #bg-section p {
-    font-family: 'Gotham Light';
+    /* font-family: 'Gotham Light';
 font-style: normal;
 font-weight: 500;
-font-size: 19px;
+font-size: 19px; */
 letter-spacing: 0.05em;
-
 color: #000000;
-
 }
 @media (min-width: 320px) and (max-width: 480px) {
     #bg-section img{
@@ -33,10 +31,10 @@ color: #000000;
     }
     #bg-section p{
         width: 90%;
+ 
     }
     #bg-section p {
-       text-align: center;
-    
+       text-align: left;
     }
     #bg-section img{
         position: relative;

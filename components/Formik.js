@@ -15,7 +15,7 @@ function Formik() {
     <div className='container'>
     <div id='form' className="row  border border-black   m-3  ">
         <h2 className='text-center mt-3 mb-3 fw-bold'>Bize Ulaşın</h2> 
-        <p className="text-center   ">Hizmetlerimle alakalı herhangi bir sorunuz ve/ veya konuşmak istediğiniz, aklınıza takılan hedefleriniz varsa benimle iletişime geçmekten çekinmeyin</p>
+        <p className="text-center   ">Sorularınız mı var? Bizimle iletişime geçmekten çekinmeyin !</p>
 
         
         <form  data-aos="zoom-in"  action="https://getform.io/f/7425f91a-f183-4b2f-a943-e091582d760e" method='POST'>

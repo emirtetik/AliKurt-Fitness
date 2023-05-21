@@ -1,52 +1,90 @@
 import Layout from '@/layout/Layout.js'
+import Meta from "../../components/Meta"
 import {data} from '../../data.js'
 const Detail = ({post}) => {
 
     return (
      <Layout>
+      
+<Meta 
+      title={"yazılarım"}
+      keywords={""}
+      description={""}
+      
+      />
+
             <section className=' m-5'>
           <div id='detail-div' className='container w-100 mx-auto '>
-           <h1 className='text-center fw-bold'>{post?.header}</h1>
-           <p className='h5   text-justify mx-auto mt-5 lh-base'>{post?.text}</p>
-           <p className='h5  text-left mx-auto lh-base'>{post?.text2}</p>
-           <p className='h5 text-left mx-auto lh-base'>{post?.text3}</p>
-           <p className='h5  text-left mx-auto lh-base'>{post?.li_text}</p>
+
+           <h1 className='text-center '>{post?.header_blog}</h1>
+
+           <p className='   text-justify mx-auto mt-5 '>{post?.text}</p>
+
+           <h4 className='m-3'>{post?.header_list}</h4>
+
+           <p className='  mx-auto '>{post?.text1}</p>
+
            <ul className=' py-4 d-grid text-start justify-content-start '>
-                      <li>{post?.li5}</li>
-                      <li>{post?.li6}</li>
-                      <li>{post?.li7}</li>
-                      <li>{post?.li8}</li>
-                    </ul>
-                    <p className='h5  text-left mx-auto lh-base'>{post?.content}</p>
-                    <p className='h5  text-left mx-auto lh-base'>{post?.content1}</p>
-                    <p className='h5  text-left mx-auto lh-base'>{post?.content2}</p>
-
-
-           <h2 className='h2 fw-bolder mr-5'>{post?.header1}</h2>
-           <ul className=' py-4 d-grid  justify-content-start '>
-                      <li>{post?.li9}</li>
-                      <li>{post?.li10}</li>
-                      <li>{post?.li11}</li>
-                      <li>{post?.li12}</li>
-                      <li>{post?.li13}</li>
-                      <li>{post?.li13}</li>
-                      <li>{post?.li15}</li>
-                      <li>{post?.li16}</li>
-                      <li>{post?.li17}</li>
+                      <li>{post?.li_1}</li>
+                      <li>{post?.li_2}</li>
+                      <li>{post?.li_3}</li>
+                      <li>{post?.li_4}</li>
+                      <li>{post?.li_5}</li>
+                      <li>{post?.li_6}</li>
 
                     </ul>
-           <p className='h5   text-left mx-auto lh-base'>{post?.text4}</p>
-            <ul>
-            <ul className=' py-4 d-grid  justify-content-start '>
+
+           <h2 className='  '>{post?.header1}</h2>
+
+           <p className='  mx-auto '>{post?.text2}</p>
+           <p className='   mx-auto'>{post?.li_text}</p>
+
+           <ul className=' py-4 d-grid text-start justify-content-start '>
                       <li>{post?.li1}</li>
                       <li>{post?.li2}</li>
                       <li>{post?.li3}</li>
                       <li>{post?.li4}</li>
                     </ul>
-            </ul>
-           <h2 className='h2 fw-bolder mr-5'>{post?.header2}</h2>
+                    
+          <p className=' text-left mx-auto '>{post?.text3}</p>
 
-           <p className='h5  text-left mx-auto lh-base'>{post?.text5}</p>
+          <ul className=' py-4 d-grid text-start justify-content-start '>
+                      <li>{post?.li_1}</li>
+                      <li>{post?.li_2}</li>
+                      <li>{post?.li_3}</li>
+                      <li>{post?.li_4}</li>
+                      <li>{post?.li_5}</li>
+                      <li>{post?.li_6}</li>
+
+                    </ul>
+
+          <h4 className='m-3'>{post?.header_list1}</h4>
+
+          <p className='  mx-auto '>{post?.text4}</p>
+          <p className=' mx-auto '>{post?.text5}</p>
+
+          <h4 className=' m-3'>{post?.header_list2}</h4>
+
+          <p className='   mx-auto '>{post?.text6}</p>
+          <p className='  mx-auto '>{post?.text7}</p>
+
+          <h2 className=' mt-3'>{post?.header2}</h2>
+
+               <ul className=' py-4 d-grid  justify-content-start '>
+                      <li>{post?.list1}</li>
+                      <li>{post?.list2}</li>
+                      <li>{post?.list3}</li>
+                      <li>{post?.list4}</li>
+                      <li>{post?.list5}</li>
+                      <li>{post?.list6}</li>
+                      <li>{post?.list7}</li>
+                      <li>{post?.list8}</li>
+                      <li>{post?.list9}</li>
+
+                    </ul>
+
+          <h2 className=' '>{post?.result}</h2>
+      
            
            </div>
            </section>
