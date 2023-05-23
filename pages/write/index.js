@@ -53,11 +53,11 @@ function write({data}) {
 
                        
       <div className='card '   id='blog-card' data-aos="zoom-in-down">
-        <div className='  img-card'>
+        <div className='card-img'>
 
           <Link href={`write/${write.id}`} className="btn ">
                
-           <Image src={write.img} alt="blog image" className='card-img-top' width={590} height={350} />
+           <Image src={write.img} alt="blog image" className=' card-img-top' width={590} height={350} />
            </Link>
 
         </div>

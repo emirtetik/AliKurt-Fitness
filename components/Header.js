@@ -29,32 +29,32 @@ export default function Header() {
       </div>
       <nav ref={navRef}>
   
-      <ul className="menu_list ">
+      <ul className="menu_list  ">
   
-         <li className="nav">
+         <li className="nav fw-lighter">
           <Link  className={router.pathname == "/" ? "active" : ""} onClick={closeMenu}   href="/">
         Ana Sayfa
         </Link>
         </li>
        
-        <li className="nav"><Link  className={router.pathname == "/coaching" ? "active" : ""} onClick={closeMenu}  href="/coaching">
+        <li className="nav fw-light "><Link  className={router.pathname == "/coaching" ? "active" : "" } onClick={closeMenu}  href="/coaching">
        Koçluk
          </Link>
         
          </li>
-        <li className="nav"><Link  className={router.pathname == "/write" ? "active" : ""} onClick={closeMenu}   href="/write">
+        <li className="nav fw-light"><Link  className={router.pathname == "/write" ? "active" : ""} onClick={closeMenu}   href="/write">
          Yazılar
          </Link>
          </li>
   
         
-         <li className="nav"><Link  className={router.pathname == "/about" ? "active" : ""} onClick={closeMenu}   href="/about">
+         <li className="nav fw-light"><Link  className={router.pathname == "/about" ? "active" : ""} onClick={closeMenu}   href="/about">
          Hakkımda
          </Link>
          </li>
         
-         <li className="nav"><Link  className={router.pathname == "/contact" ? "active" : ""} onClick={closeMenu}   href="/contact">
-            Iletisim
+         <li className="nav fw-light"><Link  className={router.pathname == "/contact" ? "active" : ""} onClick={closeMenu}   href="/contact">
+            İletişim
          </Link>
          </li>
        </ul>

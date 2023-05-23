@@ -32,8 +32,8 @@ function contact() {
      data-aos-easing="ease-in-sine">
      
       <div id='form-contact' className="row ">
-      <h2 className='text-center mt-3 mb-3 '>Bize Ulasın</h2> 
-        <p className="text-center   ">Hizmetlerimle alakalı herhangi bir sorunuz ve/ veya konuşmak istediğiniz, aklınıza takılan hedefleriniz varsa benimle iletişime geçmekten çekinmeyin</p>
+      <h2 className='text-center mt-3 mb-3 '>Bize Ulaşın</h2> 
+        <p className="text-center mx-auto  ">Hizmetlerimle alakalı bir sorunuz ve / veya iletmek istediğini herhangi bir şey varsa benimle iletişime geçmekten çekinmeyin.</p>
 
    
         

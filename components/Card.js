@@ -83,7 +83,7 @@ function Card() {
   
 
     <div className="container  ">
-    <h2 className=" text-center mb-5 text-black" id='comment-more' >Danısan Yorumları</h2>
+    <h2 className=" text-center mb-5 text-black" id='comment-more' >Danışan Yorumları</h2>
 
     <div className='w-100'>
 

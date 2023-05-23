@@ -15,7 +15,7 @@ function Formik() {
     <div className='container'>
     <div id='form' className="row  border border-black   m-3  ">
         <h2 className='text-center mt-3 mb-3 fw-bold'>Bize Ulaşın</h2> 
-        <p className="text-center   ">Sorularınız mı var? Bizimle iletişime geçmekten çekinmeyin !</p>
+        <p className="text-center   ">Sorularınız mı var? Bizimle iletişime geçmekten çekinmeyin!</p>
 
         
         <form  data-aos="zoom-in"  action="https://getform.io/f/7425f91a-f183-4b2f-a943-e091582d760e" method='POST'>
@@ -37,13 +37,13 @@ function Formik() {
           <div className="input-group">
   <label htmlFor="seçenekler" className='user-label '></label> 
 
-          <Form.Select id='koçluk' name='seçenekler'  aria-label="Default select example"  className="text-dark fw-bold input form-control rounded-4 form-select ">
-      <option  >Seçenekler</option>
-      <option value="işbirliği" className='text-dark fw-bold '>İşbirliği</option>
-      <option value="koçluk" className='text-dark fw-bold'>Koçluk</option>
-      <option value="Programlama" className='text-dark fw-bold'>Programlama</option>
-      <option value="Danışma" className='text-dark fw-bold'>Danışma</option>
-      <option value="diğer" className='text-dark fw-bold'>Diğer</option>
+          <Form.Select id='koçluk' name='seçenekler'  aria-label="Default select example"  className="text-dark  input form-control rounded-4 form-select ">
+      <option  >Konu</option>
+      <option value="işbirliği" className='text-dark  '>İşbirliği</option>
+      <option value="koçluk" className='text-dark '>Koçluk</option>
+      <option value="Programlama" className='text-dark '>Programlama</option>
+      <option value="Danışma" className='text-dark '>Danışma</option>
+      <option value="diğer" className='text-dark '>Diğer</option>
 
     </Form.Select>
 

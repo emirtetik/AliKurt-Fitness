@@ -21,37 +21,13 @@
   
 }
 
-@font-face {
-    font-family: 'Gotham ';
-    font-style:normal;
-    src: url("../public/fonts/Gotham-Thin.otf");
-}
-@font-face {
-    font-family: 'Gotham Black';
-    font-style: normal;
-    src: url("../public/fonts/GothamBlack.otf");
-}
-@font-face {
-    font-family: 'Gotham Medium';
-    font-style: normal;
-    src: url("../public/fonts/GothamMedium.ttf");
-}
-@font-face {
-    font-family: 'Gotham Light';
-    font-style: normal;
-    src: url("../public/fonts/Gotham-Light.otf");
-}
 
-                                /* menu list-font */
-.nav a{
-    list-style: none;
-    font-family: 'Gotham ';
-    font-size: 18px;
-    line-height: 17px;
-}
+
+
                                 /* carousel-font */
 .carousel-caption p{
-    font-family: 'Gotham';
+    font-family: 'Manrope', sans-serif;
+
 font-style: normal;
 font-weight: 400;
 font-size: 2.5vh;
@@ -59,9 +35,10 @@ line-height: 20px;
 letter-spacing: 0.05em;
 }
 .carousel-head{
-    font-family: 'Gotham Black';
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: 0.05em;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 900;
     font-size: 5vh;
     line-height: 30px;
     text-transform: uppercase;
@@ -70,32 +47,33 @@ letter-spacing: 0.05em;
                                    /* home page-font */
 
  #welcome h2{
-    font-family: 'Gotham Medium';
-font-style: normal;
-font-weight: 700;
-font-size: 4vh;
-line-height: 62px;
+    font-family: 'Manrope', sans-serif;
+   font-weight: 900;
+   font-size: 4vh;
+   line-height: 62px;
  }
  #welcome p{
-    font-family: 'Gotham Light';
+    font-family: 'Manrope', sans-serif;
+
 font-style: normal;
-font-weight: 500;
+font-weight: 400;
 font-size: 19px;
 line-height: 21px;
 letter-spacing: 0.05em;
  }
  #welcome li{
-    font-family: 'Gotham Light';
+    font-family: 'Manrope', sans-serif;
 font-style: normal;
-font-weight: 500;
-font-size: 19.7132px;
+font-weight: 600;
+font-size: 19px;
 line-height: 49px;
 letter-spacing: 0.05em;
  }
  #welcome h4{
-    font-family: 'Gotham Medium';
-font-style: normal;
-font-weight: 700;
+    font-family: 'Manrope', sans-serif;
+
+font-style:normal;
+font-weight: 600;
 font-size: 22px;
 line-height: 24px;
 letter-spacing: 0.05em;
@@ -103,22 +81,25 @@ letter-spacing: 0.05em;
                                     /* Card-font */
 
 #comment-more{
-    font-family: 'Gotham Medium';
+    font-family: 'Manrope', sans-serif;
+
 font-style: normal;
-font-weight: 700;
+font-weight: 600;
 font-size: 36px;
 line-height: 40px;
 }
 .testimonial-card p{
-    font-family: 'Gotham Light';
+    font-family: 'Manrope', sans-serif;
+
 font-style: normal;
-font-weight: 500;
+font-weight: 400;
 font-size: 16px;
 line-height: 122.7%;
 letter-spacing: 0.055em;
 }
 .btn-more{
-    font-family: 'Gotham';
+    font-family: 'Manrope', sans-serif;
+
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
@@ -137,23 +118,34 @@ letter-spacing: -0.05em;
 
                                           /* Koçluk-fonts */
 .nav-tabs .nav-item{
-    font-family: 'Gotham Medium';
+    font-family: 'Manrope', sans-serif;
+
 font-style: normal;
-font-weight: 600;
+font-weight: 700;
 font-size: 18px;
 line-height: 22px;
 
 } 
-#button{
-    font-family: 'Gotham Medium';
+#context h3{
+    font-family: 'Manrope', sans-serif;
+
     font-style: normal;
-    font-weight: 700;
+    font-weight:700;
+    font-size: 3vh;
+    line-height: 22px;
+}
+#button{
+    font-family: 'Manrope', sans-serif;
+
+    font-style: normal;
+    font-weight:700;
     font-size: 18px;
     line-height: 22px;
     
 }
 #container p{
-    font-family: 'Gotham Light';
+        font-family: 'Manrope', sans-serif;
+
 font-style: normal;
 font-weight: 400;
 font-size: 17px;
@@ -164,11 +156,12 @@ letter-spacing: 0.05em;
 
                                      /* Hakkımda-fonts */
  #bg-section p{
-    font-family: 'Gotham Light';
+    font-family: 'Manrope', sans-serif;
+
 font-style: normal;
-font-weight: 500;
-font-size: 19.7132px;
-line-height: 21px;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
 text-align: justify;
 letter-spacing: 0.05em;
  }
@@ -176,29 +169,30 @@ letter-spacing: 0.05em;
                                        /* İletişim-fonts */
 
 #form-contact h2{
-    font-family: 'Gotham Medium';
+        font-family: 'Manrope', sans-serif;
+
 font-style: normal;
 font-weight: 700;
-font-size: 56.3233px;
+font-size: 6vh;
 line-height: 62px;
 }
 #form-contact p{
-    font-family: 'Gotham Light';
+    font-family: 'Manrope', sans-serif;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 19px;
     line-height: 27px;
 }
                                       /* BLOG-FONTS */
  #write h1{
-    font-family: 'Gotham Black';
+    font-family: 'Manrope', sans-serif;
 font-style: normal;
-font-weight: 500;
+font-weight: 700;
 font-size: 9vh;
 line-height: 110px;
  }
  #write p{
-    font-family: 'Gotham ';
+    font-family: 'Manrope', sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 2.5vh;
@@ -207,6 +201,8 @@ text-align: center;
 letter-spacing: 0.05em;
  }
  #btn-links{
+    font-family: 'Manrope', sans-serif;
+
 font-style: normal;
 font-weight: 700;
 font-size: 28px;
@@ -215,23 +211,24 @@ line-height: 36px;
                                      /* Blog-detail-fonts */
 
 #detail-div p{
-    font-family: 'Gotham Light';
+    font-family: 'Manrope', sans-serif;
     font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
+    font-weight: 400;
+    font-size: 17px;
     line-height: 122.7%;
     text-align: justify;
     letter-spacing: 0.055em;
 }
 #detail-div li{
-    font-family: 'Gotham Light';
+    font-family: 'Manrope', sans-serif;
 font-style: normal;
-font-weight: 500;
+font-weight: 600;
 font-size: 19.7132px;
 line-height: 49px;
 letter-spacing: 0.05em;
  }
  #detail-div h1{
+    font-family: 'Manrope', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 4vh;
@@ -242,24 +239,27 @@ letter-spacing: 0.05em;
                                                 /* SSS-FONT */
 
 #sss-head{
-    font-family: 'Gotham Medium';
+    font-family: 'Manrope', sans-serif;
+
 font-style: normal;
 font-weight: 700;
 font-size: 32px;
 line-height: 35px;
 }
 .accordion-body li{
-    font-family: 'Gotham Light';
+    font-family: 'Manrope', sans-serif;
+
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 16px;
     line-height: 122.7%;
     letter-spacing: 0.055em;
 }
 .accordion .item .accordion-header button{
-    font-family: 'Gotham Medium';
+    font-family: 'Manrope', sans-serif;
+
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 18px;
     line-height: 122.7%;
     letter-spacing: 0.055em;
@@ -283,7 +283,11 @@ a{
   
     .nav-tabs .nav-item{
     font-size: 16px;
+    }
+    #container p{
+     letter-spacing: 0.00em;
     } 
+    
     #detail-div h1{
         line-height: 30px;
      }
@@ -299,6 +303,12 @@ a{
      #write p{
     font-size: 2vh;
      }
+     #bg-section p{
+    font-size: 18px;
+    text-align: justify;
+    letter-spacing: 0.04em;
+     }
+    
 }
 
 

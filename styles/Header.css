@@ -35,7 +35,7 @@ header .nav-btn {
 	outline: none;
 	visibility: hidden;
 	opacity: 0;
-	/* font-size: 1.8rem; */
+
 }
 nav{
   display: flex;
@@ -54,13 +54,14 @@ nav{
    
 }
 .nav  a{
-
+  list-style: none;
+  font-family: 'Manrope', sans-serif;
+  font-weight:lighter;
+  font-size: 18px;
+  line-height: 17px; 
+letter-spacing: 0.01em;
   position: relative;
   padding: 14px;
-  /* font-style: normal;
-  font-weight: 300; */
-  line-height: 17px;
-  letter-spacing: 0.05em;
   opacity: 0.4;
   color: #FFFFFF;
  } 
@@ -125,7 +126,6 @@ left: 0;
    }
 
 	nav .menu_list {
-		/* font-size: 1.2rem; */
       display: grid;
 	}
   .logo {
@@ -165,7 +165,7 @@ left: 0;
 /* iPhone 8 ve benzeri */
 @media (min-width: 321px) and (max-width: 375px) {
   header nav{
-    top: 16%;
+    top: 16.9%;
 		transform: translateX(-100vh);
 
   }

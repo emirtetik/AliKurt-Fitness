@@ -41,7 +41,8 @@ export  const  data = [
               Söz konusu, vücut ağırlığı hareketleri (calisthenics hareketleri vbi) olunca  işin rengi biraz değişiyor,
               daha kapsamlı rutinler daha iyi iş görüyor diyebilirim.`,      
 
-      "img":"/images/ısınma.jpeg",      
+      "img":"/images/warm.jpeg",      
+
        },
 
 {
@@ -112,7 +113,7 @@ export  const  data = [
 
     "result": `‘’ Ustalık dehanın veya yeteneğin bir işlevi değildir. Belirli bir bilgi alanına uygulanan zamanın ve yoğun odaklanmanın bir işlevidir.’’`,
 
-    "img":"/images/hybrid.jpeg",       
+    "img":"/images/hybriddd.jpeg",       
 },
 {
     "id":3,
@@ -145,7 +146,7 @@ export  const  data = [
                 
      "result": `“İyi uygulama, iyi bir fikirden daha önemlidir. Ama biri diğerine yardımcı olur.”`,
 
-     "img":"/images/continuity.jpeg",        
+     "img":"/images/duration.jpeg",        
 },
 {
     "id":4,
@@ -212,7 +213,7 @@ export  const  data = [
  
     "result": `‘’Hedef Belirlemek, Görünmeyeni Görünür Hale Getirmenin İlk Adımıdır.’’`,
 
-    "img":"/images/development.jpeg",        
+    "img":"/images/devlop.jpeg",        
 },
 
  {
@@ -269,7 +270,7 @@ export  const  data = [
 
   "result": `‘’ Tutku Olmadan, Enerjiniz Olmaz. Enerjiniz Olmadan İse Hiçbir Şeyiniz.’’`,
 
-  "img":"/images/greed.jpeg",    
+  "img":"/images/greedd.jpeg",    
  },
 
 

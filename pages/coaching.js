@@ -78,11 +78,11 @@ import {ImPriceTags} from "react-icons/im"
      </div>
     
      <div id='price' className="container " >
-  <div className="row justify-content-center">
+  <div className="row justify-content-center  ">
    
     <div className="col-md-3">
     <Link href="/">
-      <div className="card" >
+      <div className="card mx-auto" >
         <div className="card-body d-flex flex-column justify-content-center align-items-center" >
            <h4>Aylık</h4>
            <span>(30 gün)</span>
@@ -94,7 +94,7 @@ import {ImPriceTags} from "react-icons/im"
     </div>
     <div id='cardUp' className="col-md-3">
     <Link href="/">
-      <div className="card" >
+      <div className="card mx-auto" >
         <div className="card-body d-flex flex-column justify-content-center align-items-center" >
         <h4>3 Aylık</h4>
            <span>(90 gün)</span>
@@ -106,7 +106,7 @@ import {ImPriceTags} from "react-icons/im"
     </div>
     <div className="col-md-3">
     <Link href="/">
-      <div className="card" >
+      <div className="card mx-auto" >
         <div className="card-body d-flex flex-column justify-content-center align-items-center" >
         <h4>6 Aylık</h4>
            <span >(180 gün)</span>
@@ -140,7 +140,7 @@ import {ImPriceTags} from "react-icons/im"
    
     <div className="col-md-3">
     <Link href="/">
-      <div className="card" >
+      <div className="card mx-auto" >
         <div className="card-body d-flex flex-column justify-content-center align-items-center" >
            <h4>6 Haftalık</h4>
            <span>(42 gün)</span>
@@ -152,7 +152,7 @@ import {ImPriceTags} from "react-icons/im"
     </div>
     <div id='cardUp' className="col-md-3">
     <Link href="/">
-      <div className="card" >
+      <div className="card mx-auto" >
         <div className="card-body d-flex flex-column justify-content-center align-items-center" >
         <h4 >3 Aylık</h4>
            <span>(90 gün)</span>
@@ -164,7 +164,7 @@ import {ImPriceTags} from "react-icons/im"
     </div>
     <div className="col-md-3">
     <Link href="/">
-      <div className="card" >
+      <div className="card mx-auto" >
         <div className="card-body d-flex flex-column justify-content-center align-items-center" >
         <h4>6 Aylık</h4>
            <span>(180 gün)</span>
@@ -199,7 +199,7 @@ import {ImPriceTags} from "react-icons/im"
     
     <div id='cardUp' className="col-md-3">
     <Link href="/">
-      <div className="card" >
+      <div className="card mx-auto" >
         <div className="card-body d-flex flex-column justify-content-center align-items-center" >
         <h4>60 DAKİKA</h4>
            <span>+ pdf</span>
