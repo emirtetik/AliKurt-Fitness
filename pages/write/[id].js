@@ -16,7 +16,7 @@ const Detail = ({post}) => {
             <section className=' m-5'>
           <div id='detail-div' className='container w-100 mx-auto '>
 
-           <h1 className='text-center '>{post?.header_blog}</h1>
+           <h1 className='text-center '>{post?.header}</h1>
 
            <p className='   text-justify mx-auto mt-5 '>{post?.text}</p>
 

@@ -53,7 +53,7 @@ import {ImPriceTags} from "react-icons/im"
      data-aos-easing="ease-in-sine">
        <Tabs defaultActiveKey={1} animation="true" className='nav-tabs  ' justify  variant='pills' >
   <Tab eventKey={1} title="Koçluk" className='nav-item '>
-  <button onClick={() => smoothScroll(testimonialDiv.current)} id='button' className=' text-white  float-end'>Danısanlar</button>
+  <button onClick={() => smoothScroll(testimonialDiv.current)} id='button' className=' text-white  float-end'>Danışanlar</button>
   
      <div  id='context' className="container mb-5">
 
@@ -121,7 +121,7 @@ import {ImPriceTags} from "react-icons/im"
      
   </Tab>
   <Tab eventKey={2} title="Programlama">
-  <button onClick={() => smoothScroll(testimonialDiv.current)} id='button' className=' text-light float-end'>Danısanlar</button>
+  <button onClick={() => smoothScroll(testimonialDiv.current)} id='button' className=' text-light float-end'>Danışanlar</button>
   <div id='context' className="container mb-5">
   <h3 className=' lh-lg mb-3' > Kimler İçin?</h3>
    <p className='mb-3 m-2 lh-lg w-100 text-left'>Programlama hizmeti antrenman yolculuğunun herhangi bir aşamasında hedeflerine uygun kısa ve uzun vadeli program isteyen, çok fazla detaya odaklanılmasına ihtiyaç duymayan kişiler için mükemmel bir seçimdir.</p>
@@ -178,8 +178,8 @@ import {ImPriceTags} from "react-icons/im"
 </div>
     
   </Tab>
-  <Tab eventKey={3} title="Danısma" >
-  <button onClick={() => smoothScroll(testimonialDiv.current)} id='button' className=' text-light  float-end'>Danısanlar</button>
+  <Tab eventKey={3} title="Danışma" >
+  <button onClick={() => smoothScroll(testimonialDiv.current)} id='button' className=' text-light  float-end'>Danışanlar</button>
   <div id='context' className="container mb-5">
   <h3 className=' lh-lg' > Kimler İçin?</h3>
    <p className='mb-3 m-2 lh-lg w-100 text-left'>Danışmanlık hizmeti, yardıma ihtiyaç duydukları belirli bir konuda soruları olan ve bunlara çözüm arayan kişiler içindir. Programınız , antrenman sürenizin organizasyonu, egzersiz teknikleriniz veya yorgunluk yönetimi vb gibi konularda yardım arıyorsanız danışmanlık hizmeti tam size göre.</p>

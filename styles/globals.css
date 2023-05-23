@@ -64,10 +64,11 @@ letter-spacing: 0.05em;
  #welcome li{
     font-family: 'Manrope', sans-serif;
 font-style: normal;
-font-weight: 600;
+font-weight: 400;
 font-size: 19px;
 line-height: 49px;
 letter-spacing: 0.05em;
+color: #000000 !important;
  }
  #welcome h4{
     font-family: 'Manrope', sans-serif;
@@ -153,6 +154,15 @@ line-height: 27px;
 text-align: justify;
 letter-spacing: 0.05em;
 }
+#context ul{
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 27px;
+text-align: justify;
+letter-spacing: 0.05em;
+}
 
                                      /* Hakkımda-fonts */
  #bg-section p{
@@ -202,11 +212,11 @@ letter-spacing: 0.05em;
  }
  #btn-links{
     font-family: 'Manrope', sans-serif;
-
+ text-align: left !important;
 font-style: normal;
-font-weight: 700;
-font-size: 28px;
-line-height: 36px;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
  }
                                      /* Blog-detail-fonts */
 
@@ -222,7 +232,7 @@ line-height: 36px;
 #detail-div li{
     font-family: 'Manrope', sans-serif;
 font-style: normal;
-font-weight: 600;
+font-weight: 400;
 font-size: 19.7132px;
 line-height: 49px;
 letter-spacing: 0.05em;
@@ -285,9 +295,10 @@ a{
     font-size: 16px;
     }
     #container p{
-     letter-spacing: 0.00em;
-    } 
-    
+
+text-align:justify !important;
+}
+   
     #detail-div h1{
         line-height: 30px;
      }

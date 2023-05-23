@@ -3,10 +3,9 @@
 export  const  data = [
       {
    "id":1,
-   "header" : "NASIL ISINILIR?",   
+   "header" : "Nasıl Isınılır?",   
    "date" : " 9 Nisan 2023 ",
 
-   "header_blog":`NASIL ISINILIR?`,       
             
      "text" : `Salonlarda gördüğümüz üzere herkes antrenmana başlamadan önce kendi tarzıyla iyi veya kötü ısınmakta. 
                 Evet, ‘’ısınmak’’ antrenmanın hayati bir bileşeni fakat kuvvet sporlarının her hususunda olduğu gibi ısınma
@@ -47,10 +46,9 @@ export  const  data = [
 
 {
     "id":2,
-   "header" :"NEDEN HİBRİT ANTRENMAN? "  , 
+   "header" :"Neden Hibrit Antreman Üstün? "  , 
    "date" :" 9 Nisan 2023 ",
      
-   "header_blog":`NEDEN HİBRİT ANTRENMAN ÜSTÜN?`,
    
    "text" :`Nedenlere geçmeden önce hibritin karşılığından bahsetmek istiyorum. Hibrit kelime anlamı olarak bildiğiniz üzere melez anlamına
             gelmekte, peki antrenmanlarımızda yaptığımız şeyleri tek kelimeyle anlatan bu kelime neleri ifade edebilir? `,
@@ -118,9 +116,8 @@ export  const  data = [
 {
     "id":3,
     "date" :" 9 Nisan 2023 ",
-    "header" : `Süreklilik ve başarı ilişkisi`,
+    "header" : `Antremanlarda ‘’Sürekli’’ Olmak Başarının Anahtarı Mı?  `,
     
-    "header_blog":`ANTRENMANLARDA ‘’SÜREKLİ’’ OLMAK BAŞARININ ANAHTARI MI?`,
 
     "text": `Hayattaki her şey de olduğu gibi uzun vadede sürekli olmak genelde kısa vade de yoğun çalışmaktan daha iyi sonuçlar doğurur.
             Söz konusu kas yapmak, performansımızı arttırmak olduğunda da durum yine böyle mi? Cevap hem evet hem hayır.İki insanı ele alalım.
@@ -151,9 +148,8 @@ export  const  data = [
 {
     "id":4,
     "date" :" 9 Nisan 2023 ",
-    "header" : `Gelişim İçin Ne Yapmalısın`,
+    "header" : `Seni Gelişmekten Alıkoyan Şeyler Ne?`,
 
-    "header_blog":`SENİ GELİŞMEKTEN ALIKOYAN ŞEYLER NE?`,
 
     "text": `Hepimiz gelişmek istiyoruz, hem de her anlamda. Söz konusu özellikle kendi antrenman performansımız veya fiziğimiz
             olduğunda duygular işin içine olması gerekenden fazla girebiliyor ve bu bizi realiteden uzaklaştırıyor. Antrenmanlarımıza
@@ -219,9 +215,8 @@ export  const  data = [
  {
    "id":5,
    "date" :" 9 Nisan 2023 ",
-   "header" : `TUTKULU ANTREMAN`,
+   "header" : `Antremanlara Olan Eski Arzunu Kaybettiğinde?`,
 
-   "header_blog":`ANTRENMANLARA OLAN ESKİ ARZUNU KAYBETTİĞİNDE?`,
   
   "text":`Tıpkı birçok yeni alışkanlıkta olduğu gibi yüksek motivasyonla başladığımız fitness, zamanla gözümüze daha az çekici ve 
           yapması zor hale gelebilir. Özellikle yeni başlayanlar bu alışkanlığı edinme sürecinde bahaneler, tembellikler üretebilir,
