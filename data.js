@@ -46,7 +46,7 @@ export  const  data = [
 
 {
     "id":2,
-   "header" :"Neden Hibrit Antreman Üstün? "  , 
+   "header" :"Neden Hibrit Antrenman Üstün? "  , 
    "date" :" 9 Nisan 2023 ",
      
    
@@ -116,7 +116,7 @@ export  const  data = [
 {
     "id":3,
     "date" :" 9 Nisan 2023 ",
-    "header" : `Antremanlarda ‘’Sürekli’’ Olmak Başarının Anahtarı Mı?  `,
+    "header" : `Antrenmanlarda ‘’Sürekli’’ Olmak Başarının Anahtarı Mı?  `,
     
 
     "text": `Hayattaki her şey de olduğu gibi uzun vadede sürekli olmak genelde kısa vade de yoğun çalışmaktan daha iyi sonuçlar doğurur.
@@ -215,7 +215,7 @@ export  const  data = [
  {
    "id":5,
    "date" :" 9 Nisan 2023 ",
-   "header" : `Antremanlara Olan Eski Arzunu Kaybettiğinde?`,
+   "header" : `Antrenmanlara Olan Eski Arzunu Kaybettiğinde?`,
 
   
   "text":`Tıpkı birçok yeni alışkanlıkta olduğu gibi yüksek motivasyonla başladığımız fitness, zamanla gözümüze daha az çekici ve 
