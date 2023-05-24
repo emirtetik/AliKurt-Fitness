@@ -21,9 +21,9 @@ export default function Home() {
   return (
     <Layout>
       <Meta 
-      title={"AliKurt"}
-      keywords={""}
-      description={""}
+      title={"Alieswolf"}
+      keywords={"Fitness,Vücut geliştirme,Güç sporları,Powerlifting,Calisthenics,Online koçluk,Programlama,Egzersiz programları,Beslenme önerileri,Sağlıklı yaşam"}
+      description={"Fitness,calisthenics,powerlifting ve beslenme alanlarında bilgi edinin ve hedeflerinize ulaşın."}
       
       />
 

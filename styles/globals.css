@@ -74,7 +74,7 @@ color: #000000 !important;
     font-family: 'Manrope', sans-serif;
 
 font-style:normal;
-font-weight: 600;
+font-weight:400;
 font-size: 22px;
 line-height: 24px;
 letter-spacing: 0.05em;
@@ -151,7 +151,6 @@ font-style: normal;
 font-weight: 400;
 font-size: 17px;
 line-height: 27px;
-text-align: justify;
 letter-spacing: 0.05em;
 }
 #context ul{
@@ -160,7 +159,6 @@ letter-spacing: 0.05em;
 font-weight: 400;
 font-size: 17px;
 line-height: 27px;
-text-align: justify;
 letter-spacing: 0.05em;
 }
 
@@ -174,6 +172,7 @@ font-size: 20px;
 line-height: 26px;
 text-align: justify;
 letter-spacing: 0.05em;
+
  }
 
                                        /* İletişim-fonts */
@@ -210,14 +209,13 @@ line-height: 24px;
 text-align: center;
 letter-spacing: 0.05em;
  }
- #btn-links{
+#btn-links{
     font-family: 'Manrope', sans-serif;
- text-align: left !important;
 font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 24px;
- }
+font-size: 24px;
+line-height: 28px;
+ } 
+ 
                                      /* Blog-detail-fonts */
 
 #detail-div p{
@@ -225,8 +223,8 @@ line-height: 24px;
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
-    line-height: 122.7%;
-    text-align: justify;
+    line-height: 35px;
+    text-align: left;
     letter-spacing: 0.055em;
 }
 #detail-div li{
@@ -295,14 +293,26 @@ a{
     font-size: 16px;
     }
     #container p{
-
-text-align:justify !important;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
 }
-   
+#context ul{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+#detail-div p{
+    text-align: left;
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+}
+
     #detail-div h1{
         line-height: 30px;
      }
      #detail-div li{
+        text-align: start;
+        margin-left: 0px !important;
+        margin-right: 5px !important;
     font-size: 17px;
     line-height: 35px;
     letter-spacing: 0.00em;
@@ -316,7 +326,8 @@ text-align:justify !important;
      }
      #bg-section p{
     font-size: 18px;
-    text-align: justify;
+    text-align: left;
+    margin: 20px 0px 0px 0px;
     letter-spacing: 0.04em;
      }
     

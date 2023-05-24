@@ -13,12 +13,12 @@ const Detail = ({post}) => {
       
       />
 
-            <section className=' m-5'>
+            <section className=' mt-5 mb-5'>
           <div id='detail-div' className='container w-100 mx-auto '>
 
            <h1 className='text-center '>{post?.header}</h1>
 
-           <p className='   text-justify mx-auto mt-5 '>{post?.text}</p>
+           <p className='   mx-auto mt-5 '>{post?.text}</p>
 
            <h4 className='m-3'>{post?.header_list}</h4>
 
@@ -46,7 +46,7 @@ const Detail = ({post}) => {
                       <li>{post?.li4}</li>
                     </ul>
                     
-          <p className=' text-left mx-auto '>{post?.text3}</p>
+          <p className='  mx-auto '>{post?.text3}</p>
 
           <ul className=' py-4 d-grid text-start justify-content-start '>
                       <li>{post?.li_1}</li>

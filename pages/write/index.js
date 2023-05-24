@@ -64,9 +64,10 @@ function write({data}) {
         <p className="card-text m-2"><small className="text-muted text-dark"><MdUpdate/>{write.date}</small></p>
 
           <div className=' card-body'>
-          <Link href={`write/${write.id}`} >
 
-      <h5 id='btn-links' className="card-title   text-center ">{write.header}</h5>
+          <Link href={`write/${write.id}`} className='onemli'>
+
+      <h5 id='btn-links' className="card-title text-start fw-bold ">{write.header}</h5>
         </Link>
                                  
                  </div>
