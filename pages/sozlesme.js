@@ -78,12 +78,7 @@ Kişisel veri sahipleri adına üçüncü kişilerin başvuru talebinde bulunabi
 </p>
           <h4 className=' m-3'>VI.II.	KİŞİSEL VERİ KATEGORİZASYONU</h4>
 
-          <p className="mx-auto">İşbu Politika kapsamında, Muhammet Ali Kurt  tarafından işlenen kişisel veriler kategorize edilmiştir. Yukarıda belirtilen veri sahibi kategorilerinde yer alan kişisel veri sahiplerinin kişisel verileri aşağıda belirtilen kişisel veri kategorileri ile ilişkilendirilmiştir.
-Kişisel Veri Kategorizasyonu Profil Bilgisi: …
-Lokasyon Verisi: … Müşteri İşlem Bilgisi: … İşlem Güvenliği Bilgisi:  
-Finansal Bilgi: …
-Hukuki İşlem Bilgisi: … Pazarlama Bilgisi: …
-Risk Yönetimi Bilgisi: Kişiyle ilişkilendirilen ve şirketimizin ticari itibarını korumak maksatlı toplanan bilgiler
+          <p className="mx-auto">İşbu Politika kapsamında, Muhammet Ali Kurt tarafından işlenen kişisel veriler kategorize edilmiştir. Yukarıda belirtilen veri sahibi kategorilerinde yer alan kişisel veri sahiplerinin kişisel verileri aşağıda belirtilen kişisel veri kategorileri ile ilişkilendirilmiştir. Kişisel Veri Kategorizasyonu Profil Bilgisi, Lokasyon Verisi, Müşteri İşlem Bilgisi, İşlem Güvenliği Bilgisi, Finansal Bilgi, Hukuki İşlem Bilgisi, Pazarlama Bilgisi,  Kişiyle ilişkilendirilen ve şirketimizin ticari itibarını korumak maksatlı toplanan bilgiler.
 </p>
 <h4 className=' m-3'>VII.	KİŞİSEL VERİLERİN SAKLANMA SÜRELERİNE İLİŞKİN İLKELER</h4>
 <p className="mx-auto">Kişisel veriler, şirket tarafından ilgili mevzuatta öngörülen süreler boyunca ve hukuki yükümlülükleri doğrultusunda saklanmaktadır. Kişisel verilerin ne kadar süre boyunca saklanması gerektiğine ilişkin mevzuatta bir süre düzenlenmemişse, kişisel veriler şirketin o veriyi işlerken yürüttüğü faaliyet ile bağlantılı olarak .şirketin uygulamaları ile ticari teamüller doğrultusunda işlenmesini gerektiren süre kadar işlenmekte daha sonra silinmekte, yok edilmekte veya anonim hale getirilmektedir. İşlenme amacı sona ermiş kişisel veriler ile kişisel veri sahipleri tarafından silinmesi/anonimleştirilmesi talep edilmiş olan kişisel veriler, ilgili mevzuat ve şirketin belirlediği saklama sürelerinin de sonuna gelinmişse; yalnızca olası hukuki uyuşmazlıklarda delil teşkil etmesi veya kişisel veriye bağlı ilgili hakkın ileri sürülebilmesi veya savunmanın tesis edilmesi amacıyla saklanabilmektedir kişisel
