@@ -1,10 +1,19 @@
-import React from 'react'
+import React, { useState } from "react"
+import TermsModal from "../components/TermsModal"
 import Link from 'next/link'
 import Image from 'next/image';
 import {FaYoutube} from "react-icons/fa"
 import {AiFillInstagram} from "react-icons/ai"
 import {MdEmail} from "react-icons/md"
+
 function Footer() {
+
+  const [showModal, setShowModal] = useState(false);
+  
+  const toggleModal = () => {
+    setShowModal(!showModal);
+  };
+
   return (
   <footer className="text-center text-lg-start  text-muted" style={{backgroundColor: "rgba(15,24,41,255)"}}>
      
@@ -16,10 +25,12 @@ function Footer() {
             <Link  href="/">
         <Image priority as="image"  src="/images/logom1.png" width={120} height={60} alt='logo'></Image>
       </Link>
-              
+      <div  className='iyzi mt-4 mb-2' >
+             <Image src="/images/logo_band_white@1X.png" width={500} height={35} alt='iyzico'/> 
+             </div>
             </div>
 
-            <div className=" col-lg-6 ">
+            <div className=" col-lg-3 ">
             <p className='follow-me '>Beni Takip Edin! </p>
           <div className="contact-icon " >
              <Link href="https://www.youtube.com/@alieswolf" target="_blank" rel="noreferrer noopener"><p>
@@ -33,9 +44,24 @@ function Footer() {
               <Link href="mailto:aliesswolf@gmail.com" target="_blank" rel="noreferrer noopener">
               <p><MdEmail size={24} style={{ color: 'white' }}/>  </p>
               </Link>
+
               </div>
+              
             </div>
             <hr className='hr' />
+             
+            <div className="col-lg-2   ">
+             
+            <p>
+               <Link href="/sozlesme" className="text-reset">KVKK ve Gizlilik Politikası </Link>
+             </p>
+             <p>
+               <Link href="/condition" className="text-reset">İade Şartları</Link>
+             </p>
+           
+             
+           
+           </div>
 
             <div className="col-lg-1   ">
              
@@ -51,7 +77,8 @@ function Footer() {
               
             
             </div>
-            <div className="col-md-3 col-lg-2 col-xl-2  ">
+         
+            <div className="col-lg-2  ">
              
             
              <p>
@@ -64,7 +91,12 @@ function Footer() {
                <Link href="/faqs" className="text-reset">SSS</Link>
 
              </p>
-
+             {/* <p>
+                <button className="text-reset" onClick={toggleModal}>
+                  Hizmet ve Şartlar
+                </button>
+              </p>
+              {showModal && <TermsModal closeModal={toggleModal} />} */}
            </div>
              
             

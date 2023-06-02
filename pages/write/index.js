@@ -22,7 +22,7 @@ function write({data}) {
 
 
 <Meta 
-      title={"Yazılar"}
+      title={"Blogs"}
       keywords={""}
       description={""}
       

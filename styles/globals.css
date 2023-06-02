@@ -14,6 +14,7 @@
 @import url(./card.css);
 @import url(./Footer.css);
 @import url(./formik.css);
+@import url(./Modal.css);
 :root{
 --primary-color:rgba(15,24,41,255);
 --white-color:#FFFFFF; 
@@ -168,10 +169,10 @@ letter-spacing: 0.05em;
 
 font-style: normal;
 font-weight: 400;
-font-size: 20px;
+font-size: 18px;
 line-height: 26px;
 text-align: justify;
-letter-spacing: 0.05em;
+letter-spacing: 0.0em;
 
  }
 
@@ -231,7 +232,7 @@ line-height: 28px;
     font-family: 'Manrope', sans-serif;
 font-style: normal;
 font-weight: 400;
-font-size: 19.7132px;
+font-size: 17px;
 line-height: 49px;
 letter-spacing: 0.05em;
  }

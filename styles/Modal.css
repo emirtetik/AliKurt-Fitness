@@ -1,0 +1,37 @@
+/* 
+.modal {
+    position: fixed;
+    top: 20%;
+    left: 19%;
+    width: 60%;
+    height: 60%;
+    background-color: var(--primary-color);
+    opacity: 0.99;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+  }
+ 
+  @media screen and (max-width:479px) {
+    .modal {
+      position: fixed;
+      top: 10%;
+      left:5%;
+      width: 90%;
+      height: 80%;
+      background-color: var(--primary-color);
+      opacity: 0.99;
+      display: grid;
+      align-items: center;
+      justify-content: center;
+  
+    }
+    
+}
+ 
+  
+ 
+  
+  
+   */

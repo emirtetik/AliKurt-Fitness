@@ -7,7 +7,7 @@ const Detail = ({post}) => {
      <Layout>
       
 <Meta 
-      title={"yazılarım"}
+      title={"Blogs"}
       keywords={""}
       description={""}
       
@@ -58,10 +58,10 @@ const Detail = ({post}) => {
 
                     </ul>
 
-          <h4 className='m-3'>{post?.header_list1}</h4>
+          <h4 className='m-3 '>{post?.header_list1}</h4>
 
           <p className='  mx-auto '>{post?.text4}</p>
-          <p className=' mx-auto '>{post?.text5}</p>
+          <p className=' mx-auto mb-5'>{post?.text5}</p>
 
           <h4 className=' m-3'>{post?.header_list2}</h4>
 

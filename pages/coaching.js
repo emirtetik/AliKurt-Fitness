@@ -66,8 +66,8 @@ import {ImPriceTags} from "react-icons/im"
       <li className='mb-2'>	Hedefler doğrultusunda uzun vadeli yol haritası</li>
       <li className='mb-2'>	Tamamen kişiselleştirilmiş antrenman programı</li>
       <li className='mb-2'>	Haftalık program güncellemeleri</li>
-      <li className='mb-2'>	Form/ teknik değerlendirmeler</li>
-      <li className='mb-2'>	Hedef doğrultusunda kalori,makro takibi ve yardımı (Diyet Listesi Değil!)</li>
+      <li className='mb-2'>	Form / teknik değerlendirmeler</li>
+      <li className='mb-2'>	Hedefler doğrultusunda beslenme planlaması ve takibi (Diyet Listesi Değil!)</li>
       <li className='mb-2'>	Antrenman döngüleri sonunda görüntülü görüşme. (4-12 hafta)</li>
       <li className='mb-2'>	Whatsapp aracılığıyla günlük iletişim</li>
 
@@ -130,7 +130,7 @@ import {ImPriceTags} from "react-icons/im"
      <h3 className='lh-lg mb-2'> Tam olarak neler elde ediceksin?</h3>
      <ul className='mb-3 lh-lg w-100 text-left'>
       <li className='mb-2'>	Tamamen kişiselleştirilmiş antrenman programı</li>
-      <li className='mb-2'>	İlk antrenman haftasının sonunda form/ teknik geri bildirimleri</li>
+      <li className='mb-2'>	İlk antrenman haftasının sonunda form / teknik geri bildirimleri</li>
       <li className='mb-2'>	Biten antrenman döngüleri sonrası görüntülü görüşme ve raporlama (6-12 hafta)</li>
      </ul>
    

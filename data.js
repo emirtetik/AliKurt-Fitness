@@ -156,7 +156,7 @@ export  const  data = [
             duygusal bağlarımızın olması tamamen kabul edilebilir fakat bu bizi, objektif düşünmekten alıkoyuyorsa değiştirmemiz 
             gereken şeyler var demektir. Sizlere, gördüğüm belli başlı hatalardan bahsetmek istiyorum. `, 
     
-    "header_list":`1-) HEDEFSİZLİK`,   
+    "header_list":`1-)  HEDEFSİZLİK`,   
     
     "text1":`Çoğu insan ne istediğini bilmeden tonlarca egzersiz yapıyor. Hedeflerin ne? Yaptığın bu egzersizler hedeflerine
              ulaşmana yardımcı oluyor mu?  ‘’Fit olmak istiyorum.’’ Tamam, O halde ‘’fitin’’ senin için tanımı ne? ‘’ Güçlü 
