@@ -5,7 +5,7 @@ export default function sozlesme() {
   return (
     <Layout>
         <Meta 
-      title={"Sözleşme"}
+      title={"KVKK ve Gizlilik"}
       keywords={""}
       description={""}
       
@@ -17,7 +17,7 @@ export default function sozlesme() {
            <h1 className='text-center '>KVKK ve Gizlilik Politikası</h1>
 
            <h4 className='m-3 mt-5'>I.GİRİŞ</h4>
-           <p className='   mx-auto  '>6698 Sayılı Kişisel Verilerin Korunması Kanunu (“Kanun”) 7 Nisan 2016 tarihinde yürürlüğe girmiştir. Kanun ile kişisel verinin tanımı yapılarak, bunların korunmasına ilişkin ilkeler ve bu verilerin işlenmesinde veri sorumlusu sıfatı taşıyanların uyacakları şartlara yer verilmiştir. Kanun’a göre kişisel veri, “kimliği belirli veya belirlenebilir gerçek kişi”lere ilişkin her türlü bilgidir. Kişisel verilerin işlenmesi ise “kişisel verilerin otomatik olan ya da herhangi bir veri kayıt sisteminin bir parçası olmak kaydıyla otomatik olmayan yollarla elde edilmesi, kaydedilmesi, depolanması, değiştirilmesi, üçüncü kişilerle paylaşılması ve yurtdışına transfer edilmesi dahil kişisel veriler üzerinde gerçekleştirilen her türlü işlemi” ifade etmektedir. Ali Kurt Şirketi (Şirket) Kanun’a uygunluğun sağlanması amacıyla, ilgili mevzuatta yer alan kişisel verilerin korunması ve işlenmesine ilişkin ilkeleri benimseyerek gerekli idari ve teknik tedbirleri almaktadır. Kişisel verilerin işlenmesi ve korunması konusunda yürürlükte bulunan ilgili kanuni düzenlemeler öncelikli olarak uygulanacaktır. Yürürlükte bulunan mevzuat ve Politika arasında uyumsuzluk bulunması durumunda, yürürlükteki mevzuatın uygulama alanı bulacağını kabul etmektedir. Politika ……………….. tarihinde yürürlüğe girmiştir. Politika’nın tamamının veya belirli maddelerinin yenilenmesi durumunda Politika’nın yürürlük tarihi güncellenecektir. Politika şirketin internet sitesinde yayımlanarak kişisel veri sahiplerinin erişimine sunulmaktadır. Değişen şartlara ve mevzuata uyum sağlamak amacıyla Politika’da değişiklik ve güncellemeler yapılabilecek olup ilgili internet sitesi üzerinden kişisel veri sahiplerine sunulabilecektir.</p>
+           <p className='   mx-auto  '>6698 Sayılı Kişisel Verilerin Korunması Kanunu (“Kanun”) 7 Nisan 2016 tarihinde yürürlüğe girmiştir. Kanun ile kişisel verinin tanımı yapılarak, bunların korunmasına ilişkin ilkeler ve bu verilerin işlenmesinde veri sorumlusu sıfatı taşıyanların uyacakları şartlara yer verilmiştir. Kanun’a göre kişisel veri, “kimliği belirli veya belirlenebilir gerçek kişi”lere ilişkin her türlü bilgidir. Kişisel verilerin işlenmesi ise “kişisel verilerin otomatik olan ya da herhangi bir veri kayıt sisteminin bir parçası olmak kaydıyla otomatik olmayan yollarla elde edilmesi, kaydedilmesi, depolanması, değiştirilmesi, üçüncü kişilerle paylaşılması ve yurtdışına transfer edilmesi dahil kişisel veriler üzerinde gerçekleştirilen her türlü işlemi” ifade etmektedir. Ali Kurt Şirketi (Şirket) Kanun’a uygunluğun sağlanması amacıyla, ilgili mevzuatta yer alan kişisel verilerin korunması ve işlenmesine ilişkin ilkeleri benimseyerek gerekli idari ve teknik tedbirleri almaktadır. Kişisel verilerin işlenmesi ve korunması konusunda yürürlükte bulunan ilgili kanuni düzenlemeler öncelikli olarak uygulanacaktır. Yürürlükte bulunan mevzuat ve Politika arasında uyumsuzluk bulunması durumunda, yürürlükteki mevzuatın uygulama alanı bulacağını kabul etmektedir. Politika 02/06/2023 tarihinde yürürlüğe girmiştir. Politika’nın tamamının veya belirli maddelerinin yenilenmesi durumunda Politika’nın yürürlük tarihi güncellenecektir. Politika şirketin internet sitesinde yayımlanarak kişisel veri sahiplerinin erişimine sunulmaktadır. Değişen şartlara ve mevzuata uyum sağlamak amacıyla Politika’da değişiklik ve güncellemeler yapılabilecek olup ilgili internet sitesi üzerinden kişisel veri sahiplerine sunulabilecektir.</p>
 
            <h4 className='m-3'>II.	KİŞİSEL VERİLERİN İŞLENMESİ</h4>
            <h4 className='m-3'>II.I.	KİŞİSEL VERİLERİN İŞLENMESİNE İLİŞKİN İLKELER</h4>
@@ -74,14 +74,11 @@ Kişisel veri sahipleri adına üçüncü kişilerin başvuru talebinde bulunabi
           <h4 className=' m-3'>VI.	VERİ SAHİBİ VE KİŞİSEL VERİ KATEGORİZASYONU</h4>
           <h4 className=' m-3'>VI.I.	VERİ SAHİBİ KATEGORİZASYONU</h4>
           
-          <p className="mx-auto">Şirket, kendi bünyesinde işlediği kişisel verilerin sahiplerini aşağıdaki şekilde kategorize etmiştir. İşbu Politika kapsamında oluşturulan veri sahibi kategorizasyonu aşağıdaki kişisel veri sahipleri ile ilişkilendirilmektedir. Bu kapsam dışında kalan veri sahipleri de Politika doğrultusunda taleplerini şirkete yöneltebileceklerdir.
-Kişisel Veri Sahibi Kategorisi Müşteri/Kullanıcı/Ürün veya Hizmet Alan Kişi: ... Potansiyel Müşteri: …
-Üçüncü Kişiler: …
-İş Ortağı Hissedarı, Yetkilisi, Çalışanı: … Tedarikçi Hissedarı, Yetkilisi, Çalışanı: … İş Ortağı Adayı: …
+          <p className="mx-auto">Şirket, kendi bünyesinde işlediği kişisel verilerin sahiplerini aşağıdaki şekilde kategorize etmiştir. İşbu Politika kapsamında oluşturulan veri sahibi kategorizasyonu aşağıdaki kişisel veri sahipleri ile ilişkilendirilmektedir. Bu kapsam dışında kalan veri sahipleri de Politika doğrultusunda taleplerini şirkete yöneltebileceklerdir. Kişisel Veri Sahibi Kategorisi Müşteri/Kullanıcı/Ürün veya Hizmet Alan Kişi, Potansiyel Müşteri, İş Ortağı Yetkilisi, Çalışanı.
 </p>
           <h4 className=' m-3'>VI.II.	KİŞİSEL VERİ KATEGORİZASYONU</h4>
 
-          <p className="mx-auto">İşbu Politika kapsamında, ………………………………... tarafından işlenen kişisel veriler kategorize edilmiştir. Yukarıda belirtilen veri sahibi kategorilerinde yer alan kişisel veri sahiplerinin kişisel verileri aşağıda belirtilen kişisel veri kategorileri ile ilişkilendirilmiştir.
+          <p className="mx-auto">İşbu Politika kapsamında, Muhammet Ali Kurt  tarafından işlenen kişisel veriler kategorize edilmiştir. Yukarıda belirtilen veri sahibi kategorilerinde yer alan kişisel veri sahiplerinin kişisel verileri aşağıda belirtilen kişisel veri kategorileri ile ilişkilendirilmiştir.
 Kişisel Veri Kategorizasyonu Profil Bilgisi: …
 Lokasyon Verisi: … Müşteri İşlem Bilgisi: … İşlem Güvenliği Bilgisi:  
 Finansal Bilgi: …

@@ -104,7 +104,7 @@ Taraflar işbu sözleşmenin devamı süresince veya sona ermesinden sonra her z
 
              <p className="mx-auto">Bu belge, Koç ve Danışan arasındaki tüm anlaşmayı yansıtmakta ve konuyla ilgili tarafların tam bir anlayışını yansıtmaktadır. Bu Anlaşma, tüm önceden yazılı ve sözlü beyanları geçersiz kılmaktadır. Anlaşma, Koç ve Danışan tarafından imzalanmış yazılı olarak değiştirilmedikçe, değiştirilemez veya sözleşmeye madde eklenemez.
 Bu Anlaşma yukarıda belirtildiği gibi taraflar arasında yasal ve bağlayıcıdır. 
-Bu sözleşme ……./………../……… tariihnde tarafların hür iradeleriyle imzalanmıştır. 
+Bu sözleşme 02/06/2023 tariihnde tarafların hür iradeleriyle imzalanmıştır. 
 </p>
 
 

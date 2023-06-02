@@ -25,12 +25,12 @@ function Footer() {
             <Link  href="/">
         <Image priority as="image"  src="/images/logom1.png" width={120} height={60} alt='logo'></Image>
       </Link>
-      <div  className='iyzi mt-4 mb-2' >
+      <div  className='iyzi mt-5 mb-4' >
              <Image src="/images/logo_band_white@1X.png" width={500} height={35} alt='iyzico'/> 
              </div>
             </div>
 
-            <div className=" col-lg-3 ">
+            <div className=" col-lg-3  ">
             <p className='follow-me '>Beni Takip Edin! </p>
           <div className="contact-icon " >
              <Link href="https://www.youtube.com/@alieswolf" target="_blank" rel="noreferrer noopener"><p>
@@ -53,10 +53,10 @@ function Footer() {
             <div className="col-lg-2   ">
              
             <p>
-               <Link href="/sozlesme" className="text-reset">KVKK ve Gizlilik Politikası </Link>
+               <Link href="/sozlesme" className="text-reset">KVKK ve Gizlilik Politikası</Link>
              </p>
              <p>
-               <Link href="/condition" className="text-reset">İade Şartları</Link>
+               <Link href="/condition" className="text-reset">İptal İade Koşulları</Link>
              </p>
            
              
