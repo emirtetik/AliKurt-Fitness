@@ -81,9 +81,9 @@ import {ImPriceTags} from "react-icons/im"
   <div className="row justify-content-center  ">
    
     <div className="col-md-3">
-    <Link href="/">
+    <Link href="https://iyzi.link/AJHzEw" target='_blank'>
       <div className="card mx-auto" >
-        <div className="card-body d-flex flex-column justify-content-center align-items-center" >
+        <div className="card-body d-flex flex-column justify-content-center align-items-center" id="myCard" >
            <h4>Aylık</h4>
            <span>(30 gün)</span>
            <hr />
@@ -93,7 +93,7 @@ import {ImPriceTags} from "react-icons/im"
       </Link>
     </div>
     <div id='cardUp' className="col-md-3">
-    <Link href="/">
+    <Link href="https://iyzi.link/AJHzFQ" target='_blank'>
       <div className="card mx-auto" >
         <div className="card-body d-flex flex-column justify-content-center align-items-center" >
         <h4>3 Aylık</h4>
@@ -105,7 +105,7 @@ import {ImPriceTags} from "react-icons/im"
       </Link>
     </div>
     <div className="col-md-3">
-    <Link href="/">
+    <Link href="https://iyzi.link/AJHzFw" target='_blank'>
       <div className="card mx-auto" >
         <div className="card-body d-flex flex-column justify-content-center align-items-center" >
         <h4>6 Aylık</h4>
@@ -139,7 +139,7 @@ import {ImPriceTags} from "react-icons/im"
   <div className="row justify-content-center">
    
     <div className="col-md-3">
-    <Link href="/">
+    <Link href="https://iyzi.link/AJHzGQ" target='_blank'>
       <div className="card mx-auto" >
         <div className="card-body d-flex flex-column justify-content-center align-items-center" >
            <h4>6 Haftalık</h4>
@@ -151,7 +151,7 @@ import {ImPriceTags} from "react-icons/im"
       </Link>
     </div>
     <div id='cardUp' className="col-md-3">
-    <Link href="/">
+    <Link href="https://iyzi.link/AJHzGg" target='_blank'>
       <div className="card mx-auto" >
         <div className="card-body d-flex flex-column justify-content-center align-items-center" >
         <h4 >3 Aylık</h4>
@@ -163,7 +163,7 @@ import {ImPriceTags} from "react-icons/im"
       </Link>
     </div>
     <div className="col-md-3">
-    <Link href="/">
+    <Link href="https://iyzi.link/AJHzGw" target='_blank'>
       <div className="card mx-auto" >
         <div className="card-body d-flex flex-column justify-content-center align-items-center" >
         <h4>6 Aylık</h4>
@@ -198,7 +198,7 @@ import {ImPriceTags} from "react-icons/im"
    
     
     <div id='cardUp' className="col-md-3">
-    <Link href="/">
+    <Link href="https://iyzi.link/AJHzHA" target='_blank'>
       <div className="card mx-auto" >
         <div className="card-body d-flex flex-column justify-content-center align-items-center" >
         <h4>60 DAKİKA</h4>
