@@ -6,6 +6,13 @@ function Card() {
 
     const [cards, setCards] = useState([
       {
+        id: 0,
+        images: '/images/unal.jpg',
+        content: 'Ali ile 3 aylık koçluk sürecimde bacak ve kalça üzerine yoğunlaştık herkesin ve benim de kafamda olan “alt vücut zor gelişir” algısını tamamen yıktı. Sorduğum sorular en ince ayrıntısına kadar ve bence herkesin anlayacağı şekilde cevap verdiğini düşünüyorum.Cevaplar karşı tarafı teknik ile boğmaktan daha çok mantığı anlatmaktı. Beslenme konusunda bana verdiği püf noktalar temiz kilo almama çok yardımcı oldu. Mükemmel bir koç-öğrenci ilişkimiz olduğunu söyleyebilirim.Çok fazla detaycı biriyim ufak şeyler moralimi bozar fakat Ali her şeyin telafisi olduğunu teoride anlattı ve pratikte gösterdi.',
+        person: 'Ünal',
+        isVisible: true
+      },
+      {
         id: 1,
         images: '/images/ahmet.jpg',
         content: 'Ali ile tanıştığım için çok şanslıyım. Kendisi dürüst,ahlaklı, işinin ehli ve gerçek bir sporcu. Her şeyden önce bir dost. Beraber çalışmaya başlamadan önce de hiçbir sorumu yanıtsız bırakmazdı ve neyi neden yapmam gerektiğini detayları dahilinde anlatırdı. Eğitim aldığım süreçte ise günlük detaylandırdığı programlar sayesinde aldığım sonuçlardan fazlasıyla memnunum.  Her şey için teşekkürler hocam, daha uzun zamanlar beraber olmak dileğiyle',
@@ -17,7 +24,7 @@ function Card() {
         images: '/images/caca.jpeg',
         content: `Vücut geliştirme sporuna 2018 yılında başlamaya karar verdim. Ali'nin de uzun süredir  bu sporla ilgilendiğini ve bu sporu araştırarak, bilinçli olarak yaptığını bildiğim için ilk olarak onunla iletişime geçtim. Nihayetinde beraber aynı salonda spor yapmaya başladık. En temel seviyeden başlayarak, sıfırdan başlayan birinin dahi kolayca anlayabileceği şekilde bildiklerini benimle paylaştı. 3 ay gibi kısa bir sürede, bu spor ile daha önce uğraşmamış olmama rağmen en temel konularda; hareketlerin doğru formlarının nasıl olduğu, sürekli ve kontrollü bir ilerleyiş nasıl sağlanacağı, oto kontrolün önemi, deload mantığı vb. konularda ciddi ilerlemeler kaydettim. Bütün bunlar spora yeni başlayanların düştüğü hatalardan kaçınarak hızlı bir gelişim elde etmemin yanı sıra, bilinçli ve mental olarak güçlü bir sporcu olmama da yardımcı oldu. Vücut geliştirmenin spor disiplinine hem pratikte hem de teoride hakim olan bir arkadaş ile başlamanın avantajını ciddi anlamda yaşadım. Başlangıçta sağlam bir temel attıktan sonra uzun bir süre de aynı spor salonunda birlikte çalışmaya devam ettik. Bu uzun sürede, gelişimimin tıkandığı noktalarda veya kendi isteklerim, hedeflerim doğrultusunda farklı yetenekler (handstand gibi) açmak istediğimde doğru tavsiyeler ve program değişiklikleri ile tüm hedeflerime sağlıklı bir şekilde ulaşmama da yardımcı oldu. Şu anda uzun süredir spor yapmamama rağmen temelleri çok sağlam attığımız için kuvvetimi muhafaza edebiliyorum ve yeniden spora başladığım zaman eski seviyeme kısa bir sürede dönebileceğimi biliyorum. Özetle, birlikte uzun soluklu bir spor geçmişimiz oldu, amatör seviyeden orta-ileri seviye bir sporcu olma sürecimde, Ali'nin bilimsel temellere dayanan tavsiye ve programları ile hızlı ve kalıcı sonuçlar elde etmemin yanı sıra salonda geçirdiğimiz eğlenceli vakit ve ettiğimiz kaliteli muhabbet ile de çok güzel anılarım oldu ve ciddi kazanımlar elde ettim. Spora yeni başlayacak olanların veya belli noktalarda gelişimi tıkanmış ve kendisine bir yol haritası çizemeyen kişilere Ali'nin tavsiyelerinin, koçluğunun çok yararlı olacağını gönül rahatlığı ile söyleyebilirim. Yıllardan beridir elde ettiği bilgi birikimi ile hem sporu sevmenize, spor disiplinine sahip olmanıza hem de bu sporu en doğru şekilde yapmanıza yardımcı olacaktır.`,
         person: 'Çağatay',
-        isVisible: true
+        isVisible: false
       },
       {
         id: 3,
