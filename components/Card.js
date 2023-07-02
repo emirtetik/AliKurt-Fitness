@@ -7,7 +7,8 @@ function Card() {
     const [cards, setCards] = useState([
       {
         id: 0,
-        images: '/images/unal.jpg',
+        images: '/images/unal.jpeg',
+
         content: 'Ali ile 3 aylık koçluk sürecimde bacak ve kalça üzerine yoğunlaştık herkesin ve benim de kafamda olan “alt vücut zor gelişir” algısını tamamen yıktı. Sorduğum sorular en ince ayrıntısına kadar ve bence herkesin anlayacağı şekilde cevap verdiğini düşünüyorum.Cevaplar karşı tarafı teknik ile boğmaktan daha çok mantığı anlatmaktı. Beslenme konusunda bana verdiği püf noktalar temiz kilo almama çok yardımcı oldu. Mükemmel bir koç-öğrenci ilişkimiz olduğunu söyleyebilirim.Çok fazla detaycı biriyim ufak şeyler moralimi bozar fakat Ali her şeyin telafisi olduğunu teoride anlattı ve pratikte gösterdi.',
         person: 'Ünal',
         isVisible: true
