@@ -78,16 +78,16 @@ import {ImPriceTags} from "react-icons/im"
      </div>
     
      <div id='price' className="container " >
-  <div className="row justify-content-center  ">
+  <div id='price-container' className="row justify-content-center   ">
    
-    <div className="col-md-3">
+    <div className="col-md-3 col-sm-1">
     <Link href="https://iyzi.link/AJHzEw" target='_blank'>
       <div className="card mx-auto" >
         <div className="card-body d-flex flex-column justify-content-center align-items-center" id="myCard" >
            <h4>Aylık</h4>
            <span>(30 gün)</span>
            <hr />
-           <h1 className='fw-bold '>1400₺</h1>
+           <h1 className='price_number'>1400₺</h1>
         </div>
       </div>
       </Link>
@@ -99,7 +99,7 @@ import {ImPriceTags} from "react-icons/im"
         <h4>3 Aylık</h4>
            <span>(90 gün)</span>
            <hr />
-           <h1 className='fw-bold'>3400₺</h1>
+           <h1 className='price_number'>3400₺</h1>
         </div>
       </div>
       </Link>
@@ -111,7 +111,7 @@ import {ImPriceTags} from "react-icons/im"
         <h4>6 Aylık</h4>
            <span >(180 gün)</span>
            <hr />
-           <h1 className='fw-bold' >6500₺</h1>
+           <h1 className='price_number' >6500₺</h1>
         </div>
       </div>
     </Link>
@@ -145,7 +145,7 @@ import {ImPriceTags} from "react-icons/im"
            <h4>6 Haftalık</h4>
            <span>(42 gün)</span>
            <hr />
-           <h1 className='fw-bold'>1050₺</h1>
+           <h1 className='price_number'>1050₺</h1>
         </div>
       </div>
       </Link>
@@ -157,7 +157,7 @@ import {ImPriceTags} from "react-icons/im"
         <h4 >3 Aylık</h4>
            <span>(90 gün)</span>
            <hr />
-           <h1 className='fw-bold'>1750₺</h1>
+           <h1 className='price_number'>1750₺</h1>
         </div>
       </div>
       </Link>
@@ -169,7 +169,7 @@ import {ImPriceTags} from "react-icons/im"
         <h4>6 Aylık</h4>
            <span>(180 gün)</span>
            <hr />
-           <h1 className='fw-bold'>3400₺</h1>
+           <h1 className='price_number'>3400₺</h1>
         </div>
       </div>
     </Link>
@@ -204,7 +204,7 @@ import {ImPriceTags} from "react-icons/im"
         <h4>60 DAKİKA</h4>
            <span>+ pdf</span>
            <hr />
-           <h1 className='fw-bold'>425₺</h1>
+           <h1 className='price_number'>425₺</h1>
         </div>
       </div>
       </Link>

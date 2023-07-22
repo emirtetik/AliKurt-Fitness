@@ -99,7 +99,7 @@ left: 0;
     color: #ffffff;
 	}
   .justify-content-center{
-    justify-content: space-between !important;
+    justify-content: space-between ;
   }
 	header nav {
 		position: fixed;
