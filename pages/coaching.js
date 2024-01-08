@@ -87,7 +87,7 @@ import {ImPriceTags} from "react-icons/im"
            <h4>Aylık</h4>
            <span>(30 gün)</span>
            <hr />
-           <h1 className='price_number'>1400₺</h1>
+           <h1 className='price_number'>2100₺</h1>
         </div>
       </div>
       </Link>
@@ -99,7 +99,7 @@ import {ImPriceTags} from "react-icons/im"
         <h4>3 Aylık</h4>
            <span>(90 gün)</span>
            <hr />
-           <h1 className='price_number'>3400₺</h1>
+           <h1 className='price_number'>5200₺</h1>
         </div>
       </div>
       </Link>
@@ -111,7 +111,7 @@ import {ImPriceTags} from "react-icons/im"
         <h4>6 Aylık</h4>
            <span >(180 gün)</span>
            <hr />
-           <h1 className='price_number' >6500₺</h1>
+           <h1 className='price_number' >9600₺</h1>
         </div>
       </div>
     </Link>
@@ -145,7 +145,7 @@ import {ImPriceTags} from "react-icons/im"
            <h4>6 Haftalık</h4>
            <span>(42 gün)</span>
            <hr />
-           <h1 className='price_number'>1050₺</h1>
+           <h1 className='price_number'>1600₺</h1>
         </div>
       </div>
       </Link>
@@ -157,7 +157,7 @@ import {ImPriceTags} from "react-icons/im"
         <h4 >3 Aylık</h4>
            <span>(90 gün)</span>
            <hr />
-           <h1 className='price_number'>1750₺</h1>
+           <h1 className='price_number'>2650₺</h1>
         </div>
       </div>
       </Link>
@@ -169,7 +169,7 @@ import {ImPriceTags} from "react-icons/im"
         <h4>6 Aylık</h4>
            <span>(180 gün)</span>
            <hr />
-           <h1 className='price_number'>3400₺</h1>
+           <h1 className='price_number'>5000₺</h1>
         </div>
       </div>
     </Link>
@@ -204,7 +204,7 @@ import {ImPriceTags} from "react-icons/im"
         <h4>60 DAKİKA</h4>
            <span>+ pdf</span>
            <hr />
-           <h1 className='price_number'>425₺</h1>
+           <h1 className='price_number'>650₺</h1>
         </div>
       </div>
       </Link>
