@@ -7,6 +7,14 @@ function Card() {
     const [cards, setCards] = useState([
       {
         id: 0,
+        images: '/images/burafitnes.jpg',
+
+        content: 'Ali için bir koçtan fazlası diyebilirim. Hayatınıza bile yön verecek düşünce,tecrübe,bilgi ve donanıma sahip kişi. Onun çalışmaya başladıktan sonra neden daha önce çalışmamışım diyorsun. Bana katmış oldukları parayla ödenemez şeyler çevremdeki herkese gönül rahatlığıyla tavsiye edebileceğim biri. Gözle görülür bir gelişim ve kendinize birşeyler katmak istiyorsanız doğru kişi olduğuna hiç şüpheniz olmasın. O yüzden mutlu olup sonuç almak istiyorsanız yapmanız gereken tek şey kendinizi Ali’ye bırakmak o gerisini halleder.',
+        person: 'Burak',
+        isVisible: true
+      },
+      {
+        id: 1,
         images: '/images/unal.jpeg',
 
         content: 'Ali ile 3 aylık koçluk sürecimde bacak ve kalça üzerine yoğunlaştık herkesin ve benim de kafamda olan “alt vücut zor gelişir” algısını tamamen yıktı. Sorduğum sorular en ince ayrıntısına kadar ve bence herkesin anlayacağı şekilde cevap verdiğini düşünüyorum.Cevaplar karşı tarafı teknik ile boğmaktan daha çok mantığı anlatmaktı. Beslenme konusunda bana verdiği püf noktalar temiz kilo almama çok yardımcı oldu. Mükemmel bir koç-öğrenci ilişkimiz olduğunu söyleyebilirim.Çok fazla detaycı biriyim ufak şeyler moralimi bozar fakat Ali her şeyin telafisi olduğunu teoride anlattı ve pratikte gösterdi.',
@@ -14,21 +22,21 @@ function Card() {
         isVisible: true
       },
       {
-        id: 1,
+        id: 2,
         images: '/images/ahmet.jpg',
         content: 'Ali ile tanıştığım için çok şanslıyım. Kendisi dürüst,ahlaklı, işinin ehli ve gerçek bir sporcu. Her şeyden önce bir dost. Beraber çalışmaya başlamadan önce de hiçbir sorumu yanıtsız bırakmazdı ve neyi neden yapmam gerektiğini detayları dahilinde anlatırdı. Eğitim aldığım süreçte ise günlük detaylandırdığı programlar sayesinde aldığım sonuçlardan fazlasıyla memnunum.  Her şey için teşekkürler hocam, daha uzun zamanlar beraber olmak dileğiyle',
         person: 'Ahmet',
         isVisible: true
       },
       {
-        id: 2,
+        id: 3,
         images: '/images/caca.jpeg',
         content: `Vücut geliştirme sporuna 2018 yılında başlamaya karar verdim. Ali'nin de uzun süredir  bu sporla ilgilendiğini ve bu sporu araştırarak, bilinçli olarak yaptığını bildiğim için ilk olarak onunla iletişime geçtim. Nihayetinde beraber aynı salonda spor yapmaya başladık. En temel seviyeden başlayarak, sıfırdan başlayan birinin dahi kolayca anlayabileceği şekilde bildiklerini benimle paylaştı. 3 ay gibi kısa bir sürede, bu spor ile daha önce uğraşmamış olmama rağmen en temel konularda; hareketlerin doğru formlarının nasıl olduğu, sürekli ve kontrollü bir ilerleyiş nasıl sağlanacağı, oto kontrolün önemi, deload mantığı vb. konularda ciddi ilerlemeler kaydettim. Bütün bunlar spora yeni başlayanların düştüğü hatalardan kaçınarak hızlı bir gelişim elde etmemin yanı sıra, bilinçli ve mental olarak güçlü bir sporcu olmama da yardımcı oldu. Vücut geliştirmenin spor disiplinine hem pratikte hem de teoride hakim olan bir arkadaş ile başlamanın avantajını ciddi anlamda yaşadım. Başlangıçta sağlam bir temel attıktan sonra uzun bir süre de aynı spor salonunda birlikte çalışmaya devam ettik. Bu uzun sürede, gelişimimin tıkandığı noktalarda veya kendi isteklerim, hedeflerim doğrultusunda farklı yetenekler (handstand gibi) açmak istediğimde doğru tavsiyeler ve program değişiklikleri ile tüm hedeflerime sağlıklı bir şekilde ulaşmama da yardımcı oldu. Şu anda uzun süredir spor yapmamama rağmen temelleri çok sağlam attığımız için kuvvetimi muhafaza edebiliyorum ve yeniden spora başladığım zaman eski seviyeme kısa bir sürede dönebileceğimi biliyorum. Özetle, birlikte uzun soluklu bir spor geçmişimiz oldu, amatör seviyeden orta-ileri seviye bir sporcu olma sürecimde, Ali'nin bilimsel temellere dayanan tavsiye ve programları ile hızlı ve kalıcı sonuçlar elde etmemin yanı sıra salonda geçirdiğimiz eğlenceli vakit ve ettiğimiz kaliteli muhabbet ile de çok güzel anılarım oldu ve ciddi kazanımlar elde ettim. Spora yeni başlayacak olanların veya belli noktalarda gelişimi tıkanmış ve kendisine bir yol haritası çizemeyen kişilere Ali'nin tavsiyelerinin, koçluğunun çok yararlı olacağını gönül rahatlığı ile söyleyebilirim. Yıllardan beridir elde ettiği bilgi birikimi ile hem sporu sevmenize, spor disiplinine sahip olmanıza hem de bu sporu en doğru şekilde yapmanıza yardımcı olacaktır.`,
         person: 'Çağatay',
         isVisible: false
       },
       {
-        id: 3,
+        id: 4,
         images:"/images/Emre.jpeg",
         content:`Spora başlamadan önce hangi konuda nasıl ilerleyeceğimi; hangi hareketleri yapmam gerektiğini, doğru formun nasıl olduğunu ve kaç tekrar yapmam gerektiğini kısacası çoğu şeyi 
         bilmiyordum. Ali hocanın içten ve samimi rehberliği sayesinde bunların hepsini öğrenmeye başladım ve bunların dışında benim sporla alakalı kısa ve uzun vadeli plan,program çıkarımının nasıl olduğunun ve hedef seçimlerinin nasıl yapıldığının farkına vardım, öğrendim. Vücudumu güzelleştirmeye, kaslanmaya devam ediyorum. Spora başlamadan önce 63 kiloydum ve 45kg bench pressi kötü formda yapabiliyordum  Şuan 68 kiloyum ve 70kg  bench pressi düzgün formda setlerle  yapabiliyorum. Ali ile çalışırken şunun farkına vardım, benim vücudumu kendi vücudu gibi önemsiyor ve gelişmesini görmekten keyif alıyor adamsın Ali.
@@ -37,7 +45,7 @@ function Card() {
         isVisible: false
       },
       {
-        id: 4,
+        id: 5,
         images:"/images/yusuff.jpeg",
         
         content: `Herkes gibi ben de güzel fizik ve yağsız görünüm hayaliyle spora başladım. İlk başlarda popüler olan tüm programları denedim. Bu süreç bir buçuk yıl civarında sürdü. İlk altı ay ciddi anlamda benim için çok keyifliydi. 
@@ -55,21 +63,21 @@ function Card() {
         isVisible: false
       },
       {
-        id: 5,
+        id: 6,
         images:"/images/soner.jpeg",
         content: 'Bu sporu senelerdir bilinçli yapıyorum zannediyordum Ali hayatıma girene kadar. Bana sadece kas kütlesi katmadı. Bilim, bilgi ve tecrübe kattı bir hareketi yaptırırken neden yaptırdığını bilimsel olarak anlatan tek kişi olabilir sıradan bir ‘’pt’’ değil.  Ali hocamın bana kattıkları ve çizdiği yol haritaları için çok teşekkür ederim. Haydiii BAAAASS !',
         person: 'Soner',
         isVisible: false
       },
       {
-        id: 6,
+        id: 7,
         images: '/images/Turgut.jpeg',
         content: 'Hayatta bazı insanlar vardır, her zaman yanınızda olan, sizi motive eden ve başarılı olmanıza yardımcı olan insanlar. Spor hayatımda benim yanımda olan kişi ise Ali Hocam oldu. Yoğun iş temposu nedeniyle spora gidecek vakit bulamıyordum ancak Ali hoca bana evde vücut ağırlığımla yapabileceğim harika bir program hazırladı. (Bacak bile çalışıyorum ve gelişiyor) Bu program sayesinde daha fit ve zinde hissediyorum hem de mental sağlığım da çok daha iyi durumda. Kasım ayında kalori takibi ve antrenmanlara başladık. 84 kiloydum ve bel çevrem 93 santimdi. 4 ay gibi bir sürede 75 kiloya indik ve bel çevrem 84 cm’lere indi. Bunun yanında kol, boyun, bacak ölçülerim aynı kaldı ya da biraz büyüdü. Hocam buradan tekrar teşekkür ediyorum emekleriniz için.',
         person: 'Turgut',
         isVisible: false
       },
         {
-          id: 7,
+          id: 8,
           images: '/images/eren.jpeg',
           content: 'Verdigim parayi sonuna kadar hakediyor kocluk icerisinde gercekten ilgilenildigimi hissettim gerek spor ici gerek gunluk hayattan abi-kardes iliskisindeki sorulari olsun cok samimi hissettirdi. Ayrica koclukta kazandigim bilgiler sayesinde kendi programimi yaratip takip edebilecek potansiyele sahip oldugumu dusunuyorum',
           person: 'Eren',
