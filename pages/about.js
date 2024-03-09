@@ -28,7 +28,7 @@ function About() {
             <div className='col-md-9 d-lg-flex  align-items-center   items-center '>
               <div className=' mt-md-4  items-center mx-auto '  >
              
-            <Image  src="/images/hakkımda-img.jpg" alt='profil' width={342} height={545} className='   '></Image>
+            <Image  src="/images/hakkımda-img.jpg" alt='profil' width={342} height={545} className=''></Image>
             </div>
             <div className='mt-5  md-w-100  w-100  mb-5 '
     data-aos="fade-right"

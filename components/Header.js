@@ -52,6 +52,10 @@ export default function Header() {
          Hakkımda
          </Link>
          </li>
+         <li className="nav fw-light"><Link  className={router.pathname == "/eBook" ? "active" : ""} onClick={closeMenu}   href="/eBook">
+            E-Kitap
+         </Link>
+         </li>
         
          <li className="nav fw-light"><Link  className={router.pathname == "/contact" ? "active" : ""} onClick={closeMenu}   href="/contact">
             İletişim
