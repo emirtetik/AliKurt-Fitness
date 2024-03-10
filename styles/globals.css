@@ -16,6 +16,7 @@
 @import url(./formik.css);
 @import url(./eBook.css);
 @import url(./Modal.css);
+@import url(./eBookDetail.css);
 :root{
 --primary-color:rgba(15,24,41,255);
 --white-color:#FFFFFF; 

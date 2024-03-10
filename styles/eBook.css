@@ -9,4 +9,22 @@ a:hover .icon-download{
 }
 .images{
     box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    border: 5px solid rgba(15,24,41,255);
+    border-radius: 20px;
+}
+.bar{
+    width: 100%;
+    height: 10px;
+    background-color: rgba(15,24,41,255);
+    margin-bottom: 30px;
+    border-radius: 40%;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.btn-book{
+    cursor: pointer;
+    border-radius: 2px;
+    width: 100%;
+    height: 30px;
+    background-color: rgba(15,24,41,255);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
