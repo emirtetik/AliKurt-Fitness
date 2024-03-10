@@ -36,7 +36,6 @@ header .nav-btn {
 	outline: none;
 	visibility: hidden;
 	opacity: 0;
-
 }
 nav{
   display: flex;
