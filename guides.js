@@ -5,8 +5,6 @@ export const guides = [
       title: "Geri Dönüş Programı",
       alt: 'ebook',
       pdf: '/images/GeriDönüşProgramı.pdf',
-      description: `Antrenmanlara geri dönerken olabildiğince sakatlıklardan uzak ve hızlı şekilde sahalara geri
-      dönmeniz amacıyla yazılan bu program özellikle sakatlık ve/veya minör ameliyat (örn: burun
-      ameliyatı) geçirmiş, kafa içi basıncını artırmaması gerekli olan sporcular için tasarlanmıştır. `,
+      description: `Spora bir süre ara verdiniz ve kaybettiğiniz kasları olabildiğince hızlı, sürdürülebilir şekilde kazanmak mı istiyorsunuz? Öyleyse bu rehber ve antrenman programı tam size göre. Ayrıca, eğer kafa içi basıncınızı artırmadan antrenman yapma yükümlülüğünüz var ise (örn: Burun ameliyatı olmak ) endişelenmenize gerek yok, doğru adrestesiniz.`,
     },
   ];

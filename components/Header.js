@@ -22,7 +22,7 @@ export default function Header() {
     
     <header className='d-flex justify-content-center w-100'>
     <div className="logo " >
-      <Link  href="/">
+      <Link  href="/" style={{ cursor: 'pointer' }}>
         <Image priority  as="image" src="/images/logom1.png" width={120} height={60} alt='logo'></Image>
       </Link>
       

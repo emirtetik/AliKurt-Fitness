@@ -80,10 +80,10 @@ import {ImPriceTags} from "react-icons/im"
      <div id='price' className="container " >
   <div id='price-container' className="row justify-content-center   ">
    
-    <div className="col-md-3 col-sm-1">
-    <Link href="https://iyzi.link/AJHzEw" target='_blank'>
+    <div className="col-md-3 col-sm-1 " style={{ cursor: 'pointer' }}>
+    <Link href="https://iyzi.link/AJHzEw" target='_blank' >
       <div className="card mx-auto" >
-        <div className="card-body d-flex flex-column justify-content-center align-items-center" id="myCard" >
+        <div className="card-body  d-flex flex-column justify-content-center align-items-center" id="myCard" >
            <h4>Aylık</h4>
            <span>(30 gün)</span>
            <hr />
@@ -92,8 +92,8 @@ import {ImPriceTags} from "react-icons/im"
       </div>
       </Link>
     </div>
-    <div id='cardUp' className="col-md-3">
-    <Link href="https://iyzi.link/AJHzFQ" target='_blank'>
+    <div id='cardUp' className="col-md-3" style={{ cursor: 'pointer' }}>
+    <Link href="https://iyzi.link/AJHzFQ" target='_blank' >
       <div className="card mx-auto" >
         <div className="card-body d-flex flex-column justify-content-center align-items-center" >
         <h4>3 Aylık</h4>
@@ -104,8 +104,8 @@ import {ImPriceTags} from "react-icons/im"
       </div>
       </Link>
     </div>
-    <div className="col-md-3">
-    <Link href="https://iyzi.link/AJHzFw" target='_blank'>
+    <div className="col-md-3" style={{ cursor: 'pointer' }}>
+    <Link href="https://iyzi.link/AJHzFw" target='_blank' >
       <div className="card mx-auto" >
         <div className="card-body d-flex flex-column justify-content-center align-items-center" >
         <h4>6 Aylık</h4>
@@ -138,8 +138,8 @@ import {ImPriceTags} from "react-icons/im"
      <div id='price' className="container"  >
   <div className="row justify-content-center">
    
-    <div className="col-md-3">
-    <Link href="https://iyzi.link/AJHzGQ" target='_blank'>
+    <div className="col-md-3" style={{ cursor: 'pointer' }}>
+    <Link href="https://iyzi.link/AJHzGQ" target='_blank' >
       <div className="card mx-auto" >
         <div className="card-body d-flex flex-column justify-content-center align-items-center" >
            <h4>6 Haftalık</h4>
@@ -150,8 +150,8 @@ import {ImPriceTags} from "react-icons/im"
       </div>
       </Link>
     </div>
-    <div id='cardUp' className="col-md-3">
-    <Link href="https://iyzi.link/AJHzGg" target='_blank'>
+    <div id='cardUp' className="col-md-3" style={{ cursor: 'pointer' }}>
+    <Link href="https://iyzi.link/AJHzGg" target='_blank' >
       <div className="card mx-auto" >
         <div className="card-body d-flex flex-column justify-content-center align-items-center" >
         <h4 >3 Aylık</h4>
@@ -162,8 +162,8 @@ import {ImPriceTags} from "react-icons/im"
       </div>
       </Link>
     </div>
-    <div className="col-md-3">
-    <Link href="https://iyzi.link/AJHzGw" target='_blank'>
+    <div className="col-md-3" style={{ cursor: 'pointer' }}>
+    <Link href="https://iyzi.link/AJHzGw" target='_blank' >
       <div className="card mx-auto" >
         <div className="card-body d-flex flex-column justify-content-center align-items-center" >
         <h4>6 Aylık</h4>
@@ -197,8 +197,8 @@ import {ImPriceTags} from "react-icons/im"
   <div className="row justify-content-center">
    
     
-    <div id='cardUp' className="col-md-3">
-    <Link href="https://iyzi.link/AJHzHA" target='_blank'>
+    <div id='cardUp' className="col-md-3" style={{ cursor: 'pointer' }}>
+    <Link href="https://iyzi.link/AJHzHA" target='_blank' >
       <div className="card mx-auto" >
         <div className="card-body d-flex flex-column justify-content-center align-items-center" >
         <h4>60 DAKİKA</h4>
