@@ -47,13 +47,13 @@ export default function Header() {
          </Link>
          </li>
   
+         <li className="nav fw-light"><Link  className={router.pathname == "/guide" ? "active" : ""} onClick={closeMenu}   href="/guide">
+            Ücretsiz İçerikler
+         </Link>
+         </li>
         
          <li className="nav fw-light"><Link  className={router.pathname == "/about" ? "active" : ""} onClick={closeMenu}   href="/about">
          Hakkımda
-         </Link>
-         </li>
-         <li className="nav fw-light"><Link  className={router.pathname == "/guide" ? "active" : ""} onClick={closeMenu}   href="/guide">
-            Ücretsiz İçerikler
          </Link>
          </li>
         

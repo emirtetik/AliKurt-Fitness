@@ -15,7 +15,7 @@ const eBook = ({guides}) => {
           dönmeyi hedefleyen kişiler için özel olarak tasarlanmış bu rehberi sizlere sunmaktan mutluluk duyuyorum. `}
       />
       <div className="container w-75">
-        <h1 className="text-center w-100 mt-5  text-black" >Ücretsiz Rehberler, E-kitaplar ve Antrenman Programları</h1>
+        <h1 className="text-center w-100 mt-5  text-black" >Ücretsiz Rehberler, E-Kitap ve Antrenman Programları</h1>
           <div className="bar"></div>
         <div className="w-75 ">
           <div className="row">

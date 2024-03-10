@@ -25,7 +25,7 @@ const BookDetails = () => {
           {book && (
             <div className="col d-flex flex-column justify-content-start">
               <h1 className="fw-bold">{book.title}</h1>
-              <p className="mt-3 fs-3 w-75">{book.description}</p>
+              <p className="mt-3 fs-4 w-75">{book.description}</p>
               <a
                 href={book.pdf}
                 download={"GeriDönüşProgramı.pdf"}
