@@ -53,7 +53,7 @@ export default function Header() {
          </Link>
          </li>
          <li className="nav fw-light"><Link  className={router.pathname == "/guide" ? "active" : ""} onClick={closeMenu}   href="/guide">
-            Rehberler
+            Ücretsiz İçerikler
          </Link>
          </li>
         
