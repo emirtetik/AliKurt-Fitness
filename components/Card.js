@@ -85,7 +85,7 @@ function Card() {
         },
       ]);
     
-      const [visibleCards, setVisibleCards] = useState(cards.filter((card) => card.isVisible));
+      const [visibleCards, setVisibleCards] = useState(cards.slice(0, 4).filter((card) => card.isVisible));
       const [showAll, setShowAll] = useState(false);
     
       const toggleCardVisibility = () => {
