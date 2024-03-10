@@ -26,13 +26,13 @@ const eBook = ({guides}) => {
                   <Image
                     width={230}
                     height={300}
-                    src={guide.image}
-                    alt={guide.alt}
+                    src={guide?.image}
+                    alt={guide?.alt}
                     className="img-fluid images"
                   />
                 <div className="mt-2 text-center">
-                    <h5 className="card-title mb-2">{guide.title}</h5>
-                    <Link href={`/guide/${guide.id}`} className="btn-book d-flex align-items-center justify-content-center text-white">
+                    <h5 className="card-title mb-2">{guide?.title}</h5>
+                    <Link href={`/guide/${guide?.id}`} className="btn-book d-flex align-items-center justify-content-center text-white">
                       Detayları Gör
                     </Link>
                   </div>

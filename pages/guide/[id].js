@@ -12,23 +12,27 @@ const BookDetails = () => {
       <div className="container  mt-5 mb-5">
         <div className="row ">
           <div className="col d-flex justify-content-center">
-            <Image
-              src={book.image}
-              alt={book.alt}
-              width={400}
-              height={550}
-              className="images_detail"
-            />
+          {book && (
+              <Image
+                src={book.image}
+                alt={book.alt}
+                width={400}
+                height={550}
+                className="images_detail"
+              />
+            )}
           </div>
-          <div className="col d-flex flex-column justify-content-start">
-            <h1 className="fw-bold">{book.title}</h1>
-            <p className="mt-3 fs-3 w-75">{book.description}</p>
-            <a
-              href={book.pdf}
-              download={"GeriDönüşProgramı.pdf"}
-              className='downloadButton' 
-            >İndir</a>
-          </div>
+          {book && (
+            <div className="col d-flex flex-column justify-content-start">
+              <h1 className="fw-bold">{book.title}</h1>
+              <p className="mt-3 fs-3 w-75">{book.description}</p>
+              <a
+                href={book.pdf}
+                download={"GeriDönüşProgramı.pdf"}
+                className='downloadButton' 
+              >İndir</a>
+            </div>
+          )}
         </div>
       </div>
     </Layout>
