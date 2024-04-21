@@ -4,9 +4,9 @@ import { guides } from "../../guides";
 import Image from "next/image";
 const BookDetails = () => {
   const router = useRouter();
-  const { id } = router.query;
+  const { slug } = router.query;
 
-  const book = guides.find((guide) => guide.id === Number(id));
+  const book = guides.find((guide) => guide.slug === slug);
   return (
     <Layout>
       <div className="container  mt-5 mb-5">

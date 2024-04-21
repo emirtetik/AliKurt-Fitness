@@ -32,7 +32,7 @@ const eBook = ({guides}) => {
                   />
                 <div className="mt-2 text-center">
                     <h5 className="card-title mb-2">{guide?.title}</h5>
-                    <Link href={`/guide/${guide?.id}`} className="btn-book d-flex align-items-center justify-content-center text-white">
+                    <Link href={`/guide/${guide?.slug}`} className="btn-book d-flex align-items-center justify-content-center text-white">
                       Detayları Gör
                     </Link>
                   </div>
